@@ -71,7 +71,7 @@ class Page extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Ulogs</title>
+          <title>Farmr.club</title>
           <meta name="robots" content={robots} />
         </Helmet>
         <ScrollToTop />

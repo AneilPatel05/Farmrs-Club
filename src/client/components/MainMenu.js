@@ -36,35 +36,35 @@ class MainMenu extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FormattedMessage id="uloggerstv" defaultMessage="UloggersTV" />
+                  <FormattedMessage id="farmr-club-tv" defaultMessage="Farmr.ClubTV" />
                 </a>
               </li>
-              <li role="presentation" className="MainMenu__item">
-                <a
-                  href="https://www.youtube.com/channel/UCnIJlzMZzfrcE0bXabLpXKw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FormattedMessage id="teardropstv" defaultMessage="TeardropsTV" />
-                </a>
-              </li>
-              <li role="presentation" className="MainMenu__item">
-                <a
-                  href="https://www.youtube.com/channel/UCq6ylwOaSG9VDYwZkMr3jMw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FormattedMessage id="untalentedtv" defaultMessage="UntalentedTV" />
-                </a>
-              </li>
-              <li
-                role="presentation"
-                className="MainMenu__item"
-                onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-communities"
-              >
-                <FormattedMessage id="communities" defaultMessage="Communities" />
-              </li>
+             {/* <li role="presentation" className="MainMenu__item">
+                             <a
+                               href="https://www.youtube.com/channel/UCnIJlzMZzfrcE0bXabLpXKw"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                             >
+                               <FormattedMessage id="teardropstv" defaultMessage="TeardropsTV" />
+                             </a>
+                           </li>
+                           <li role="presentation" className="MainMenu__item">
+                             <a
+                               href="https://www.youtube.com/channel/UCq6ylwOaSG9VDYwZkMr3jMw"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                             >
+                               <FormattedMessage id="untalentedtv" defaultMessage="UntalentedTV" />
+                             </a>
+                           </li>
+                           <li
+                             role="presentation"
+                             className="MainMenu__item"
+                             onClick={this.handleClick}
+                             data-href="/@ulogs/ulogs-org-communities"
+                           >
+                             <FormattedMessage id="communities" defaultMessage="Communities" />
+                           </li> */}
               <li
                 role="presentation"
                 className="MainMenu__item"

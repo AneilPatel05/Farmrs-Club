@@ -204,13 +204,13 @@ class UlogGamesExchanges extends React.Component {
     return (
       <Collapse accordion defaultActiveKey={['1']}>
         <Collapse.Panel
-          header="..."
+          header="More"
           key="1"
         >
           <React.Fragment>
             <div>
               <h4 className="SidebarContentBlock__title">
-                <FormattedMessage id="ulogs_games" defaultMessage="Ulogs-Games" />
+                <FormattedMessage id="farmr_games" defaultMessage="Farmr.club-Games" />
               </h4>
               <div
                 id="ulogsGameContainer"
@@ -223,7 +223,7 @@ class UlogGamesExchanges extends React.Component {
                   paddingLeft: 25,
                 }}
               >
-                {ulogGames.length === 0 && <div>No Ulog games to display.</div>}
+                {ulogGames.length === 0 && <div>No Farmr.club games to display.</div>}
                 {ulogGames.map(story => 
                   <UlogGamesExchangesUser
                     key={story.permlink}
@@ -233,7 +233,7 @@ class UlogGamesExchanges extends React.Component {
                 )}
               </div>
               <h4 className="SidebarContentBlock__title">
-                <FormattedMessage id="uloggerstv" defaultMessage="UloggersTV" />
+                <FormattedMessage id="farmr_games" defaultMessage="Farmr.clubTV" />
               </h4>
               <div
                 id="ulogsVideoContainer"
@@ -252,7 +252,7 @@ class UlogGamesExchanges extends React.Component {
               </div>
             </div>
             <h4 className="SidebarContentBlock__title">
-              <FormattedMessage id="ulogs_exchanges" defaultMessage="Ulogs-Exchanges" />
+              <FormattedMessage id="farmr_exchanges" defaultMessage="Farmr.club-Exchanges" />
             </h4>
             <div
               id="ulogsExchangesContainer"
@@ -265,7 +265,7 @@ class UlogGamesExchanges extends React.Component {
                 paddingLeft: 25,
               }}
             >
-              {ulogExchanges.length === 0 && <div>No Ulog exchanges to display.</div>}
+              {ulogExchanges.length === 0 && <div>No Farmr.club exchanges to display.</div>}
               {ulogExchanges.map(story => 
                 <UlogGamesExchangesUser
                   key={story.permlink}

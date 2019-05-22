@@ -191,7 +191,7 @@ class UlogStories extends React.Component {
       <div className="SidebarContentBlock">
         <h4 className="SidebarContentBlock__title">
           <i className="iconfont icon-group SidebarContentBlock__icon" />{' '}
-          <FormattedMessage id="ulog_stories" defaultMessage="Ulog Stories" />
+          <FormattedMessage id="farmr_stories" defaultMessage="Farmr Stories" />
         </h4>
         <div className="SidebarContentBlock__content" style={{ textAlign: 'center' }} >
           {authenticated ? (
@@ -199,7 +199,7 @@ class UlogStories extends React.Component {
           ) : (
             <Button href={SteemConnect.getLoginURL(next)} type="primary" shape="circle" icon="plus-circle" size={'large'} style={{ float: 'left' }} />
           )}
-          <div style={{ fontWeight: 'bold', paddingTop: 10 }}>Add A Ulog-Story</div>
+          <div style={{ fontWeight: 'bold', paddingTop: 10 }}>Add A Farmr-Story</div>
           <br/>
           <div style={{ textAlign: 'left', padding: 3 }}>
             Share images, ulography, graphics, ulog-news, ulog-arts plain text etc freshly-created by you, today.

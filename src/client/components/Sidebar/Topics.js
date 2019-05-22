@@ -50,7 +50,7 @@ class Topics extends React.Component {
         <h4>
           <FormattedMessage
             id={'ulog_and_ulog_subtags'}
-            defaultMessage={'Ulog & Ulog sub-tags'}
+            defaultMessage={'Farmr.club & Farmr.club sub-tags'}
           />
         </h4>
         {loading && <Loading center={false} />}
@@ -82,15 +82,15 @@ class Topics extends React.Component {
         {loading && <Loading center={false} />}
         {!loading && (
           <ul className="Topics__list">
-            <li key='teardrops'>
-              <Topic name='teardrops' favorite={favorite} />
-            </li>
-            <li key='untalented'>
-              <Topic name='untalented' favorite={favorite} />
-            </li>
-            <li key='surpassinggoogle'>
-              <Topic name='surpassinggoogle' favorite={favorite} />
-            </li>
+            {/* <li key='teardrops'>
+                          <Topic name='teardrops' favorite={favorite} />
+                        </li>
+                        <li key='untalented'>
+                          <Topic name='untalented' favorite={favorite} />
+                        </li>
+                        <li key='surpassinggoogle'>
+                          <Topic name='surpassinggoogle' favorite={favorite} />
+                        </li> */}
             {displayedTopics.map(topic => (
               <li key={topic}>
                 <Topic name={topic} favorite={favorite} />

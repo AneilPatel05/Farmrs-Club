@@ -15,7 +15,7 @@ const SignUp = () => (
     <br />
     <div className="SidebarBlock">
       <h3 className="SidebarBlock__title">
-        <FormattedMessage id="new_to_busy" defaultMessage="New to ULOG?" />
+        <FormattedMessage id="new_to_farmr" defaultMessage="New to Farmr and STEEM?" />
       </h3>
       <a target="_blank" rel="noopener noreferrer" href={process.env.SIGNUP_URL}>
         <button className="SidebarBlock__button">
