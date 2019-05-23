@@ -50,7 +50,7 @@ class Discover extends React.Component {
         <Helmet>
           <title>
             {intl.formatMessage({ id: 'discover_more_people', defaultMessage: 'discover_more_people' })}{' '}
-            - Busy
+            - Farmr
           </title>
         </Helmet>
         <div className="feed-layout container">

@@ -49,7 +49,7 @@ class Topics extends React.Component {
       <div className="Topics">
         <h4>
           <FormattedMessage
-            id={'ulog_and_ulog_subtags'}
+            id={'farmr_and_farmr_subtags'}
             defaultMessage={'Farmr.club & Farmr.club sub-tags'}
           />
         </h4>
@@ -117,7 +117,7 @@ class Topics extends React.Component {
         </h4>
           <ul className="Topics__list">
             <li>
-            <Topic name={'Ulog Communities'} favorite={favorite} />
+            <Topic name={'Farmr.club Communities'} favorite={favorite} />
             </li>
             <li>
               <Topic name={'Exchanges'} favorite={favorite} />

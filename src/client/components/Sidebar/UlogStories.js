@@ -216,8 +216,8 @@ class UlogStories extends React.Component {
         <Modal
           title={
             <FormattedMessage
-              id="ulog_story_quick_post_title"
-              defaultMessage="Ulog Story - Save the day! Tell us what you see; what is on your mind; what's going on around you currently..."
+              id="farmr_story_quick_post_title"
+              defaultMessage="Farmr Story - Save the day! Tell us what you see; what is on your mind; what's going on around you currently..."
             />
           }
           visible={showModalLogin}

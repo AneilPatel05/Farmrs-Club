@@ -282,8 +282,8 @@ class UlogStoryEditor extends React.Component {
                 onBlur={this.handleUnfocusInput}
                 ref={ref => this.setInput(ref)}
                 placeholder={intl.formatMessage({
-                  id: 'write_ulog_story',
-                  defaultMessage: `Write a ulog story...`,
+                  id: 'write_farmr_story',
+                  defaultMessage: `Write a Farmr story...`,
                 })}
                 value={this.state.currentInputValue}
                 maxLength="255"

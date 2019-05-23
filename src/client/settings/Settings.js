@@ -217,7 +217,7 @@ export default class Settings extends React.Component {
       languageOptions.push(
         <Select.Option disabled key="auto" value="auto">
           <FormattedMessage id="select_language" defaultMessage="Select your language" />
-        </Select.Option>,
+        </Select.Option>
       );
     }
 
@@ -295,7 +295,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="language_info"
-                      defaultMessage="What language do you want to use on Ulogs?"
+                      defaultMessage="What language do you want to use on Farmr.club?"
                     />
                   </p>
                   <Select
