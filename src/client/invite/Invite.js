@@ -85,7 +85,7 @@ export default class Invite extends React.Component {
               <p className="Invite__description">
                 <FormattedMessage
                   id="invite_info"
-                  defaultMessage="Onboard new users on Ulogs.org today using the link below and get 10% of their rewards for 30 days."
+                  defaultMessage="Onboard new users on Farmr.club today using the link below and get 10% of their rewards for 30 days."
                 />
               </p>
               <div className="Invite__input-container">

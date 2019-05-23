@@ -361,7 +361,7 @@ class EditorUlogQuotes extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Ulogs.org allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#ulog & #ulog-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #ulog, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#ulog & #ulog-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #ulog, only for ULOGS.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? You can also try one of our specialized editors above!!!<b className="bold-italic"> If you encounter any issues, drop us feedback on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a></b>
         </div>
         <Form.Item>

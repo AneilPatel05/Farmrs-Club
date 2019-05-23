@@ -283,7 +283,7 @@ class Topnav extends React.Component {
                     <FormattedMessage id="teardrop_smt" defaultMessage="Teardrop SMT"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="about-ulogs">
-                    <FormattedMessage id="about-ulogs" defaultMessage="About Ulogs.org"/>
+                    <FormattedMessage id="about-ulogs" defaultMessage="About Farmr.club"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="logout">
                     <FormattedMessage id="logout" defaultMessage="Logout" />

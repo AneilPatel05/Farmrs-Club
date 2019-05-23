@@ -305,7 +305,7 @@ class EditorUntalented extends React.Component {
           )}
         </Form.Item>
 <div>
-Ulogs.org allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "Un(dis)Talented:" from Title above and kindly remove the default "#untalented" from among the tags in the Hashtags box.
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "Un(dis)Talented:" from Title above and kindly remove the default "#untalented" from among the tags in the Hashtags box.
 Alternatively, click on the editor icon at the topmost right (above) and select "Write a post".
 Please help us as we try to reserve #untalented, only for UN(dis)TALENTED-related posts.
 

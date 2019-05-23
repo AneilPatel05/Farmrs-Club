@@ -160,8 +160,8 @@ class ChatBar extends React.Component {
               }}
               onChange={this.handleSearchForInput}
               placeholder={intl.formatMessage({
-                id: 'search_in_uloggers',
-                defaultMessage: 'Search in uloggers',
+                id: 'search_in_farmr',
+                defaultMessage: 'Search in Farmr.club',
               })}
               autoCapitalize="off"
               autoCorrect="off"

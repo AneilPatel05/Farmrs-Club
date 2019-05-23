@@ -5,7 +5,7 @@ import './SidebarBlock.less';
 const WitnessVote = () => (
   <div className="SidebarBlock__witness-block">
     <h2 className="SidebarBlock__witness-title">
-      <FormattedMessage id="witness_vote" defaultMessage="Ulogs.org is free to use by everyone." />
+      <FormattedMessage id="witness_vote" defaultMessage="Farmr.club is free to use by everyone." />
     </h2>
     <h3 className="SidebarBlock__witness-title">You can inspire us!</h3>
     <a

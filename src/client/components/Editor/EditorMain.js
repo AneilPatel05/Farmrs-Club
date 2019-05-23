@@ -330,7 +330,7 @@ class EditorMain extends React.Component {
           )}
         </Form.Item>
 <div>
-Ulogs.org allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#ulog" from among the tags in the Hashtags box.
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#ulog" from among the tags in the Hashtags box.
 Please help us as we try to reserve #ulog, only for ULOGs. (If your post is a ULOG, you will not have cheetah-worries etc)
 Want to "mine the human" some more, you can also try one of our specialized editors above!!!
 </div>

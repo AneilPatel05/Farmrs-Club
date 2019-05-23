@@ -191,7 +191,7 @@ class Ulogging extends React.Component {
             </div>
           </Affix>
           <div className="center" style={{marginBottom: '50px'}}>
-            <h2 style={{ color: 'purple', textDecoration: 'underline', textAlign: 'center'}}>On Ulogs.org, Your Content Is Queen</h2>
+            <h2 style={{ color: 'purple', textDecoration: 'underline', textAlign: 'center'}}>On Farmr.club, Your Content Is Queen</h2>
             <h5 style={{ color: 'purple', fontStyle: 'italic', textAlign: 'center', marginBottom: '3px'}}>Be inventive. Try out one of our content-creation editors below</h5>
             <Collapse
               defaultActiveKey={defaultActiveKey}
@@ -354,7 +354,7 @@ class Ulogging extends React.Component {
               key="10">
               <h3 style={{color: 'purple'}}>Write A Post?</h3>
               <p>
-                On Ulogs.org "your content" is queen. Whether it is a blog, ulog, or vlog, we want you to create fresh content daily. If you want to "write a post" (post to Steem) like you normally would, simply go to our general purpose editor below.
+                On Farmr.club "your content" is queen. Whether it is a blog, ulog, or vlog, we want you to create fresh content daily. If you want to "write a post" (post to Steem) like you normally would, simply go to our general purpose editor below.
               </p>
             </Card>
 
@@ -368,7 +368,7 @@ class Ulogging extends React.Component {
                 style={customPanelStyle}>
                 <p>
                   <b>On ulogs.org, your freshly-made content is queen.</b> We want to incite you create content on a daily basis as that in itself is rewarding. Anytime you invest in creating "your own content" you have managed to "mine the human" some more. This is world adjusting!<br/>
-                  <b>Ulogs.org allows you to explore and enjoy the entire steem ecosystem.</b> Thus, whether is it is a blog, ulog or vlog, we welcome your contributions and will look forward to celebrating <b>'the you'</b> in it; <b>we as your "true fans".</b><br/>
+                  <b>Farmr.club allows you to explore and enjoy the entire steem ecosystem.</b> Thus, whether is it is a blog, ulog or vlog, we welcome your contributions and will look forward to celebrating <b>'the you'</b> in it; <b>we as your "true fans".</b><br/>
                   You can post to steem like you normally would (<b>e.g blogs etc</b>), using the <b>"General-Purpose" editor below.</b><br/><br/>
                 </p>
                 <Button>

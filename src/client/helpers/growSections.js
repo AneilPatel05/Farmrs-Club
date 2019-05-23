@@ -1,5 +1,5 @@
 export const aboutGrow = `
-On Ulogs.org, it is **"true celebrity-hood for everyone, once and for all"**. We measure our success in terms of **'real human growth'**. We want to create **more value for 'humans'** in a world were cryptokitties, superman, millionaire-cats, human-clones etc is beginning to garner more value than 'humans'.
+On Farmr.club, it is **"true celebrity-hood for everyone, once and for all"**. We measure our success in terms of **'real human growth'**. We want to create **more value for 'humans'** in a world were cryptokitties, superman, millionaire-cats, human-clones etc is beginning to garner more value than 'humans'.
 
 &nbsp;
 &nbsp;
@@ -31,7 +31,7 @@ Tell us what you want and let's discuss. Don't undervalue the power of 'conversa
 `
 
 export const fifteenMinuteMentor = `
-On Ulogs.org, we will explore a **'variety of rewards'**. We are building our entire ecosystem around a ['grey-list of certified uloggers' (true celebrities)](https://ulogs.org/discover). This is an actual community of brothers, where each 'certified ulogger' is also a true fan. 
+On Farmr.club, we will explore a **'variety of rewards'**. We are building our entire ecosystem around a ['grey-list of certified uloggers' (true celebrities)](https://ulogs.org/discover). This is an actual community of brothers, where each 'certified ulogger' is also a true fan. 
 
 &nbsp;
 &nbsp;

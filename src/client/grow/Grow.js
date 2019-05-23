@@ -73,7 +73,7 @@ class Grow extends React.Component {
                   </List.Item>
 
                   <List.Item
-                    key="Write To Ulogs.org"
+                    key="Write To Farmr.club"
                     extra={
                       <GrowVideoEmbed
                         key="embed"
@@ -87,7 +87,7 @@ class Grow extends React.Component {
                       />
                     }
                   >
-                    <h3>Write To Ulogs.org</h3>
+                    <h3>Write To Farmr.club</h3>
                     <div style={customCardStyle}>
                       <ReactMarkdown source={growSections.writeToUlogs} />
                     </div>
