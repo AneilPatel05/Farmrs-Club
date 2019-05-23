@@ -9,7 +9,7 @@ import {
 } from '../../reducers';
 import { getCryptoDetails } from '../../helpers/cryptosHelper';
 import { updateRecommendations } from '../../user/userActions';
-import OverseeingUloggers from './OverseeingUloggers';
+import OverseeingFarmrs from './OverseeingFarmrs';
 import CryptoTrendingCharts from './CryptoTrendingCharts';
 import ChatBar from '../../components/Sidebar/ChatBar';
 import UlogGamesExchanges from '../../components/Sidebar/UlogGamesExchanges';
@@ -60,7 +60,7 @@ class FeedSidebar extends React.Component {
         <React.Fragment>
           {displayUlogCaption && <UlogCaption category={tag} />}
           {(!displayUlogCaption && isStartsWithUlog) && <UlogGenericCaption category={tag} />}
-          <OverseeingUloggers authenticatedUser={authenticatedUser} />
+          <OverseeingFarmrs authenticatedUser={authenticatedUser} />
           <UlogGamesExchanges isFetchingFollowingList={false} />
           <ChatBar isFetchingFollowingList={false} authenticated={authenticated} />
         </React.Fragment>

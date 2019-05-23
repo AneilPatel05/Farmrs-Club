@@ -47,7 +47,7 @@ class ExtraClout extends React.Component {
               You are a celebrity and we are your fan. As we continue to grow our network of
               &#39;certified farmrs&#39;, we may find some who have social influence whether on
               steem or outside steem. Extra clout goes a long way in creating awareness for your
-              projects, dreams or you. Clout can take different forms too e.g a certified ulogger
+              projects, dreams or you. Clout can take different forms too e.g a certified farmr
               with some 1.7 million YouTube subscribers may be willing to give your product a
               shoutout on one of his viral videos etc.
             </p>

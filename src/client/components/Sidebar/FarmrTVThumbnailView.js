@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../Avatar.less';
 import './User.less';
 
-const UloggerTVThumbnail = ({ video }) => (
+const FarmrTVThumbnail = ({ video }) => (
   <div className="User__links_overflow_x_auto" key={video.id.videoId}>
     <a href={`https://www.youtube.com/watch?v=${video.id.videoId}`}>
       <div
@@ -20,8 +20,8 @@ const UloggerTVThumbnail = ({ video }) => (
   </div>
 );
 
-UloggerTVThumbnail.propTypes = {
+FarmrTVThumbnail.propTypes = {
   video: PropTypes.shape().isRequired,
 };
 
-export default UloggerTVThumbnail;
+export default FarmrTVThumbnail;

@@ -8,7 +8,7 @@ import Loading from '../components/Icon/Loading';
 import steemAPI from '../steemAPI';
 
 @withRouter
-class DiscoverUloggers extends React.Component {
+class DiscoverFarmrs extends React.Component {
   static propTypes = {
     authenticatedUser: PropTypes.shape({
       name: PropTypes.string,
@@ -33,24 +33,24 @@ class DiscoverUloggers extends React.Component {
       noUsers: false,
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
   componentWillReceiveProps(nextProps) {
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['condenser_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['condenser_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
         const userNames = _.sortBy(result, 'following')
           .map(user => {
@@ -74,10 +74,10 @@ class DiscoverUloggers extends React.Component {
         }
       })
       .then(() => {
-        const uloggers = this.state.userNames.map(user => {
+        const farmrs = this.state.userNames.map(user => {
             return user.name;
           });
-        steemAPI.sendAsync('get_accounts', [uloggers]).then(users =>
+        steemAPI.sendAsync('get_accounts', [farmrs]).then(users =>
           this.setState({
             users,
             loading: false,
@@ -111,4 +111,4 @@ class DiscoverUloggers extends React.Component {
   }
 }
 
-export default DiscoverUloggers;
+export default DiscoverFarmrs;

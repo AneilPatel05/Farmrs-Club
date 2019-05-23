@@ -12,7 +12,7 @@ import {
   getAuthenticatedUser,
   getIsEditorLoading,
   getUpvoteSetting,
-  getUloggersFollowingList,
+  getFarmrsFollowingList,
 } from '../../reducers';
 import { isValidImage, MAXIMUM_UPLOAD_SIZE } from '../../helpers/image';
 import { notify } from '../../app/Notification/notificationActions';
@@ -32,7 +32,7 @@ const version = require('../../../../package.json').version;
     user: getAuthenticatedUser(state),
     postCreationLoading: getIsEditorLoading(state),
     upvote: getUpvoteSetting(state),
-    certifiedUloggers: getUloggersFollowingList(state),
+    certifiedFarmrs: getFarmrsFollowingList(state),
   }),
   {
     notify,
@@ -51,7 +51,7 @@ class UlogStoryEditor extends React.Component {
     onImageUpload: PropTypes.func,
     onImageInvalid: PropTypes.func,
     upvote: PropTypes.bool.isRequired,
-    certifiedUloggers: PropTypes.arrayOf(PropTypes.string).isRequired,
+    certifiedFarmrs: PropTypes.arrayOf(PropTypes.string).isRequired,
   };
 
   static defaultProps = {
@@ -248,8 +248,8 @@ class UlogStoryEditor extends React.Component {
 
   render() {
     const { imageUploading, focusedInput, currentImages, inputMinRows } = this.state;
-    const { user, postCreationLoading, intl, certifiedUloggers } = this.props;
-    const isCertifiedUlogger = certifiedUloggers.includes(user.name);
+    const { user, postCreationLoading, intl, certifiedFarmrs } = this.props;
+    const isCertifiedFarmr = certifiedFarmrs.includes(user.name);
 
     return (
       <div className="UlogStoryEditor">
@@ -294,7 +294,7 @@ class UlogStoryEditor extends React.Component {
         <UlogStoryEditorFooter
           imageUploading={imageUploading}
           postCreationLoading={postCreationLoading}
-          isCertifiedUlogger={isCertifiedUlogger}
+          isCertifiedFarmr={isCertifiedFarmr}
           handleCreatePost={this.handleCreatePost}
           handleImageChange={this.handleImageChange}
           handleCategoryChange={this.handleCategoryChange}

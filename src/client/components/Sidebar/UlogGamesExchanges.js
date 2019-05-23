@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import ReactMarkdown from 'react-markdown';
 import _ from 'lodash';
 import UlogGamesExchangesUser from './UlogGamesExchangesUser';
-import UloggerTVThumbnailView from './UloggerTVThumbnailView';
+import FarmrTVThumbnailView from './FarmrTVThumbnailView';
 import Loading from '../../components/Icon/Loading';
 import steemAPI from '../../steemAPI';
 import './InterestingPeople.less';
@@ -86,13 +86,13 @@ class UlogGamesExchanges extends React.Component {
     };
 
     this.getUlogGamesAndExchanges = this.getUlogGamesAndExchanges.bind(this);
-    this.getUloggersTVVideaos = this.getUloggersTVVideaos.bind(this);
+    this.getFarmrsTVVideaos = this.getFarmrsTVVideaos.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
       this.getUlogGamesAndExchanges();
-      this.getUloggersTVVideaos();
+      this.getFarmrsTVVideaos();
     }
   }
 
@@ -100,11 +100,11 @@ class UlogGamesExchanges extends React.Component {
     this.setState({ ulogGames: [], ulogExchanges: [] });
 
     steemAPI
-      .sendAsync('call', ['follow_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
 
-        // get certified ulogger names
-        const certifiedUloggerNames = _.sortBy(result, 'following')
+        // get certified farmr names
+        const certifiedFarmrNames = _.sortBy(result, 'following')
           .map(user => {
             let name = _.get(user, 0);
 
@@ -114,10 +114,10 @@ class UlogGamesExchanges extends React.Component {
             return name;
           });
         
-        // if there are certified uloggers
-        if (certifiedUloggerNames.length > 0) {
-          // get the latest posts from each certified ulogger
-          certifiedUloggerNames.forEach(userName => {
+        // if there are certified farmrs
+        if (certifiedFarmrNames.length > 0) {
+          // get the latest posts from each certified farmr
+          certifiedFarmrNames.forEach(userName => {
             var query = {
               tag: userName, // Filter the results by a specific post author
               limit: 5, // Limit the number of posts returned
@@ -126,7 +126,7 @@ class UlogGamesExchanges extends React.Component {
               loading: true,
             });
 
-            // call STEEM API to get the latest posts from certified ulogger
+            // call STEEM API to get the latest posts from certified farmr
             steemAPI
               .sendAsync('call', ['condenser_api', 'get_discussions_by_blog', [query]])
               .then(result  => {
@@ -137,7 +137,7 @@ class UlogGamesExchanges extends React.Component {
 
                 posts.forEach(post => {
                   // filter-out posts from non-certified users
-                  if(certifiedUloggerNames.indexOf(post.author) < 0) return;
+                  if(certifiedFarmrNames.indexOf(post.author) < 0) return;
   
                   // filter posts that have been created more than 7 days ago
                   const today = new Date();
@@ -179,7 +179,7 @@ class UlogGamesExchanges extends React.Component {
       });
   }
 
-  async getUloggersTVVideaos() {
+  async getFarmrsTVVideaos() {
     const apiRequset = await fetch(
       'https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCzI3Rjamg7zSe_o0BwSeIQQ&maxResults=25&key=AIzaSyAr0UshcXLKk9e2IKMiNq7KzbzUa0jWVh0',
       {
@@ -189,12 +189,12 @@ class UlogGamesExchanges extends React.Component {
     );
     const apiResponse = await apiRequset.json();
     this.setState({
-      uloggersTvVideos: apiResponse,
+      farmrsTvVideos: apiResponse,
     });
   }
 
   render() {
-    const { loading, ulogGames, ulogExchanges, uloggersTvVideos } = this.state;
+    const { loading, ulogGames, ulogExchanges, farmrsTvVideos } = this.state;
     const { authenticated } = this.props;
 
     if (loading) {
@@ -245,9 +245,9 @@ class UlogGamesExchanges extends React.Component {
                   display: 'flex',
                 }}
               >
-                {uloggersTvVideos &&
-                  uloggersTvVideos.items.map(video => (
-                    <UloggerTVThumbnailView key={video.id.videoId} video={video} />
+                {farmrsTvVideos &&
+                  farmrsTvVideos.items.map(video => (
+                    <FarmrTVThumbnailView key={video.id.videoId} video={video} />
                   ))}
               </div>
             </div>

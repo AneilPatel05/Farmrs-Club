@@ -10,7 +10,7 @@ const initialState = {
     isFetching: false,
     fetched: false,
   },
-  uloggersFollowing: {
+  farmrsFollowing: {
     list: [],
     pendingFollows: [],
     isFetching: false,
@@ -69,38 +69,38 @@ export default function userReducer(state = initialState, action) {
         },
         fetchFollowListError: false,
       };
-    case actions.GET_ULOGGERS_FOLLOWING_START:
+    case actions.GET_FARMRS_FOLLOWING_START:
       return {
         ...state,
-        uloggersFollowing: {
-          ...state.uloggersFollowing,
+        farmrsFollowing: {
+          ...state.farmrsFollowing,
           list: [],
           isFetching: true,
           fetched: false,
         },
-        fetchUloggersFollowListError: false,
+        fetchFarmrsFollowListError: false,
       };
-    case actions.GET_ULOGGERS_FOLLOWING_ERROR:
+    case actions.GET_FARMRS_FOLLOWING_ERROR:
       return {
         ...state,
-        uloggersFollowing: {
-          ...state.uloggersFollowing,
+        farmrsFollowing: {
+          ...state.farmrsFollowing,
           list: [],
           isFetching: false,
           fetched: true,
         },
-        fetchUloggersFollowListError: true,
+        fetchFarmrsFollowListError: true,
       };
-    case actions.GET_ULOGGERS_FOLLOWING_SUCCESS:
+    case actions.GET_FARMRS_FOLLOWING_SUCCESS:
       return {
         ...state,
-        uloggersFollowing: {
-          ...state.uloggersFollowing,
+        farmrsFollowing: {
+          ...state.farmrsFollowing,
           list: action.payload,
           isFetching: false,
           fetched: true,
         },
-        fetchUloggersFollowListError: false,
+        fetchFarmrsFollowListError: false,
       };
     case actions.FOLLOW_USER_START:
     case actions.UNFOLLOW_USER_START:
@@ -192,7 +192,7 @@ export const getNotifications = state => state.notifications;
 export const getIsLoadingNotifications = state => state.loadingNotifications;
 export const getFetchFollowListError = state => state.fetchFollowListError;
 export const getLatestNotification = state => state.latestNotification;
-export const getUloggersFollowingList = state => state.uloggersFollowing.list;
-export const getIsFetchingUloggersFollowingList = state => state.uloggersFollowing.isFetching;
-export const getUloggersFollowingFetched = state => state.uloggersFollowing.fetched;
-export const getFetchUloggersFollowListError = state => state.fetchUloggersFollowListError;
+export const getFarmrsFollowingList = state => state.farmrsFollowing.list;
+export const getIsFetchingFarmrsFollowingList = state => state.farmrsFollowing.isFetching;
+export const getFarmrsFollowingFetched = state => state.farmrsFollowing.fetched;
+export const getFetchFarmrsFollowListError = state => state.fetchFarmrsFollowListError;

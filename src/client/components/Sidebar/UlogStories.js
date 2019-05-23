@@ -6,7 +6,7 @@ import { Button, Modal, Select } from 'antd';
 import { FormattedMessage } from 'react-intl';
 import _ from 'lodash';
 import {
-  getUloggersFollowingList,
+  getFarmrsFollowingList,
 } from '../../reducers';
 import UlogStory from './UlogStory';
 import Loading from '../../components/Icon/Loading';
@@ -20,7 +20,7 @@ import UlogStoryEditor from '../UlogStoryEditor/UlogStoryEditor';
 @withRouter
 @connect(
   state => ({
-    certifiedUloggers: getUloggersFollowingList(state),
+    certifiedFarmrs: getFarmrsFollowingList(state),
   }),
 )
 class UlogStories extends React.Component {
@@ -45,8 +45,8 @@ class UlogStories extends React.Component {
     super(props);
 
     this.state = {
-      certifiedUloggerNames: [],
-      certifiedUloggers: [],
+      certifiedFarmrNames: [],
+      certifiedFarmrs: [],
       ulogStoriesObj: {},
       ulogStoriesArr: [],
       loading: true,
@@ -72,11 +72,11 @@ class UlogStories extends React.Component {
 
   getUlogStories() {
     steemAPI
-      .sendAsync('call', ['follow_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
 
-        // get certified ulogger names
-        const certifiedUloggerNames = _.sortBy(result, 'following')
+        // get certified farmr names
+        const certifiedFarmrNames = _.sortBy(result, 'following')
           .map(user => {
             let name = _.get(user, 0);
 
@@ -86,10 +86,10 @@ class UlogStories extends React.Component {
             return name;
           });
         
-        // if there are certified uloggers
-        if (certifiedUloggerNames.length > 0) {
-          // get the latest posts from each certified ulogger
-          certifiedUloggerNames.forEach(userName => {
+        // if there are certified farmrs
+        if (certifiedFarmrNames.length > 0) {
+          // get the latest posts from each certified farmr
+          certifiedFarmrNames.forEach(userName => {
             var query = {
               tag: userName, // Filter the results by a specific post author
               limit: 5, // Limit the number of posts returned
@@ -108,7 +108,7 @@ class UlogStories extends React.Component {
                 });
 
                 // filter-out posts from non-certified users
-                if(certifiedUloggerNames.indexOf(post.author) < 0) return;
+                if(certifiedFarmrNames.indexOf(post.author) < 0) return;
 
                 // filter posts that have been created more than 3 days ago
                 const today = new Date();

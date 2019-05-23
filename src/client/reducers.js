@@ -101,13 +101,13 @@ export const getIsLoadingNotifications = state => fromUser.getIsLoadingNotificat
 export const getFetchFollowListError = state => fromUser.getFetchFollowListError(state.user);
 export const getLatestNotification = state => fromUser.getLatestNotification(state.user);
 
-export const getUloggersFollowingList = state => fromUser.getUloggersFollowingList(state.user);
-export const getIsFetchingUloggersFollowingList = state =>
-  fromUser.getIsFetchingUloggersFollowingList(state.user);
-export const getUloggersFollowingFetched = state =>
-  fromUser.getUloggersFollowingFetched(state.user);
-export const getFetchUloggersFollowListError = state =>
-  fromUser.getFetchUloggersFollowListError(state.user);
+export const getFarmrsFollowingList = state => fromUser.getFarmrsFollowingList(state.user);
+export const getIsFetchingFarmrsFollowingList = state =>
+  fromUser.getIsFetchingFarmrsFollowingList(state.user);
+export const getFarmrsFollowingFetched = state =>
+  fromUser.getFarmrsFollowingFetched(state.user);
+export const getFetchFarmrsFollowListError = state =>
+  fromUser.getFetchFarmrsFollowListError(state.user);
 
 export const getUser = (state, username) => fromUsers.getUser(state.users, username);
 export const getIsUserFetching = (state, username) =>

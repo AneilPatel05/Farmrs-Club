@@ -2,10 +2,10 @@ import React from 'react';
 import {Row,Col} from 'antd';
 import FollowButton from '../../widgets/FollowButton.js';
 import DelegateButton from '../StoryFooter/DelegateButton.js';
-import './VerifiedUloggers.css';
+import './VerifiedFarmrs.css';
 import Avatar from '../Avatar.js';
 import ContactButton from '../Sidebar/WalletSidebar.js'
-class VerifiedUloggers extends React.Component{
+class VerifiedFarmrs extends React.Component{
     constructor(props){
         super(props);
         this.state = {
@@ -19,7 +19,7 @@ class VerifiedUloggers extends React.Component{
       marginBottom:'5%'
     };
         return(
-            <div className='VerifiedUloggers'>
+            <div className='VerifiedFarmrs'>
                 <Row style={topStyle} gutter={ {xs: 8, sm: 16, md: 24, lg: 32} }>
                     <div className='topVerified' >
                         <Col span={8}>
@@ -46,6 +46,6 @@ class VerifiedUloggers extends React.Component{
     }
 }
 
-export default VerifiedUloggers;
+export default VerifiedFarmrs;
                                      
 

@@ -17,14 +17,14 @@ import {
   getUsedLocale,
   getTranslations,
   getUseBeta,
-  getUloggersFollowingList,
-  getIsFetchingUloggersFollowingList,
+  getFarmrsFollowingList,
+  getIsFetchingFarmrsFollowingList,
   getNightmode,
 } from './reducers';
 import { login, logout, busyLogin } from './auth/authActions';
 import {
   getFollowing,
-  getUloggersFollowing,
+  getFarmrsFollowing,
   getNotifications,
 } from './user/userActions';
 import {
@@ -53,15 +53,15 @@ import AnnouncementBanner from './components/AnnouncementBanner'
     usedLocale: getUsedLocale(state),
     translations: getTranslations(state),
     locale: getLocale(state),
-    uloggersFollowingList: getUloggersFollowingList(state),
-    isFetchingUloggersFollowingList: getIsFetchingUloggersFollowingList(state),
+    farmrsFollowingList: getFarmrsFollowingList(state),
+    isFetchingFarmrsFollowingList: getIsFetchingFarmrsFollowingList(state),
     nightmode: getNightmode(state),
   }),
   {
     login,
     logout,
     getFollowing,
-    getUloggersFollowing,
+    getFarmrsFollowing,
     getNotifications,
     getRate,
     getRewardFund,
@@ -83,7 +83,7 @@ export default class Wrapper extends React.PureComponent {
     login: PropTypes.func,
     logout: PropTypes.func,
     getFollowing: PropTypes.func,
-    getUloggersFollowing: PropTypes.func,
+    getFarmrsFollowing: PropTypes.func,
     getRewardFund: PropTypes.func,
     getRebloggedList: PropTypes.func,
     getRate: PropTypes.func,
@@ -101,7 +101,7 @@ export default class Wrapper extends React.PureComponent {
     login: () => {},
     logout: () => {},
     getFollowing: () => {},
-    getUloggersFollowing: () => {},
+    getFarmrsFollowing: () => {},
     getRewardFund: () => {},
     getRebloggedList: () => {},
     getRate: () => {},
@@ -151,7 +151,7 @@ export default class Wrapper extends React.PureComponent {
   componentDidMount() {
     this.props.login().then(() => {
       this.props.getFollowing();
-      this.props.getUloggersFollowing();
+      this.props.getFarmrsFollowing();
       this.props.getNotifications();
       this.props.busyLogin();
     });

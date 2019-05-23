@@ -4,11 +4,11 @@ import { injectIntl } from 'react-intl';
 import BTooltip from './BTooltip';
 import './Story/Story.less';
 
-function CertifiedUlogger({ intl }) {
+function CertifiedFarmr({ intl }) {
   return (
     <BTooltip
       title={intl.formatMessage(
-        { id: 'certified_ulogger', defaultMessage: 'Certified Ulogger' },
+        { id: 'certified_farmr', defaultMessage: 'Certified Farmr' },
       )}
     >
       <img
@@ -19,8 +19,8 @@ function CertifiedUlogger({ intl }) {
   );
 }
 
-CertifiedUlogger.propTypes = {
+CertifiedFarmr.propTypes = {
   intl: PropTypes.shape().isRequired,
 };
 
-export default injectIntl(CertifiedUlogger);
+export default injectIntl(CertifiedFarmr);

@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Collapse, Button, Icon } from 'antd';
 import { injectIntl, FormattedMessage } from 'react-intl';
-import VerifiedUloggers from '../components/VerifiedUloggers/VerifiedUloggers';
+import VerifiedFarmrs from '../components/VerifiedFarmrs/VerifiedFarmrs';
 
 @injectIntl
 class UlogCaption extends React.Component {
@@ -47,7 +47,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/QFaFj87">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee #ulog-quotes currently:<br />
+          Verified/Certified @farmrs who oversee #ulog-quotes currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -102,7 +102,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/EkynDXt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee #ulog-howto currently:<br />
+          Verified/Certified @farmrs who oversee #ulog-howto currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>Coming Soon!!!</li>
           </ul>
@@ -138,7 +138,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/qyY6hAQ">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-diy">#ulog-diy</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -169,7 +169,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/2qTW6XV">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-surpassinggoogle">#ulog-surpassinggoogle</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -199,7 +199,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/DsqaqNr">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/teardrops">#teardrops</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -233,7 +233,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/jsENq3b">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/untalented">#untalented</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -267,7 +267,7 @@ class UlogCaption extends React.Component {
           daily! Join its community on <a href="https://discord.gg/Up8eMGa">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-ned">#ulog-ned</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -302,7 +302,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/mWVYjxc">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulography">#ulography</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -378,7 +378,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-gratefulvibes">
             #ulog-gratefulvibes
           </a> currently:<br />
@@ -499,7 +499,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-resolutions">
             #ulog-resolutions
           </a> currently:<br />
@@ -592,7 +592,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-memes">#ulog-memes</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -737,7 +737,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-blocktrades">
             #ulog-blocktrades
           </a> currently:<br />
@@ -857,7 +857,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-showerthoughts">#ulog-showerthoughts</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -910,14 +910,14 @@ class UlogCaption extends React.Component {
         <a href="https://ulogs.org/created/ulog-snookmademedoit">
           <b>#ulog-snookmademedoit</b>
         </a>{' '}
-        will bear forth an entire fun community of Uloggers. Yes, you can ulog about things{' '}
+        will bear forth an entire fun community of Farmrs. Yes, you can ulog about things{' '}
         <a href="https://ulogs.org/@snook">
           <b>"@snook</b>
         </a>{' '}
         <b>made you do"</b> but in the large scheme of things, it is a means or incentive to
         celebrate{' '}
         <b>
-          people, steemians, uloggers etc who were able to stand you up, even from the rubble, to
+          people, steemians, farmrs etc who were able to stand you up, even from the rubble, to
           make you go out of your way and do something testimonial.
         </b>{' '}
         <br />
@@ -1013,7 +1013,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-snookmademedoit">#ulog-snookmademedoit</a>{' '}
           currently:<br />
           <div style={{ color: 'purple' }}>
@@ -1196,7 +1196,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-utopian">#ulog-utopian</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -1323,7 +1323,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/Eg8uCZB">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-thejohalfiles">
             #ulog-thejohalfiles
           </a> currently:<br />
@@ -1419,7 +1419,7 @@ class UlogCaption extends React.Component {
             <b>Telegram</b>
           </a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulogifs">#ulogifs</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1562,7 +1562,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/EpVxmW4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1708,7 +1708,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/PEfzyM4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1808,7 +1808,7 @@ class UlogCaption extends React.Component {
             </li>
             <li>
               <font size="2">
-                She is a <b>Ulogger-Mum</b>.
+                She is a <b>Farmr-Mum</b>.
               </font>
             </li>
             <li>
@@ -1870,7 +1870,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/b2NzBn8">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-stellabelle">
             #ulog-stellabelle
           </a> currently:<br />
@@ -2029,7 +2029,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/xrbRM9Y">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -2222,7 +2222,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/EBRJxQM">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -2383,7 +2383,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/3jTA4Tt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -2572,7 +2572,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/SFYBHp5">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -2787,7 +2787,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/M847Kvs">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -2963,7 +2963,7 @@ class UlogCaption extends React.Component {
           <a href="https://discord.gg/9Bhxtm">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @uloggers who oversee{' '}
+          Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>

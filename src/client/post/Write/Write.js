@@ -100,10 +100,10 @@ class Write extends React.Component {
       initialUpdatedDate: Date.now(),
       isUpdating: false,
       showModalDelete: false,
-      certifiedUloggers: [],
+      certifiedFarmrs: [],
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
   }
 
   componentDidMount() {
@@ -144,7 +144,7 @@ class Write extends React.Component {
     }
 
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
@@ -178,7 +178,7 @@ class Write extends React.Component {
     }
 
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
@@ -234,11 +234,11 @@ class Write extends React.Component {
     return data;
   };
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['condenser_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['condenser_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
-        const certifiedUloggers = _.sortBy(result, 'following')
+        const certifiedFarmrs = _.sortBy(result, 'following')
           .map(user => {
             let name = _.get(user, 0);
             if (_.isEmpty(name)) {
@@ -246,7 +246,7 @@ class Write extends React.Component {
             }
             return name;
           });
-        this.setState({ certifiedUloggers });
+        this.setState({ certifiedFarmrs });
       });
   }
 
@@ -275,10 +275,10 @@ class Write extends React.Component {
   handleExtraMonetization = () => {
     const { user } =  this.props
     
-    if (this.state.certifiedUloggers.indexOf(user.name) >= 0) {
+    if (this.state.certifiedFarmrs.indexOf(user.name) >= 0) {
       message.success('Coming soon!', 3);
     } else {
-      message.success("This feature is only available to 'certified uloggers'. Click here to get certified!!", 3);
+      message.success("This feature is only available to 'certified farmrs'. Click here to get certified!!", 3);
     }
   }
 

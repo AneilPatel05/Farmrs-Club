@@ -65,7 +65,7 @@ class Page extends React.Component {
     const isStartsWithUlog = category && category.startsWith('ulog-');
 
     const convertUlogTag = `Thank you for beginning the process of creating a Ulog-Community. To further the process, start by contributing ulogs under this very ulog-subtag and inviting others to do the same. You can start now! Simply visit this editor on 'https://ulogs.org/main-editor' to contribute a ulog and make sure to use the ulog-subtag here as one of the tags underneath your post.&nbsp;  
-      To complete the process of creating a Ulog-Community, kindly send an email containing your intention to [uloggers@gmail.com](mailto:uloggers@gmail.com) &nbsp;  
+      To complete the process of creating a Ulog-Community, kindly send an email containing your intention to [farmrs@gmail.com](mailto:farmrs@gmail.com) &nbsp;  
       Note: Anyone can choose to complete the process!`
 
     return (

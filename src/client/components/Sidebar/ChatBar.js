@@ -36,24 +36,24 @@ class ChatBar extends React.Component {
       allUsers: [],
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
     this.handleSearchForInput = this.handleSearchForInput.bind(this);
     this.handleUserAccountClick = this.handleUserAccountClick.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
   componentWillReceiveProps(nextProps) {
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
       .sendAsync('call', ['follow_api', 'get_following', ['uloggers', '', 'blog', 1000]])
       .then(result => {

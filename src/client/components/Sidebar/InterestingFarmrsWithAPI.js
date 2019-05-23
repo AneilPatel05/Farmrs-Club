@@ -11,7 +11,7 @@ import './InterestingPeople.less';
 import './SidebarContentBlock.less';
 
 @withRouter
-class InterestingUloggersWithAPI extends React.Component {
+class InterestingFarmrsWithAPI extends React.Component {
   static propTypes = {
     isFetchingFollowingList: PropTypes.bool.isRequired,
   };
@@ -32,24 +32,24 @@ class InterestingUloggersWithAPI extends React.Component {
       noUsers: false,
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
   componentWillReceiveProps(nextProps) {
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['condenser_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['condenser_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
         const userNames = _.sortBy(result, 'following')
           .map(user => {
@@ -73,10 +73,10 @@ class InterestingUloggersWithAPI extends React.Component {
         }
       })
       .then(() => {
-        const uloggers = this.state.userNames.map(user => {
+        const farmrs = this.state.userNames.map(user => {
             return user.name;
           });
-        steemAPI.sendAsync('get_accounts', [uloggers]).then(users =>
+        steemAPI.sendAsync('get_accounts', [farmrs]).then(users =>
           this.setState({
             users,
             loading: false,
@@ -114,9 +114,9 @@ class InterestingUloggersWithAPI extends React.Component {
               }}
             >
               <i className="iconfont icon-group SidebarContentBlock__icon" />{' '}
-              <FormattedMessage id="interesting_uloggers" defaultMessage="Interesting Uloggers" />
+              <FormattedMessage id="interesting_farmrs" defaultMessage="Interesting Farmrs" />
               <button
-                onClick={this.getCertifiedUloggers}
+                onClick={this.getCertifiedFarmrs}
                 className="InterestingPeople__button-refresh"
               >
                 <i
@@ -139,7 +139,7 @@ class InterestingUloggersWithAPI extends React.Component {
               <Link to={'/discover'}>
                 <FormattedMessage
                   id="discover_more_people"
-                  defaultMessage="Discover More Uloggers"
+                  defaultMessage="Discover More Farmrs"
                 />
               </Link>
             </h4>
@@ -150,4 +150,4 @@ class InterestingUloggersWithAPI extends React.Component {
   }
 }
 
-export default InterestingUloggersWithAPI;
+export default InterestingFarmrsWithAPI;

@@ -21,7 +21,7 @@ import {
 import withAuthActions from '../../auth/withAuthActions';
 import BTooltip from '../BTooltip';
 import ReputationTag from '../ReputationTag';
-import CertifiedUlogger from '../CertifiedUlogger';
+import CertifiedFarmr from '../CertifiedFarmr';
 import StoryPreview from './StoryPreview';
 import StoryFooter from '../StoryFooter/StoryFooter';
 import Avatar from '../Avatar';
@@ -316,8 +316,8 @@ class Story extends React.Component {
                   <h4>
                     <span className="username">{post.author}</span>
                     <ReputationTag reputation={post.author_reputation} />
-                    {postState.isCertifiedUlogger &&
-                      <CertifiedUlogger />
+                    {postState.isCertifiedFarmr &&
+                      <CertifiedFarmr />
                     }
                   </h4>
                 </Link>

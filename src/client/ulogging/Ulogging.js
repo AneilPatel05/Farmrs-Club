@@ -83,7 +83,7 @@ class Ulogging extends React.Component {
     const menu = (
       <Menu>
         <Menu.Item key="1">
-          <Link to={'/ulogging/#art-of-ulogging'}>The art of ULOGGING</Link>
+          <Link to={'/ulogging/#art-of-ulogging'}>The art of FARMR</Link>
         </Menu.Item>
         <Menu.Item key="2">
           <Link to={'/ulogging/#main-editor'}>Go To The Main Ulog Editor</Link>
@@ -198,15 +198,15 @@ class Ulogging extends React.Component {
               activeKey={this.state.activeKey}
               onChange={this.callback}>
               <Collapse.Panel
-                header="The art of ULOGGING"
+                header="The art of FARMR"
                 key="1"
                 style={customPanelStyle}>
                 <p>
-                  The art of ULOGGING is a conscious effort to "mine the human" into its **"awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
-                  Together ULOGGING, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
+                  The art of FARMR is a conscious effort to "mine the human" into its **"awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
+                  Together FARMR, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
                   We will own our very cookies; we will re-tap into our shine and recover lost shine. We will fly. ("True Celebrity-hood" for "everyone" once and for all") <br/>
                   In due time, we will celebrate breakthrough with the @teardrops Smart Media Token; "@surpassinggoogle". <br/><br/>
-                  <u>Special Note:</u> Everytime you make use of ulogs.org to post, comment etc, you are supporting steemians, projects, ULOGGERS etc by being their "true fans". Too, you "mine the human" some more, becoming "true celebrities". You will also give back to steem/steemit in gratitude as we contribute a "negligible sum" from our rewards with Steemit INC as beneficiary. <br/>
+                  <u>Special Note:</u> Everytime you make use of ulogs.org to post, comment etc, you are supporting steemians, projects, FARMRS etc by being their "true fans". Too, you "mine the human" some more, becoming "true celebrities". You will also give back to steem/steemit in gratitude as we contribute a "negligible sum" from our rewards with Steemit INC as beneficiary. <br/>
                 </p>
               </Collapse.Panel>
             </Collapse>

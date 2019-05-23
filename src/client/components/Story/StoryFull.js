@@ -22,7 +22,7 @@ import { getProxyImageURL } from '../../helpers/image';
 import Popover from '../Popover';
 import BTooltip from '../BTooltip';
 import ReputationTag from '../ReputationTag';
-import CertifiedUlogger from '../CertifiedUlogger';
+import CertifiedFarmr from '../CertifiedFarmr';
 import { getHtml } from './Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import StoryDeleted from './StoryDeleted';
@@ -390,8 +390,8 @@ class StoryFull extends React.Component {
             <Link to={`/@${post.author}`}>
               <span className="username">{post.author}</span>
               <ReputationTag reputation={post.author_reputation} />
-              {postState.isCertifiedUlogger &&
-                <CertifiedUlogger />
+              {postState.isCertifiedFarmr &&
+                <CertifiedFarmr />
               }
             </Link>
             <BTooltip
@@ -493,7 +493,7 @@ class StoryFull extends React.Component {
                 .filter(_.isString)
                 .map(tag => <Topic key={tag} name={tag} />)}
               <div style={{ flex: '1 0 auto' }} />
-              {postState.isCertifiedUlogger &&
+              {postState.isCertifiedFarmr &&
                 <Button
                   size="small"
                   style={{ alignSelf: 'center', flex: '0 1 auto'}}

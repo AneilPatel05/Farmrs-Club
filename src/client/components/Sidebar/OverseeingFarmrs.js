@@ -12,7 +12,7 @@ import './InterestingPeople.less';
 import './SidebarContentBlock.less';
 
 @withRouter
-class OverseeingUloggers extends React.Component {
+class OverseeingFarmrs extends React.Component {
   static defaultProps = {
     authenticatedUser: {
       name: '',
@@ -91,7 +91,7 @@ class OverseeingUloggers extends React.Component {
               }}
             >
               <i className="iconfont icon-group SidebarContentBlock__icon" />{' '}
-              <FormattedMessage id="overseeing_uloggers" defaultMessage="Overseeing Uloggers" />
+              <FormattedMessage id="overseeing_farmrs" defaultMessage="Overseeing Farmrs" />
               <button
                 onClick={this.getUlogOverseers}
                 className="InterestingPeople__button-refresh"
@@ -125,4 +125,4 @@ class OverseeingUloggers extends React.Component {
   }
 }
 
-export default OverseeingUloggers;
+export default OverseeingFarmrs;
