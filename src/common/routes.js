@@ -27,7 +27,7 @@ import Post from '../client/post/Post';
 import Page from '../client/feed/Page';
 import Discover from '../client/discover/Discover';
 import Search from '../client/search/Search';
-import Ulogging from '../client/ulogging/Ulogging';
+import Farming from '../client/farming/Farming';
 import Grow from '../client/grow/Grow';
 import CreateCommunity from '../client/community/CreateCommunity';
 import Notifications from '../client/notifications/Notifications';
@@ -163,8 +163,8 @@ const routes = [
         component: Search,
       },
       {
-        path: '/(ulogging|ulog-knowledge-bank|ulog-fanlove|surpassinggoogle)',
-        component: Ulogging,
+        path: '/(farming|ulog-knowledge-bank|ulog-fanlove|surpassinggoogle)',
+        component: Farming,
       },
       {
         path: '/grow',

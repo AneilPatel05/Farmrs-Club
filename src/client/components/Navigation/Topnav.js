@@ -172,7 +172,7 @@ class Topnav extends React.Component {
       >
         <Menu selectedKeys={[]} className="Topnav__menu-container__menu" mode="horizontal">
           <Menu.Item key="editor"  className="Topnav__item--badge">
-            <Link to={'/ulogging'} className="Topnav__link Topnav__link--action">
+            <Link to={'/farming'} className="Topnav__link Topnav__link--action">
                 <i className="iconfont icon-write" />
             </Link>
           </Menu.Item>

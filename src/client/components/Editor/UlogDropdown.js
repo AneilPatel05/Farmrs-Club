@@ -21,7 +21,7 @@ const menu = (
 const UlogDropdown = ({ intl }) => (
   <Dropdown overlay={menu} trigger={['click']}>
     <a className="ant-dropdown-link" href="#">
-      Try More #ulogging? <Icon type="down" />
+      Try More #farming? <Icon type="down" />
     </a>
   </Dropdown>
 );

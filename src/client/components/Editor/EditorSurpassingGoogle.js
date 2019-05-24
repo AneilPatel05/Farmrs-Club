@@ -151,7 +151,7 @@ class EditorSurpassingGoogle extends React.Component {
       callback(
         intl.formatMessage({
           id: 'ulog_not_topic',
-          defaultMessage: '#ulog must be the first tag for posts.',
+          defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
     }
@@ -160,7 +160,7 @@ class EditorSurpassingGoogle extends React.Component {
       callback(
         intl.formatMessage({
           id: 'topics_error_count',
-          defaultMessage: 'You must add 1 to 4 topics with #ulog as the first.',
+          defaultMessage: 'You must add 1 to 4 topics with #farmr as the first.',
         }),
       );
     }

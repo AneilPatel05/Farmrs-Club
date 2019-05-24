@@ -40,7 +40,7 @@ Many times, we **rigamarole for years** seeking that *'ever-missing piece of the
 `
 
 export const thirtyMinuteSymposium = `
-**The ulogs.org ecosystem seeks to unite every steem community**, creating balance in the steem ecosystem. We are doing this using [ulog-subtags](https://ulogs.org/utopian-io/@surpassinggoogle/task-request-add-core-features-and-communities-to-ulogs-org-880-steem-bounty-and-more), which in turn grow into [ulog-communities](https://ulogs.org/utopian-io/@surpassinggoogle/task-request-add-core-features-and-communities-to-ulogs-org-880-steem-bounty-and-more) e.g [#ulog-helpie](https://ulogs.org/ulog-helpie), [#ulog-steemmonsters](https://ulogs.org/ulog-steemmonsters), [#ulog-actifit](https://ulogs.org/ulog-actifit) etc 
+**The ulogs.org ecosystem seeks to unite every steem community**, creating balance in the steem ecosystem. We are doing this using [ulog-subtags](https://ulogs.org/utopian-io/@surpassinggoogle/task-request-add-core-features-and-communities-to-ulogs-org-880-steem-bounty-and-more), which in turn grow into [ulog-communities](https://ulogs.org/utopian-io/@surpassinggoogle/task-request-add-core-features-and-communities-to-ulogs-org-880-steem-bounty-and-more) e.g [#farmr-helpie](https://ulogs.org/ulog-helpie), [#farmr-steemmonsters](https://ulogs.org/ulog-steemmonsters), [#farmr-actifit](https://ulogs.org/ulog-actifit) etc 
 
 &nbsp;
 &nbsp;
@@ -58,7 +58,7 @@ Check out our list to **find out what our 'certified farmrs' have in stock for y
 `
 
 export const extraConfidence = `
-Relegate reservations and reach out to us. We will seek ways to boost your confidence. [#ulog](https://ulogs.org/) represents a daily endeavor. On ulogs.org, each day carries its own freshness. **Thus, we are dynamically looking for ways to be your 'true fan'.**
+Relegate reservations and reach out to us. We will seek ways to boost your confidence. [#farmr](https://ulogs.org/) represents a daily endeavor. On ulogs.org, each day carries its own freshness. **Thus, we are dynamically looking for ways to be your 'true fan'.**
 `
 
 export const hardToExplainAilment = `
@@ -70,5 +70,5 @@ export const sendUsSomething = `
 `
 
 export const inspireUs = `
-[#ulog](https://ulogs.org/) is a conscious effort to 'mine the human' into its awesomest version. This has to be a daily endeavor. You can inspire us. We need it too. Send us [ulogifs](https://ulogs.org/created/ulogifs), [ulog-memes](https://ulogs.org/created/ulog-memes), [ulog-quotes](https://ulogs.org/created/ulog-quotes), [ulography](https://ulogs.org/created/ulography) etc for the sole intention of inspiring us. **Courtesy of your own shine, we can find some shine too!**
+[#farmr](https://ulogs.org/) is a conscious effort to 'mine the human' into its awesomest version. This has to be a daily endeavor. You can inspire us. We need it too. Send us [ulogifs](https://ulogs.org/created/ulogifs), [ulog-memes](https://ulogs.org/created/ulog-memes), [ulog-quotes](https://ulogs.org/created/ulog-quotes), [ulography](https://ulogs.org/created/ulography) etc for the sole intention of inspiring us. **Courtesy of your own shine, we can find some shine too!**
 `

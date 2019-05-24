@@ -151,7 +151,7 @@ class EditorMain extends React.Component {
       callback(
         intl.formatMessage({
           id: 'ulog_not_topic',
-          defaultMessage: '#ulog must be the first tag for posts.',
+          defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
     }
@@ -160,7 +160,7 @@ class EditorMain extends React.Component {
       callback(
         intl.formatMessage({
           id: 'topics_error_count',
-          defaultMessage: 'You must add 1 to 4 topics with #ulog as the first.',
+          defaultMessage: 'You must add 1 to 4 topics with #farmr as the first.',
         }),
       );
     }
@@ -330,8 +330,8 @@ class EditorMain extends React.Component {
           )}
         </Form.Item>
 <div>
-Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#ulog" from among the tags in the Hashtags box.
-Please help us as we try to reserve #ulog, only for ULOGs. (If your post is a ULOG, you will not have cheetah-worries etc)
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#farmr" from among the tags in the Hashtags box.
+Please help us as we try to reserve #farmr, only for ULOGs. (If your post is a ULOG, you will not have cheetah-worries etc)
 Want to "mine the human" some more, you can also try one of our specialized editors above!!!
 </div>
         <Form.Item>

@@ -41,13 +41,13 @@ class UlogCaption extends React.Component {
         <br />
         <b>
           Join the movement! Be "true fans" on{' '}
-          <a href="https://ulogs.org/created/ulog-quotes">#ulog-quotes</a>! You can create{' '}
-          <a href="https://ulogs.org/created/ulog-quotes">#ulog-quotes</a> right now by using{' '}
+          <a href="https://ulogs.org/created/ulog-quotes">#farmr-quotes</a>! You can create{' '}
+          <a href="https://ulogs.org/created/ulog-quotes">#farmr-quotes</a> right now by using{' '}
           <a href="https://ulogs.org/ulog-quotes">This Editor</a>! Join us on{' '}
           <a href="https://discord.gg/QFaFj87">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @farmrs who oversee #ulog-quotes currently:<br />
+          Verified/Certified @farmrs who oversee #farmr-quotes currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -76,15 +76,15 @@ class UlogCaption extends React.Component {
 
     const ulogHowtoCaption = (
       <span>
-        We like to reward #ulogging contributions born solely out of{' '}
+        We like to reward #farming contributions born solely out of{' '}
         <b>
           <i>"your experience" (per day)</i>
         </b>. We seek to incentivize you to learn something new (per day), for the sake of
-        #ulogging.<br />
+        #farming.<br />
         It's simple.{' '}
         <b>
           <i>
-            When you add <a href="https://ulogs.org/created/ulog">#ulog</a> to any existing concept
+            When you add <a href="https://ulogs.org/created/ulog">#farmr</a> to any existing concept
             etc an existing concept suddenly turns out all fresh.
           </i>
         </b>
@@ -92,17 +92,17 @@ class UlogCaption extends React.Component {
         <br />
         Simply use <a href="https://ulogs.org/ulog-howto">This Editor</a> to contribute to the
         Ulog-KnowledgeBank, freshly-made{' '}
-        <a href="https://ulogs.org/created/ulog-howto">#ulog-HOWTO</a>(s) born solely out of{' '}
+        <a href="https://ulogs.org/created/ulog-howto">#farmr-HOWTO</a>(s) born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
         </b>.<br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-howto">#ulog-howto</a>{' '}
+          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-howto">#farmr-howto</a>{' '}
           daily! Join its community on <a href="https://discord.gg/EkynDXt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
-          Verified/Certified @farmrs who oversee #ulog-howto currently:<br />
+          Verified/Certified @farmrs who oversee #farmr-howto currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>Coming Soon!!!</li>
           </ul>
@@ -112,34 +112,34 @@ class UlogCaption extends React.Component {
 
     const ulogDiyCaption = (
       <span>
-        We like to reward #ulogging contributions born solely out of{' '}
+        We like to reward #farming contributions born solely out of{' '}
         <b>
           <i>"your experience" (per day)</i>
         </b>. We seek to incentivize you to learn something new (per day), for the sake of
-        #ulogging.<br />
+        #farming.<br />
         It's simple.{' '}
         <b>
           <i>
-            When you add <a href="https://ulogs.org/created/ulog">#ulog</a> to any existing concept
+            When you add <a href="https://ulogs.org/created/ulog">#farmr</a> to any existing concept
             etc an existing concept suddenly turns out all fresh.
           </i>
         </b>
         <br />
         <br />
         Simply use <a href="https://ulogs.org/ulog-diy">This Editor</a> to contribute to the
-        Ulog-KnowledgeBank, freshly-made <a href="https://ulogs.org/created/ulog-diy">#ulog-DIY</a>(s)
+        Ulog-KnowledgeBank, freshly-made <a href="https://ulogs.org/created/ulog-diy">#farmr-DIY</a>(s)
         born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
         </b>.<br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-diy">#ulog-diy</a>{' '}
+          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-diy">#farmr-diy</a>{' '}
           daily! Join its community on <a href="https://discord.gg/qyY6hAQ">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-diy">#ulog-diy</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-diy">#farmr-diy</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
           </ul>
@@ -157,7 +157,7 @@ class UlogCaption extends React.Component {
         <span className="bold-italic">"lights" inside every tunnel.</span>
         <br /> He is SurpassingGoogle by means of the Teardrops SMTs, which seeks to reward{' '}
         <span className="bold-italic">"proof of tears".</span> He is helping to bring forth the{' '}
-        <span className="bold-italic">art of #ulogging,</span> an entire curriculum that{' '}
+        <span className="bold-italic">art of #farming,</span> an entire curriculum that{' '}
         <span className="bold-italic">mines the human "into its awesomest version".</span> <br />
         Simply use <a href="https://ulogs.org/ulog-surpassinggoogle">This Editor</a> to "love him
         like crazy; to emulate him; to learn about him, to be "true fans" of him, to share memories
@@ -165,12 +165,12 @@ class UlogCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-surpassinggoogle">#ulog-surpassinggoogle</a>{' '}
+          <a href="https://ulogs.org/created/ulog-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
           daily! Join its community on <a href="https://discord.gg/2qTW6XV">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-surpassinggoogle">#ulog-surpassinggoogle</a>{' '}
+          <a href="https://ulogs.org/created/ulog-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -263,12 +263,12 @@ class UlogCaption extends React.Component {
         memories with him; to reach out to him etc (per day) <br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-ned">#ulog-ned</a>{' '}
+          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-ned">#farmr-ned</a>{' '}
           daily! Join its community on <a href="https://discord.gg/Up8eMGa">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-ned">#ulog-ned</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-ned">#farmr-ned</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
           </ul>
@@ -279,31 +279,31 @@ class UlogCaption extends React.Component {
     const ulographyCaption = (
       <span>
         <b>Ulography</b>: This is the Ulog-generated hashtag for (Ulog + Photography). <br />
-        <a href="https://ulogs.org/created/ulography">#ulography</a> allows you to contribute (&
+        <a href="https://ulogs.org/created/ulography">#farmrraphy</a> allows you to contribute (&
         curate) <b>photographs created by "YOU" (per day)</b> and it is already birthing a{' '}
         <a href="https://discord.gg/mWVYjxc">growing community of "true fans"</a>. <br />
-        It's simple! When you add <a href="https://ulogs.org/created/ulog">#ulog</a> to any existing
+        It's simple! When you add <a href="https://ulogs.org/created/ulog">#farmr</a> to any existing
         concept etc an existing concept suddenly turns out all fresh. (A major essence of the{' '}
-        <a href="https://ulogs.org/created/ulog">#ulog</a> movement is to gift to the internet,
+        <a href="https://ulogs.org/created/ulog">#farmr</a> movement is to gift to the internet,
         instead of resource from it, in a bid to reshape it.) <br />
-        To create a Ulog under "<a href="https://ulogs.org/created/ulography">#ulography</a>",
+        To create a Ulog under "<a href="https://ulogs.org/created/ulography">#farmrraphy</a>",
         simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">#ulog</a>"
-        as your 1st hashtag & "<a href="https://ulogs.org/created/ulography">#ulography</a>" as your
+        then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">#farmr</a>"
+        as your 1st hashtag & "<a href="https://ulogs.org/created/ulography">#farmrraphy</a>" as your
         2nd hashtag. You can then add other hashtags e.g your "#location" etc. Don't forget to add
         "(Ulog + Photography)" or "ULOG (Photography)" somewhere IN-TITLE. <br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://ulogs.org/created/ulography">#ulography</a>{' '}
+          Become "true fans"! Visit <a href="https://ulogs.org/created/ulography">#farmrraphy</a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/mWVYjxc">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulography">#ulography</a> currently:<br />
+          <a href="https://ulogs.org/created/ulography">#farmrraphy</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -333,7 +333,7 @@ class UlogCaption extends React.Component {
     const ulogGratefulvibesCaption = (
       <span>
         <a href="https://ulogs.org/created/ulog-gratefulvibes">
-          <b>#ulog-gratefulvibes</b>
+          <b>#farmr-gratefulvibes</b>
         </a>: the <b>Ulog-subtag for (Ulog + GratefulVibes)</b>. <br />
         It allows you to ulog about <b>your gratefulness (per day)</b>, also as a means to{' '}
         <b>"gift to the internet"</b>, by <b>not resourcing from it</b>; thus, reshaping it. <br />{' '}
@@ -341,24 +341,24 @@ class UlogCaption extends React.Component {
         <b>each day, "You" in it</b>, carries its own <b>gratefulness</b>. <br />
         It's simple! When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to any "existing concept" etc "an existing concept suddenly turns out all fresh".{' '}
         <b>
-          Let's use the art of <a href="https://ulogs.org/created/ulogging">#ulogging</a>, to pay
+          Let's use the art of <a href="https://ulogs.org/created/farming">#farming</a>, to pay
           forward a GratefulVibe today!
         </b>{' '}
         <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-gratefulvibes">
-          <b>#ulog-gratefulvibes</b>
+          <b>#farmr-gratefulvibes</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-gratefulvibes">
-          <b>#ulog-gratefulvibes</b>
+          <b>#farmr-gratefulvibes</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://ulogs.org/created/gratefulvibes">
           <b>#gratefulvibes</b>
         </a>" etc. Don't forget to{' '}
@@ -367,7 +367,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-gratefulvibes">
-            <b>#ulog-gratefulvibes</b>
+            <b>#farmr-gratefulvibes</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/fpthaj2">
@@ -380,7 +380,7 @@ class UlogCaption extends React.Component {
           <br />
           Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-gratefulvibes">
-            #ulog-gratefulvibes
+            #farmr-gratefulvibes
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -436,14 +436,14 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-resolutions">
-          <b>#ulog-resolutions</b>
+          <b>#farmr-resolutions</b>
         </a>: is the Ulog-subtag for <b>(Ulog + Resolutions)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
         <br />
-        Yes, <b>ulogging</b> can be as fun and simple as telling us about <b>your resolutions</b>.
+        Yes, <b>farming</b> can be as fun and simple as telling us about <b>your resolutions</b>.
         Basically,{' '}
         <b>
           <i>not a day should pass by without your Ulogacies in it</i>
@@ -453,15 +453,15 @@ class UlogCaption extends React.Component {
         </b>. <br />
         <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-resolutions">
-          <b>#ulog-resolutions</b>
+          <b>#farmr-resolutions</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-resolutions">
-          <b>#ulog-resolutions</b>
+          <b>#farmr-resolutions</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Resolutions):" somewhere IN-TITLE</b> e.g: <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -469,8 +469,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Resolutions): Today, I Resolve To Climb 2 Banana Trees...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-resolutions">#ulog-resolutions</a>, etc.]
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
               </b>
             </font>
           </li>
@@ -478,8 +478,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Resolutions): I Didn't End Up Climbing Because I Ate 2
-                Bananas...[TAGS-Order: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-resolutions">#ulog-resolutions</a>, etc.]
+                Bananas...[TAGS-Order: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
               </b>
             </font>
           </li>
@@ -488,7 +488,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-resolutions">
-            <b>#ulog-resolutions</b>
+            <b>#farmr-resolutions</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/ZBUDV66">
@@ -501,7 +501,7 @@ class UlogCaption extends React.Component {
           <br />
           Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-resolutions">
-            #ulog-resolutions
+            #farmr-resolutions
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -519,25 +519,25 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>: is the Ulog-subtag for <b>(Ulog + Memes)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
         <br />
-        Yes, <b>ulogging</b> can be as fun and simple as creating your very own{' '}
+        Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
         <a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>{' '}
         (per day). With your{' '}
         <a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>,{' '}
         <b>
           <i>not a day passes by without your Ulogacies in it</i>
         </b>. <br />
-        <b>In the art of ulogging</b>, we want to{' '}
+        <b>In the art of farming</b>, we want to{' '}
         <b>
           <i>"mine the human"</i>
         </b>. We also want to{' '}
@@ -551,19 +551,19 @@ class UlogCaption extends React.Component {
         at least once a day, in a bid to <b>reshape the very internet</b>. So, be inventive,{' '}
         <b>"YOU"</b>, "true celebrity" etc by creating your{' '}
         <a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>, solely out of your <b>"freshly-created" images, graphics and text (per day)</b>.<br />
         <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-memes">
-          <b>#ulog-memes</b>
+          <b>#farmr-memes</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Memes):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -571,8 +571,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Memes): A Fly Cannot Bird...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-memes">#ulog-memes</a>, etc.]
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-memes">#farmr-memes</a>, etc.]
               </b>
             </font>
           </li>
@@ -581,7 +581,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-memes">
-            <b>#ulog-memes</b>
+            <b>#farmr-memes</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/UAYS7Yp">
@@ -593,7 +593,7 @@ class UlogCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-memes">#ulog-memes</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-memes">#farmr-memes</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -633,10 +633,10 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-blocktrades">
-          <b>#ulog-blocktrades</b>
+          <b>#farmr-blocktrades</b>
         </a>: is the Ulog-subtag for <b>(Ulog + Blocktrades.us)</b>. Basically,{' '}
         <a href="https://ulogs.org/created/ulog-blocktrades">
-          <b>#ulog-blocktrades</b>
+          <b>#farmr-blocktrades</b>
         </a>{' '}
         incites you to record your experience etc (per day) with{' '}
         <a href="https://ulogs.org/@blocktrades">
@@ -651,9 +651,9 @@ class UlogCaption extends React.Component {
         </font>{' '}
         <br />
         <font size="2">
-          By ulogging under{' '}
+          By farming under{' '}
           <a href="https://ulogs.org/created/ulog-blocktrades">
-            <b>#ulog-blocktrades</b>
+            <b>#farmr-blocktrades</b>
           </a>, you can give back, emulate their enterprise, be "true fan", reach out, share
           experiences, give feedback, give suggestions etc. Yes, on{' '}
           <a href="https://ulogs.org">
@@ -678,15 +678,15 @@ class UlogCaption extends React.Component {
         <br />
         <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-blocktrades">
-          <b>#ulog-blocktrades</b>
+          <b>#farmr-blocktrades</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-blocktrades">
-          <b>#ulog-blocktrades</b>
+          <b>#farmr-blocktrades</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://ulogs.org/created/blocktrades">#blocktrades</a> etc. Don't forget to{' '}
         <b>add "(Ulog + Blocktrades):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -695,8 +695,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Blocktrades.us): How Blocktrades Refunded Me...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-blocktrades">#ulog-blocktrades</a>,{' '}
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://ulogs.org/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -705,8 +705,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Blocktrades.us): Thank You Blocktrades For Blocks Of Upvotes...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-blocktrades">#ulog-blocktrades</a>,{' '}
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://ulogs.org/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -715,8 +715,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Blocktrades.us): How Blocktrades Expand Base In My Location...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-blocktrades">#ulog-blocktrades</a>,{' '}
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://ulogs.org/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -726,7 +726,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-blocktrades">
-            <b>#ulog-blocktrades</b>
+            <b>#farmr-blocktrades</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/xXgMYpS">
@@ -739,7 +739,7 @@ class UlogCaption extends React.Component {
           <br />
           Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-blocktrades">
-            #ulog-blocktrades
+            #farmr-blocktrades
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -770,20 +770,20 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-showerthoughts">
-          <b>#ulog-showerthoughts</b>
+          <b>#farmr-showerthoughts</b>
         </a>: is the Ulog-subtag for <b>(Ulog + Showerthoughts)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
         <br />
         We can turn even our showerthoughts into a more conscious, directional, fun, testimonial,
-        self-developing, world-adjusting, historical "endeavor" by ulogging about these (per day).{' '}
+        self-developing, world-adjusting, historical "endeavor" by farming about these (per day).{' '}
         <br />
-        Yes, <b>ulogging</b> can be as fun and simple as creating your very own #ulog-showerthoughts
+        Yes, <b>farming</b> can be as fun and simple as creating your very own #farmr-showerthoughts
         (per day). With your{' '}
         <a href="https://ulogs.org/created/ulog-showerthoughts">
-          <b>#ulog-showerthoughts</b>
+          <b>#farmr-showerthoughts</b>
         </a>,{' '}
         <b>
           <i>not a day passes by without your Ulogacies in it</i>
@@ -798,15 +798,15 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-showerthoughts">
-          <b>#ulog-showerthoughts</b>
+          <b>#farmr-showerthoughts</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-showerthoughts">
-          <b>#ulog-showerthoughts</b>
+          <b>#farmr-showerthoughts</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Showerthoughts):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
         <br />
@@ -815,8 +815,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Showerthoughts): What If A Fly Could Bird...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-showerthoughts">#ulog-showerthoughts</a>,
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -825,8 +825,8 @@ class UlogCaption extends React.Component {
             <font size="2">
               <b>
                 (Ulog + Showerthoughts): Let Me Build My Own Country...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-showerthoughts">#ulog-showerthoughts</a>,
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -834,9 +834,9 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Showerthoughts): My Plan To Make Ned Try Ulogging...[TAGS-Order:{' '}
-                <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                <a href="https://ulogs.org/created/ulog-showerthoughts">#ulog-showerthoughts</a>,
+                (Ulog + Showerthoughts): My Plan To Make Ned Try Farming...[TAGS-Order:{' '}
+                <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                <a href="https://ulogs.org/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -846,7 +846,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-showerthoughts">
-            <b>#ulog-showerthoughts</b>
+            <b>#farmr-showerthoughts</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/JTm4BSg">
@@ -858,7 +858,7 @@ class UlogCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-showerthoughts">#ulog-showerthoughts</a>{' '}
+          <a href="https://ulogs.org/created/ulog-showerthoughts">#farmr-showerthoughts</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -892,23 +892,23 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-snookmademedoit">
-          <b>#ulog-snookmademedoit</b>
+          <b>#farmr-snookmademedoit</b>
         </a>: is the Ulog-subtag for <b>(Ulog + SnookMadeMeDoIt)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
         <br />
-        Yes, <b>ulogging</b> can be as fun and simple as creating your very own{' '}
+        Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
         <a href="https://ulogs.org/created/ulog-snookmademedoit">
-          <b>#ulog-snookmademedoit</b>
+          <b>#farmr-snookmademedoit</b>
         </a>{' '}
         Ulogs (per day). This way,{' '}
         <b>
           <i>not a day passes by without your Ulogacies in it</i>
         </b>. <br />
         <a href="https://ulogs.org/created/ulog-snookmademedoit">
-          <b>#ulog-snookmademedoit</b>
+          <b>#farmr-snookmademedoit</b>
         </a>{' '}
         will bear forth an entire fun community of Farmrs. Yes, you can ulog about things{' '}
         <a href="https://ulogs.org/@snook">
@@ -970,15 +970,15 @@ class UlogCaption extends React.Component {
         </a>{' '}
         to ulog about how you <b>"made them do it"</b>. <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-snookmademedoit">
-          <b>#ulog-snookmademedoit</b>
+          <b>#farmr-snookmademedoit</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-snookmademedoit">
-          <b>#ulog-snookmademedoit</b>
+          <b>#farmr-snookmademedoit</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + SnookMadeMeDoIt):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
         <br />
@@ -990,8 +990,8 @@ class UlogCaption extends React.Component {
                   (Ulog + SnookMadeMeDoIt): @baasteemit Got Me To Say My First "baa"...<u>
                     TAGS-Order:
                   </u>{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-snookmademedoit">#ulog-snookmademedoit</a>,
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-snookmademedoit">#farmr-snookmademedoit</a>,
                   etc.]
                 </b>
               </font>
@@ -1002,7 +1002,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-snookmademedoit">
-            <b>#ulog-snookmademedoit</b>
+            <b>#farmr-snookmademedoit</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/wTmMt8W">
@@ -1014,7 +1014,7 @@ class UlogCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-snookmademedoit">#ulog-snookmademedoit</a>{' '}
+          <a href="https://ulogs.org/created/ulog-snookmademedoit">#farmr-snookmademedoit</a>{' '}
           currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1079,10 +1079,10 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-utopian">
-          <b>#ulog-utopian</b>
+          <b>#farmr-utopian</b>
         </a>: is the Ulog-subtag for <b>(Ulog + Utopian.io)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
         <br />
@@ -1107,9 +1107,9 @@ class UlogCaption extends React.Component {
           </font>{' '}
           <br />
           <font size="2">
-            By ulogging under{' '}
+            By farming under{' '}
             <a href="https://ulogs.org/created/ulog-utopian">
-              <b>#ulog-utopian</b>
+              <b>#farmr-utopian</b>
             </a>, you can give back, emulate their enterprise, be "true fan", reach out, share
             experiences, give feedback, give suggestions etc. Yes, on{' '}
             <a href="https://ulogs.org">
@@ -1135,15 +1135,15 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         To post a Ulog under "<a href="https://ulogs.org/created/ulog-utopian">
-          <b>#ulog-utopian</b>
+          <b>#farmr-utopian</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-utopian">
-          <b>#ulog-utopian</b>
+          <b>#farmr-utopian</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://ulogs.org/created/utopian-io">"#utopian-io"</a> etc. Don't forget to{' '}
         <b>add "(Ulog + Utopian.io):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -1153,8 +1153,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Utopian.io): @utopian-io Visited My Ulog Today...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-utopian">#ulog-utopian</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://ulogs.org/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1163,8 +1163,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Utopian.io): How Utopian.io Can Expand It Reach In My
-                  Location...[TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-utopian">#ulog-utopian</a>,{' '}
+                  Location...[TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://ulogs.org/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1173,8 +1173,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Utopian.io): I Spoke To @elear Of Utopian.io And He Wants To Support My
-                  Idea...[TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-utopian">#ulog-utopian</a>,{' '}
+                  Idea...[TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://ulogs.org/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1185,7 +1185,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulog-utopian">
-            <b>#ulog-utopian</b>
+            <b>#farmr-utopian</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/JDugtXg">
@@ -1197,7 +1197,7 @@ class UlogCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-utopian">#ulog-utopian</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-utopian">#farmr-utopian</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <b>[Coming Soon!!!]</b>
@@ -1270,16 +1270,16 @@ class UlogCaption extends React.Component {
         </div>
         <br />
         To post a Ulog under{' '}
-        <a href="https://ulogs.org/created/ulog-thejohalfiles">#ulog-thejohalfiles</a>, simply use{' '}
+        <a href="https://ulogs.org/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-thejohalfiles">
-          <b>#ulog-thejohalfiles</b>
+          <b>#farmr-thejohalfiles</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + TheJohalFiles):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
@@ -1288,8 +1288,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + TheJohalFiles): My Attempt To Get Him To Do His First Ulog...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#ulog-thejohalfiles</a>{' '}
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1298,8 +1298,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + TheJohalFiles): How TheJohalfiles Left A File On My Desk...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#ulog-thejohalfiles</a>{' '}
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1308,8 +1308,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + TheJohalFiles): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#ulog-thejohalfiles</a>{' '}
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1318,14 +1318,14 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-thejohalfiles">#ulog-thejohalfiles</a> daily, to
+          <a href="https://ulogs.org/created/ulog-thejohalfiles">#farmr-thejohalfiles</a> daily, to
           curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/Eg8uCZB">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-thejohalfiles">
-            #ulog-thejohalfiles
+            #farmr-thejohalfiles
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -1343,25 +1343,25 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>: is the Ulog-subtag for <b>(Ulog + GIFs)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
         <br />
-        Yes, <b>ulogging</b> can be as fun and simple as creating your very own{' '}
+        Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
         <a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>{' '}
         (per day). With your{' '}
         <a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>,{' '}
         <b>
           <i>not a day passes by without your Ulogacies in it</i>
         </b>. <br />
-        <b>In the art of ulogging</b>, we want to{' '}
+        <b>In the art of farming</b>, we want to{' '}
         <b>
           <i>"mine the human"</i>
         </b>. We also want to{' '}
@@ -1375,20 +1375,20 @@ class UlogCaption extends React.Component {
         at least once a day, in a bid to <b>reshape the very internet</b>. So, be inventive,{' '}
         <b>"YOU"</b>, "true celebrity" etc by creating your very own{' '}
         <a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>, solely out of your{' '}
         <b>"freshly-created" images, graphics, videos and text (per day)</b>.<br />
         <br />
         To post a Ulog under "<a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>", simply click on{' '}
         <a href="https://ulogs.org/editor">
           <b>This Editor;</b>
         </a>{' '}
         then, make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulogifs">
-          <b>#ulogifs</b>
+          <b>#farmrifs</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + GIFs):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
@@ -1397,8 +1397,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + GIFs): A Fly Cannot Bird...[TAGS-Order:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulogifs">#ulogifs</a>, etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulogifs">#farmrifs</a>, etc.]
                 </b>
               </font>
             </li>
@@ -1408,7 +1408,7 @@ class UlogCaption extends React.Component {
         <b>
           Become "true fans"! Visit{' '}
           <a href="https://ulogs.org/created/ulogifs">
-            <b>#ulogifs</b>
+            <b>#farmrifs</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/UAYS7Yp">
@@ -1420,7 +1420,7 @@ class UlogCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulogifs">#ulogifs</a> currently:<br />
+          <a href="https://ulogs.org/created/ulogifs">#farmrifs</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1511,7 +1511,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -1519,9 +1519,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-surfyogi">
-          <b>#ulog-surfyogi</b>
+          <b>#farmr-surfyogi</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + SurfYogi):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
@@ -1530,8 +1530,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + SurfYogi): My Attempt To Get Him To Do His First Ulog...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1539,8 +1539,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + SurfYogi): I Sent SurfYogi A White Tshirt...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1548,8 +1548,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + SurfYogi): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1557,13 +1557,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/EpVxmW4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-surfyogi">#ulog-surfyogi</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-surfyogi">#farmr-surfyogi</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1657,7 +1657,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -1665,9 +1665,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-bobbylee">
-          <b>#ulog-bobbylee</b>
+          <b>#farmr-bobbylee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + BobbyLee):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -1676,8 +1676,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + BobbyLee): My Attempt To Get Him To Do His First Ulog. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1685,8 +1685,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + BobbyLee): I Wrote Bobby A "Thank You" Ulog And He Said "Wow".
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1694,8 +1694,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + BobbyLee): I Drew A BobbyLee Portrait From My Image Nation. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1703,13 +1703,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/PEfzyM4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-bobbylee">#ulog-bobbylee</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-bobbylee">#farmr-bobbylee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1820,16 +1820,16 @@ class UlogCaption extends React.Component {
         </div>
         <br />
         To post a Ulog under{' '}
-        <a href="https://ulogs.org/created/ulog-stellabelle">#ulog-stellabelle</a>, simply use{' '}
+        <a href="https://ulogs.org/created/ulog-stellabelle">#farmr-stellabelle</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate her; to learn about her, to be <b>"true fans"</b> of her,
         to share memories with her; to reach out to her etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-stellabelle">
-          <b>#ulog-stellabelle</b>
+          <b>#farmr-stellabelle</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Stellabelle):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -1838,8 +1838,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Stellabelle): My Attempt To Get Her To Do Her First UloGIF. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-stellabelle">#ulog-stellabelle</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1847,8 +1847,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Stellabelle): I Created Some UloGIFs That I Am Sure She Will Like.
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-stellabelle">#ulog-stellabelle</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1856,8 +1856,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Stellabelle): Because Of Her, I Re-loved My Woman. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-stellabelle">#ulog-stellabelle</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1865,14 +1865,14 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-stellabelle">#ulog-stellabelle</a> daily, to
+          <a href="https://ulogs.org/created/ulog-stellabelle">#farmr-stellabelle</a> daily, to
           curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/b2NzBn8">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
           <a href="https://ulogs.org/created/ulog-stellabelle">
-            #ulog-stellabelle
+            #farmr-stellabelle
           </a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1978,7 +1978,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -1986,9 +1986,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate her; to learn about her, to be <b>"true fans"</b> of her,
         to share memories with her; to reach out to her etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-sweetsssj">
-          <b>#ulog-sweetsssj</b>
+          <b>#farmr-sweetsssj</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Sweetsssj):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -1997,8 +1997,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Sweetsssj): My Attempt To Get Her To Do Her First Ulog. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2006,8 +2006,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Sweetsssj): I Ulogged About Travel "Sweetsssj-Style". [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2015,8 +2015,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Sweetsssj): My Selfie-Moments With Sweetssj Earlier Today In Beijin.
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2024,13 +2024,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/xrbRM9Y">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-sweetsssj">#ulog-sweetsssj</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-sweetsssj">#farmr-sweetsssj</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2167,7 +2167,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -2175,9 +2175,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate him(er); to learn about him(er), to be <b>"true fans"</b>{' '}
         of him(er), to share memories with him(er); to reach out to him(er) etc <b>(per day)</b>.{' '}
         <br /> Make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-dimimp">
-          <b>#ulog-dimimp</b>
+          <b>#farmr-dimimp</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://ulogs.org/created/steemjet">
           #steemjet
         </a>" etc. Don't forget to <b>add "(Ulog + DimImp):" somewhere IN-TITLE</b>. See{' '}
@@ -2188,9 +2188,9 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + DimImp): My Attempt To Get @dimimp To Ulog. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a>{' '}
-                  <a href="https://ulogs.org/created/steemjet">#ulog-steemjet</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  <a href="https://ulogs.org/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2198,9 +2198,9 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + DimImp): What I Learned From @dimimp Today. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a>{' '}
-                  <a href="https://ulogs.org/created/steemjet">#ulog-steemjet</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  <a href="https://ulogs.org/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2208,22 +2208,22 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + DimImp): My Mentality Improved After An Encounter With @dimpimp.
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a>{' '}
-                  <a href="https://ulogs.org/created/steemjet">#ulog-steemjet</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  <a href="https://ulogs.org/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
           </ul>
         </div>
         <b>
-          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a>{' '}
+          Become "true fans"! Visit <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/EBRJxQM">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-dimimp">#ulog-dimimp</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-dimimp">#farmr-dimimp</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2332,7 +2332,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -2340,9 +2340,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-teamsteem">
-          <b>#ulog-teamsteem</b>
+          <b>#farmr-teamsteem</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + TeamSteem):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -2351,8 +2351,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + TeamSteem): My Attempt To Get @teamsteem To Ulog About Me. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2360,8 +2360,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + TeamSteem): My Selfie Moments With Him In Quebec. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2369,8 +2369,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Teamsteem): Thank You @teamsteem, For Making Me Do My First Pull-Up.
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2378,13 +2378,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/3jTA4Tt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-teamsteem">#ulog-teamsteem</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-teamsteem">#farmr-teamsteem</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2521,7 +2521,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a>,
+        To post a Ulog under <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
@@ -2529,9 +2529,9 @@ class UlogCaption extends React.Component {
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-kusknee">
-          <b>#ulog-kusknee</b>
+          <b>#farmr-kusknee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Kus-Knee):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -2540,8 +2540,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Kus-Knee): Today @kus-knee Told Me Why He Is Called The Old Dog.
-                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> etc.]
+                  [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2549,8 +2549,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Kus-Knee): I FaceTimed @kus-knee And Here Is What He Told Me About
-                  Entepreneurship. [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> etc.]
+                  Entepreneurship. [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2558,8 +2558,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Kus-Knee): I Love Steem Because I Found @kus-knee. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2567,13 +2567,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/SFYBHp5">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-kusknee">#ulog-kusknee</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-kusknee">#farmr-kusknee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2736,16 +2736,16 @@ class UlogCaption extends React.Component {
         </div>
         <br />
         To post a Ulog under{' '}
-        <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a>, simply use{' '}
+        <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
         use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-papapepper">
-          <b>#ulog-papapepper</b>
+          <b>#farmr-papapepper</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Ulog + Papa-Pepper):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
@@ -2754,8 +2754,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Papa-Pepper): A New Niche In Homesteading Discovered, Thanks To
-                  @papa-pepper [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> etc.]
+                  @papa-pepper [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2764,8 +2764,8 @@ class UlogCaption extends React.Component {
                 <b>
                   (Ulog + Papa-Pepper): "Applying Blockchain Technology To The Contest Economy"; I
                   Learned This From @papa-pepper [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2773,8 +2773,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Papa-Pepper): Hey @papa-pepper, What Do You Think About My New BackYard Of
-                  Peppers. [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> etc.]
+                  Peppers. [TAGS-ORDER: <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2782,13 +2782,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/M847Kvs">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-papapepper">#ulog-papapepper</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-papapepper">#farmr-papapepper</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2847,10 +2847,10 @@ class UlogCaption extends React.Component {
           <br />
         </div>
         <a href="https://ulogs.org/created/ulog-steemjet">
-          <b>#ulog-steemjet</b>
+          <b>#farmr-steemjet</b>
         </a>: is the Ulog-subtag for <b>(Ulog + SteemJet)</b>. When you add{' '}
         <a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept</b> suddenly turns out all{' '}
         <b>fresh.</b> <br />
@@ -2879,9 +2879,9 @@ class UlogCaption extends React.Component {
           <i>"true fan-hood"</i>
         </b>{' '}
         <br />
-        By ulogging under{' '}
+        By farming under{' '}
         <a href="https://ulogs.org/created/ulog-steemjet">
-          <b>#ulog-steemjet</b>
+          <b>#farmr-steemjet</b>
         </a>, you can{' '}
         <b>
           give back, emulate their enterprise, be "true fan", reach out, share experiences, give
@@ -2910,15 +2910,15 @@ class UlogCaption extends React.Component {
         </b>. <br /> <br />
         To post a Ulog under{' '}
         <a href="https://ulogs.org/created/ulog-steemjet">
-          <b>#ulog-steemjet</b>
+          <b>#farmr-steemjet</b>
         </a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://ulogs.org/editor">This Editor.</a>
         </span>{' '}
         Make sure to use the more popular "<a href="https://ulogs.org/created/ulog">
-          <b>#ulog</b>
+          <b>#farmr</b>
         </a>" as your 1st hashtag & "<a href="https://ulogs.org/created/ulog-steemjet">
-          <b>#ulog-steemjet</b>
+          <b>#farmr-steemjet</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://ulogs.org/created/steemjet">
           <b>#steemjet</b>
@@ -2930,8 +2930,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + Steemjet): "I Just Found Myself, Thanks To @steemjet". [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2939,8 +2939,8 @@ class UlogCaption extends React.Component {
               <font size="2">
                 <b>
                   (Ulog + SteemJet): How I Spent My Today As A SpaceForcer. [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2949,8 +2949,8 @@ class UlogCaption extends React.Component {
                 <b>
                   (Ulog + SteemJet): Applying Steem Technology To More "Wreck-It-Ralph Use. My
                   SteemJet Suggestion! [TAGS-ORDER:{' '}
-                  <a href="https://ulogs.org/created/ulog">#ulog</a>,{' '}
-                  <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> etc.]
+                  <a href="https://ulogs.org/created/ulog">#farmr</a>,{' '}
+                  <a href="https://ulogs.org/created/ulog-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2958,13 +2958,13 @@ class UlogCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> daily, to curate,
+          <a href="https://ulogs.org/created/ulog-steemjet">#farmr-steemjet</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/9Bhxtm">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://ulogs.org/created/ulog-steemjet">#ulog-steemjet</a> currently:<br />
+          <a href="https://ulogs.org/created/ulog-steemjet">#farmr-steemjet</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>

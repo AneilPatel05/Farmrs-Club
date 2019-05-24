@@ -150,7 +150,7 @@ class EditorUlogQuotes extends React.Component {
       callback(
         intl.formatMessage({
           id: 'ulog_not_topic',
-          defaultMessage: '#ulog must be the first tag for posts.',
+          defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
     }
@@ -159,7 +159,7 @@ class EditorUlogQuotes extends React.Component {
       callback(
         intl.formatMessage({
           id: 'topics_error_count',
-          defaultMessage: 'You must add 1 to 4 topics with #ulog as the first.',
+          defaultMessage: 'You must add 1 to 4 topics with #farmr as the first.',
         }),
       );
     }
@@ -221,35 +221,35 @@ class EditorUlogQuotes extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header='The "#ulog-quotes" Editor' key="1">
+            <Panel header='The "#farmr-quotes" Editor' key="1">
               <p>
               <b className="bold-italic">"We have all created quotes. We tend to quote others; we can quote ourselves too; we can have others quote us. We can have the world quote us. Let's have the world quote us!" @surpassinggoogle
               "Let's become reasons for the world to find glow. Let's be that light and let's move inside the tunnel. Let's bring that very light closer and inside, to the masses who seek the "end of the tunnel"". @surpassinggoogle</b>
 
-              <br/> #ulog represents <b className="bold-italic">"freshness per day"</b>. A means to gift to the internet each day and not resource from it; reshaping it with freshness. Thus, <b className="bold-italic">"#ulog-quotes"</b> will form a place to deposit freshly-invented quotes born of the histories & stories that we experience (per day); and <b className="bold-italic">"each day and "you" in it, carries its own freshness. <br/>
+              <br/> #farmr represents <b className="bold-italic">"freshness per day"</b>. A means to gift to the internet each day and not resource from it; reshaping it with freshness. Thus, <b className="bold-italic">"#farmr-quotes"</b> will form a place to deposit freshly-invented quotes born of the histories & stories that we experience (per day); and <b className="bold-italic">"each day and "you" in it, carries its own freshness. <br/>
 
-              <br/> "We will start an ever-ongoing movement that will create globally-renown quotes, quotable by the globe. We will use this means to leave our #ulogacies in the spaces". @surpassinggoogle</b> <br/>
+              <br/> "We will start an ever-ongoing movement that will create globally-renown quotes, quotable by the globe. We will use this means to leave our #farmracies in the spaces". @surpassinggoogle</b> <br/>
 
-              <blockquote style={{'border-left':'3px solid #a9a9a9', 'padding' : '0 10px', 'color' : '#a9a9a9'}}>Join the movement! Be "true fans" on #ulog-quotes! Create #ulog-quotes now! Join us on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.</blockquote>
+              <blockquote style={{'border-left':'3px solid #a9a9a9', 'padding' : '0 10px', 'color' : '#a9a9a9'}}>Join the movement! Be "true fans" on #farmr-quotes! Create #farmr-quotes now! Join us on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.</blockquote>
               </p>
             </Panel>
           </Collapse>
         </div>
         <div>
           <Collapse>
-            <Panel header='When/How/Why use the "#ulog-quotes" editor?/?/?' key="1">
+            <Panel header='When/How/Why use the "#farmr-quotes" editor?/?/?' key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
                 <li>When you have "a learning moment" within the day; you can capture it in a Ulog-Quote.</li>
                 <li>To capture "moments" within your day; you can create a Ulog-Quote.</li>
                 <li>When you want to summarize the entirety of your day, in a Ulog-Quote!</li>
-                <li>When you want to create tiny pieces of #ulogacies to marvel and re-marvel yourself, become quote-able by the globe and reach generations-yet-unborn; you can create #ulog-quotes.</li>
-                <li>When you want to attempt out-of-the-boxness during the "art of #ulogging".</li>
-                <li>Kindly integrate the word "ULOG" or "ULOGS" or "ULOGS.org" somewhere in the images, graphics, avatars etc used to create your #ulog-quote.</li>
-                <li>To code entire schools-of-thoughts into tinier capsules, for the sake of healing the world; you can create #ulog-quotes.</li>
+                <li>When you want to create tiny pieces of #farmracies to marvel and re-marvel yourself, become quote-able by the globe and reach generations-yet-unborn; you can create #farmr-quotes.</li>
+                <li>When you want to attempt out-of-the-boxness during the "art of #farming".</li>
+                <li>Kindly integrate the word "ULOG" or "ULOGS" or "ULOGS.org" somewhere in the images, graphics, avatars etc used to create your #farmr-quote.</li>
+                <li>To code entire schools-of-thoughts into tinier capsules, for the sake of healing the world; you can create #farmr-quotes.</li>
                 <li>To play a role in historical-history with your tiny-looking words.</li>
                 <li>To keeping steeming as difficult as 1, 2, 3.</li>
                 <li>To reshape the entire internet (per your-moment) with fresh pieces of you.</li>
-                <li>To attempt fresh-fun in the "<b className="bold-italic">art of #ulogging</b>".</li>
+                <li>To attempt fresh-fun in the "<b className="bold-italic">art of #farming</b>".</li>
                 <li>To create more testimonial use for fun.</li>
                 <li>etc</li>
               </ul>
@@ -259,20 +259,20 @@ class EditorUlogQuotes extends React.Component {
             <Panel header="Tips To Prowess" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
                 <li>Be yourself and as expressive as possible. The world and generations yet unborn will come here to dig from your ulog-experience.</li>
-                <li>Tell us the stories & histories behind your #ulog-quotes.</li>
-                <li>May your #ulog-quotes be fresh, born out of your experience, moments, that-moment etc (per day).</li>
-                <li>Recall that ULOGS are spanless! Thus, your #ulog-quotes can cover life; can be funny; can be playful etc</li>
+                <li>Tell us the stories & histories behind your #farmr-quotes.</li>
+                <li>May your #farmr-quotes be fresh, born out of your experience, moments, that-moment etc (per day).</li>
+                <li>Recall that ULOGS are spanless! Thus, your #farmr-quotes can cover life; can be funny; can be playful etc</li>
                 <li>Ultimately, you will know it, when you have created a Ulog-Quote. You will end up memorizing it, treasuring it, living by it. You will end up quoting yourself, then the world will end up quoting you.</li>
-                <li>In the art of #ulogging under #ulog-quotes, there is no need to resource from the internet. <b className="bold-italic">Keep all videos, images, sound, avatars fresh. As for images, be inventive/innovative. You can use simple applications like paint, autodraw.com etc or you can make it meme-style using <a href="https://imgur.com/memegen">https://imgur.com/memegen</a>. See sample image <a href="https://steemitimages.com/0x0/https://i.imgur.com/sy2A3LG.jpg" rel="nofollow">Here</a>. Let's gift to internet and re-shape it, with "YOU"!</b></li>
+                <li>In the art of #farming under #farmr-quotes, there is no need to resource from the internet. <b className="bold-italic">Keep all videos, images, sound, avatars fresh. As for images, be inventive/innovative. You can use simple applications like paint, autodraw.com etc or you can make it meme-style using <a href="https://imgur.com/memegen">https://imgur.com/memegen</a>. See sample image <a href="https://steemitimages.com/0x0/https://i.imgur.com/sy2A3LG.jpg" rel="nofollow">Here</a>. Let's gift to internet and re-shape it, with "YOU"!</b></li>
                 <li>Where possible, endeavor to add your location as one of your hashtags as well.</li>
                 <li>Relegate reservations, attempt out-of-the-boxness; "flaws allowed"!</li>
                 <li>Have fun but create more testimonial use for fun.</li>
                 <li>Every Ulog-Quote post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. Make the most of each post.</li>
-                <li>Remember that you have "<b className="bold-italic">you</b>" as your first audience, an audience of "true fans", an audience in the search engines and an audience of generations-yet-unborn. Use each Ulog-Quote to leave your #ulogacies in lights.</li>
-                <li>Be "true fans" on #ulog-quotes, get inspired, grow your "true fan-base".</li>
+                <li>Remember that you have "<b className="bold-italic">you</b>" as your first audience, an audience of "true fans", an audience in the search engines and an audience of generations-yet-unborn. Use each Ulog-Quote to leave your #farmracies in lights.</li>
+                <li>Be "true fans" on #farmr-quotes, get inspired, grow your "true fan-base".</li>
                 <li>Grow each time!</li>
                 <li>Think of the Creator Jehovah.</li>
-                <li>Join the #ulog-quotes community on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.</li>
+                <li>Join the #farmr-quotes community on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.</li>
                 <li>etc</li>
               </ul>
             </Panel>
@@ -361,7 +361,7 @@ class EditorUlogQuotes extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#ulog & #ulog-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #ulog, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for ULOGS.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? You can also try one of our specialized editors above!!!<b className="bold-italic"> If you encounter any issues, drop us feedback on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a></b>
         </div>
         <Form.Item>

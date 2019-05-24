@@ -146,7 +146,7 @@ class UlogGamesExchanges extends React.Component {
                   const created = new Date(post.created);
                   if(created < sevenDaysAgo) return;
   
-                  // filter posts that do not contain #ulog-games or #ulog-exchanges tags
+                  // filter posts that do not contain #farmr-games or #farmr-exchanges tags
                   const tags = JSON.parse(post.json_metadata).tags;
                   if (tags.indexOf("ulog-games") < 0 && tags.indexOf("ulog-exchanges") < 0) return;
   

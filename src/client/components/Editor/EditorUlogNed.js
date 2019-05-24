@@ -151,7 +151,7 @@ class EditorUlogNed extends React.Component {
       callback(
         intl.formatMessage({
           id: 'ulog_not_topic',
-          defaultMessage: '#ulog must be the first tag for posts.',
+          defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
     }
@@ -160,7 +160,7 @@ class EditorUlogNed extends React.Component {
       callback(
         intl.formatMessage({
           id: 'topics_error_count',
-          defaultMessage: 'You must add 1 to 4 topics with #ulog as the first.',
+          defaultMessage: 'You must add 1 to 4 topics with #farmr as the first.',
         }),
       );
     }
@@ -222,7 +222,7 @@ class EditorUlogNed extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header='The "#ulog-ned" Editor' key="1">
+            <Panel header='The "#farmr-ned" Editor' key="1">
               <p>
 Ned Scott is the CEO of Steemit and someone worthy of constant <span className="bold-italic">THANKS</span> or perhaps <span className="bold-italic">emulation</span>. <br/>
 He sustains the steem blockchain; he is birthing <span className="bold-italic">Smart Media Tokens</span>; he is creating <span className="bold-italic">"beautiful disruptions"</span> by putting <span className="bold-italic">"everyone"</span> in the equation. <br/>
@@ -247,12 +247,12 @@ He sustains the steem blockchain; he is birthing <span className="bold-italic">S
             </Panel>
           </Collapse>
           <Collapse>
-            <Panel header="When/How/Why use the #ulog-ned editor?/?/? +" key="1">
+            <Panel header="When/How/Why use the #farmr-ned editor?/?/? +" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>If you are ulogging on subjects that you have learned about him as his "true fan".</li>
+                <li>If you are farming on subjects that you have learned about him as his "true fan".</li>
                 <li>To add his personality (style etc) to your ULOGS</li>
-                <li>To give back to steemit/steem/ned while ulogging daily.</li>
-                <li>To rehearse CEOism in the art of ulogging.</li>
+                <li>To give back to steemit/steem/ned while farming daily.</li>
+                <li>To rehearse CEOism in the art of farming.</li>
                 <li>To contribute experiences, selfies, meetups with Ned Scott etc</li>
                 <li>etc</li>
               </ul>
@@ -342,7 +342,7 @@ He sustains the steem blockchain; he is birthing <span className="bold-italic">S
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (NED):"</span> from Title above and kindly remove the default <span className="bold-italic">"#ulog & #ulog-ned"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #ulog, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (NED):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-ned"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for ULOGS.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? <b>You can also try one of our specialized editors above!!!</b>
         </div>
         <Form.Item>

@@ -12,7 +12,7 @@ import LastDraftsContainer from '../post/Write/LastDraftsContainer';
 import Editor from '../components/Editor/Editor';
 
 @injectIntl
-class Ulogging extends React.Component {
+class Farming extends React.Component {
   static propTypes = {
     intl: PropTypes.shape().isRequired,
     location: PropTypes.shape().isRequired,
@@ -27,7 +27,7 @@ class Ulogging extends React.Component {
 
     let defaultActiveKey = [];
     const location = this.props.location.pathname.split('/')[1];
-    if (location === 'art-of-ulogging') {
+    if (location === 'art-of-farming') {
       defaultActiveKey = ['1'];
     } else if (location === 'main-editor') {
       defaultActiveKey = ['2'];
@@ -56,7 +56,7 @@ class Ulogging extends React.Component {
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {
       const location = this.props.location.pathname.split('/')[1];
-      if (location === 'art-of-ulogging') {
+      if (location === 'art-of-farming') {
         this.setState({ activeKey : ['1']});
       } else if (location === 'main-editor') {
         this.setState({ activeKey : ['2']});
@@ -83,28 +83,28 @@ class Ulogging extends React.Component {
     const menu = (
       <Menu>
         <Menu.Item key="1">
-          <Link to={'/ulogging/#art-of-ulogging'}>The art of FARMR</Link>
+          <Link to={'/farming/#art-of-farming'}>The art of FARMR</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to={'/ulogging/#main-editor'}>Go To The Main Ulog Editor</Link>
+          <Link to={'/farming/#main-editor'}>Go To The Main Ulog Editor</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to={'/ulogging#knowledge-bank'}>ULOG-KnowledgeBank</Link>
+          <Link to={'/farming#knowledge-bank'}>ULOG-KnowledgeBank</Link>
         </Menu.Item>
         <Menu.Item key="4">
-          <Link to={'/ulogging#surpassing-google'}>SurpassingGoogle</Link>
+          <Link to={'/farming#surpassing-google'}>SurpassingGoogle</Link>
         </Menu.Item>
         <Menu.Item key="5">
-          <Link to={'/ulogging#be-like-terry'}>BeLikeTerry (Fan Love)</Link>
+          <Link to={'/farming#be-like-terry'}>BeLikeTerry (Fan Love)</Link>
         </Menu.Item>
         <Menu.Item key="6">
-          <Link to={'/ulogging#teardrops-editor'}>Go To The #teardrops Editor</Link>
+          <Link to={'/farming#teardrops-editor'}>Go To The #teardrops Editor</Link>
         </Menu.Item>
         <Menu.Item key="7">
-          <Link to={'/ulogging#untalented-editor'}>Go To The #untalented Editor</Link>
+          <Link to={'/farming#untalented-editor'}>Go To The #untalented Editor</Link>
         </Menu.Item>
         <Menu.Item key="8">
-          <Link to={'/ulogging#general-editor'}>Go To Our General-Purpose Editor</Link>
+          <Link to={'/farming#general-editor'}>Go To Our General-Purpose Editor</Link>
         </Menu.Item>
       </Menu>
     );
@@ -112,10 +112,10 @@ class Ulogging extends React.Component {
     const knowledgeBankMenu = (
       <Menu>
         <Menu.Item key="0">
-          <Link to={'/ulog-diy'}>#ulog-diy (Fresh DIY per day)</Link>
+          <Link to={'/ulog-diy'}>#farmr-diy (Fresh DIY per day)</Link>
         </Menu.Item>
         <Menu.Item key="1">
-          <Link to={'/ulog-howto'}>#ulog-howto</Link>
+          <Link to={'/ulog-howto'}>#farmr-howto</Link>
         </Menu.Item>
       </Menu>
     );
@@ -123,13 +123,13 @@ class Ulogging extends React.Component {
     const fanLoveMenu = (
       <Menu>
         <Menu.Item key="0">
-          <Link to={'/ulog-ned'}>#ulog-ned (Emulate, Learn, Gratitude, Celebrate etc @ned)</Link>
+          <Link to={'/ulog-ned'}>#farmr-ned (Emulate, Learn, Gratitude, Celebrate etc @ned)</Link>
         </Menu.Item>
         <Menu.Item key="1">
-          <Link to={'/ulog-surpassinggoogle'}>#ulog-surpassinggoogle (Emulate, Learn, Gratitude, Celebrate etc @surpassinggoogle)</Link>
+          <Link to={'/ulog-surpassinggoogle'}>#farmr-surpassinggoogle (Emulate, Learn, Gratitude, Celebrate etc @surpassinggoogle)</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to={'/ulog-quotes'}>#ulog-quotes</Link>
+          <Link to={'/ulog-quotes'}>#farmr-quotes</Link>
         </Menu.Item>
       </Menu>
     );
@@ -162,7 +162,7 @@ class Ulogging extends React.Component {
 
     const location = this.props.location.pathname.split('/')[1];
     let defaultActiveKey = [];
-    if (location === 'art-of-ulogging') {
+    if (location === 'art-of-farming') {
       defaultActiveKey = ['1'];
     } else if (location === 'main-editor') {
       defaultActiveKey = ['2'];
@@ -217,7 +217,7 @@ class Ulogging extends React.Component {
               <h3 style={{color: 'purple'}}>Write A Ulog?</h3>
               <p>
                 Writing a ulog is easier with the right editor. Simply expand the tab below to choose the appropriate editor.<br/>
-                Ulogging is for "everyone", both private and public figures!<br/>
+                Farming is for "everyone", both private and public figures!<br/>
               </p>
             </Card>
 
@@ -231,10 +231,10 @@ class Ulogging extends React.Component {
                 style={customPanelStyle}>
                 <p>
                   You can write an <b>entire ulog</b> today, with the aim of <b>recounting your entire day</b> and all the activities in it. The <b>U</b> in <b>U</b>log stands for "You".<br/>
-                  <i>Ulogging is for both public & private figures.</i><br/>
+                  <i>Farming is for both public & private figures.</i><br/>
                   <b>A ulog</b> is a kind of content that is <b>freshly-created by "You"</b>, containing only experiences, events, feelings, moments, knowledge etc <b>drawn from a particular day.</b><br/>
                   <b>A ulog written today</b>, should not have existed anywhere online, yesterday; as <i>"each day and 'you' in it, carries its own freshness.</i><br/>
-                  Our aim while ulogging is to <b>"mine the human into its awesomest version"</b>, while managing to <i>reshape the entire internet</i>. Thus, while ulogging, we aim to <b>gift the internet with our "freshly-made" content</b>, at least once a day, <b>instead of resourcing from the internet.</b><br/>
+                  Our aim while farming is to <b>"mine the human into its awesomest version"</b>, while managing to <i>reshape the entire internet</i>. Thus, while farming, we aim to <b>gift the internet with our "freshly-made" content</b>, at least once a day, <b>instead of resourcing from the internet.</b><br/>
                   You can write an entire ulog right now. To do so, simply select our <b>"main ulog editor"</b> below.<br/><br/>
                 </p>
                 <Button>
@@ -248,7 +248,7 @@ class Ulogging extends React.Component {
               bodyStyle={customCardStyle}>
               <h3 style={{color: 'purple'}}>Do You Want To Ulog Under A Ulog-Subtag?</h3>
               <p>
-                Ulogging under a ulogsubtag allows you to contribute ulogs to specific niches (per day). This further simplifies "the art of ulogging", while maintaining the power and essence of ulogging.<br/>
+                Farming under a ulogsubtag allows you to contribute ulogs to specific niches (per day). This further simplifies "the art of farming", while maintaining the power and essence of farming.<br/>
                 Simply expand any of the tabs below, to select an appropriate specialized editor.<br/>
               </p>
             </Card>
@@ -262,8 +262,8 @@ class Ulogging extends React.Component {
                 key="3"
                 style={customPanelStyle}>
                 <p>
-                  We like to reward #ulogging contributions born solely out of <i>"your experience"</i> per day. We seek to incentivize you to learn something new per day, for the sake of #ulogging. This way, <i>"not a day slips emptily by"</i> and not a day aren't you capable of reshaping the INTERNET; touching your <i>"true fans"</i> and attaining <i>"true celebrity-hood"</i> etc <br/>
-                  Deposit to our Knowledge-bank by trying one of our #ulogging editors from the dropdown below. Withdraw knowledge by using the search box above. <br/>
+                  We like to reward #farming contributions born solely out of <i>"your experience"</i> per day. We seek to incentivize you to learn something new per day, for the sake of #farming. This way, <i>"not a day slips emptily by"</i> and not a day aren't you capable of reshaping the INTERNET; touching your <i>"true fans"</i> and attaining <i>"true celebrity-hood"</i> etc <br/>
+                  Deposit to our Knowledge-bank by trying one of our #farming editors from the dropdown below. Withdraw knowledge by using the search box above. <br/>
                 </p>
                 <Dropdown overlay={knowledgeBankMenu} trigger={['click']}>
                   <Button>
@@ -278,8 +278,8 @@ class Ulogging extends React.Component {
                 style={customPanelStyle}>
                 <p>
                   To become like me, you will need to stubbornly become the <i>"awesomest version of YOU"</i>. @surpassinggoogle <br/>
-                  Choose an editor from the dropdown below to be <i>"true fans"</i> of a project, community, ULOGGER, steemian etc by using your #ulogging to emulate, show gratitude, learn about, write about, share moments with etc (per day for freshness). <br/>
-                  e.g you can learn about Ned for the sake of <i>#ulogging under #ulog-ned</i> etc You will also be able to do likewise for projects, communities etc <br/>
+                  Choose an editor from the dropdown below to be <i>"true fans"</i> of a project, community, ULOGGER, steemian etc by using your #farming to emulate, show gratitude, learn about, write about, share moments with etc (per day for freshness). <br/>
+                  e.g you can learn about Ned for the sake of <i>#farming under #farmr-ned</i> etc You will also be able to do likewise for projects, communities etc <br/>
                 </p>
                 <Dropdown overlay={fanLoveMenu} trigger={['click']}>
                   <Button>
@@ -383,4 +383,4 @@ class Ulogging extends React.Component {
   }
 };
 
-export default Ulogging;
+export default Farming;

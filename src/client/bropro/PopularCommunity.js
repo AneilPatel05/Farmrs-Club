@@ -49,7 +49,7 @@ class PopularCommunity extends React.Component {
             <p>
               The ulogs.org ecosystem seeks to unite every steem community, creating balance in the
               steem ecosystem. We are doing this using ulog-subtags, which in turn grow into
-              ulog-communities e.g #ulog-helpie, #ulog-steemmonsters, #ulog-actifit etc
+              ulog-communities e.g #farmr-helpie, #farmr-steemmonsters, #farmr-actifit etc
             </p>
             <p>
               We will try to help you get a time allotment on any of the popular steem community in

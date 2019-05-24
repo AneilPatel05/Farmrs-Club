@@ -23,13 +23,13 @@ export function getDiscussionsFromAPI(sortBy, query, steemAPI) {
       return steemAPI.sendAsync(`get_discussions_by_${sortBy}`, [query]);
     case 'ulog':
       return steemAPI.sendAsync(`get_discussions_by_blog`, [query]).then(blog => {
-        // return only posts with #ulog as first tag
+        // return only posts with #farmr as first tag
         // TODO: This way the infinite scroll does not work. This is a temporary solution!
         // Reason: The hasMore check in feedReducer.js:63 is not reliable because the number of returned posts,
         // due to this filtering below, will most of the times be lower than the limit parameter, even though there might be
-        // more #ulog posts in the next result set.
-        // Ugly Solution: Return here not only the #ulog posts but also the number of all posts that were returned by the API.
-        // The hasMore check could then refer to that instead of the number of #ulog posts.
+        // more #farmr posts in the next result set.
+        // Ugly Solution: Return here not only the #farmr posts but also the number of all posts that were returned by the API.
+        // The hasMore check could then refer to that instead of the number of #farmr posts.
         return blog.filter(post => {
           const meta = jsonParse(post.json_metadata);
           return meta.tags.indexOf('ulog') === 0;
