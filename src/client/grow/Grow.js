@@ -89,7 +89,7 @@ class Grow extends React.Component {
                   >
                     <h3>Write To Farmr.club</h3>
                     <div style={customCardStyle}>
-                      <ReactMarkdown source={growSections.writeToUlogs} />
+                      <ReactMarkdown source={growSections.writeToFarmr} />
                     </div>
                     <Button type="primary" onClick={this.displayComingSoon}>
                       Click Here

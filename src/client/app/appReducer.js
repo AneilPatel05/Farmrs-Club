@@ -13,7 +13,7 @@ const initialState = {
   trendingTopics: [],
   rewardFund: {},
   bannerClosed: false,
-  appUrl: 'https://ulogs.org',
+  appUrl: 'https://farmr.club',
   usedLocale: null,
   translations: {},
   cryptosPriceHistory: {},

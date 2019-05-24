@@ -226,7 +226,7 @@ class EditorUlogNed extends React.Component {
               <p>
 Ned Scott is the CEO of Steemit and someone worthy of constant <span className="bold-italic">THANKS</span> or perhaps <span className="bold-italic">emulation</span>. <br/>
 He sustains the steem blockchain; he is birthing <span className="bold-italic">Smart Media Tokens</span>; he is creating <span className="bold-italic">"beautiful disruptions"</span> by putting <span className="bold-italic">"everyone"</span> in the equation. <br/>
-<span className="bold-italic">ULOGS.org:</span> He won't request <span className="bold-italic">"true fans"</span> but we say; <span className="bold-italic">"True Celebrity-hood for "everyone" once and for all".</span> <br/>
+<span className="bold-italic">FARMR.org:</span> He won't request <span className="bold-italic">"true fans"</span> but we say; <span className="bold-italic">"True Celebrity-hood for "everyone" once and for all".</span> <br/>
               </p>
             </Panel>
           </Collapse>
@@ -250,7 +250,7 @@ He sustains the steem blockchain; he is birthing <span className="bold-italic">S
             <Panel header="When/How/Why use the #farmr-ned editor?/?/? +" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
                 <li>If you are farming on subjects that you have learned about him as his "true fan".</li>
-                <li>To add his personality (style etc) to your ULOGS</li>
+                <li>To add his personality (style etc) to your FARMR</li>
                 <li>To give back to steemit/steem/ned while farming daily.</li>
                 <li>To rehearse CEOism in the art of farming.</li>
                 <li>To contribute experiences, selfies, meetups with Ned Scott etc</li>
@@ -342,7 +342,7 @@ He sustains the steem blockchain; he is birthing <span className="bold-italic">S
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (NED):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-ned"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (NED):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-ned"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? <b>You can also try one of our specialized editors above!!!</b>
         </div>
         <Form.Item>

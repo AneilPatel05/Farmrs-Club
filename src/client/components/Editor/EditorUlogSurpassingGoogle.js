@@ -256,7 +256,7 @@ class EditorUlogSurpassingGoogle extends React.Component {
             <Panel header="When/How/Why use the #farmr-surpassinggoogle editor?/?/?" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
                 <li>If you are farming to SurpassingGoogle too.</li>
-                <li>If you want to keep your dreams alive in dream-bits, using your ULOGS.</li>
+                <li>If you want to keep your dreams alive in dream-bits, using your FARMR.</li>
                 <li>If you want to attempt out-of-the-boxness and some un(dis)talentedness too.</li>
                 <li>If you are farming on subjects that you have learned about him as his "true fan".</li>
                 <li>To give back to @surpassinggoogle while farming daily.</li>
@@ -351,7 +351,7 @@ class EditorUlogSurpassingGoogle extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (SurpassingGoogle):"</span> from Title above and kindly remove the default <span className="bold-italic"> "#farmr & #farmr-surpassinggoogle"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (SurpassingGoogle):"</span> from Title above and kindly remove the default <span className="bold-italic"> "#farmr & #farmr-surpassinggoogle"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? <b>You can also try one of our specialized editors above!!!</b>
         </div>
         <Form.Item>

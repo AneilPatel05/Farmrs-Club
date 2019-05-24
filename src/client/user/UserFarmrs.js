@@ -31,7 +31,7 @@ import PostModal from '../post/PostModalContainer';
     hidePostModal,
   },
 )
-export default class UserUlogs extends React.Component {
+export default class UserFarmrs extends React.Component {
   static propTypes = {
     authenticated: PropTypes.bool.isRequired,
     authenticatedUser: PropTypes.shape().isRequired,

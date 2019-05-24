@@ -222,15 +222,15 @@ class EditorMain extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header="The art of ULOGGING" key="1">
+            <Panel header="The art of FARMING" key="1">
               <p>
-              The art of ULOGGING is a conscious effort to "mine the human" into its "awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
-              Together ULOGGING, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
+              The art of FARMING is a conscious effort to "mine the human" into its "awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
+              Together FARMING, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
               We will own our very cookies; we will re-tap into our shine and recover lost shine. We will fly. <br/>
               ("True Celebrity-hood" for "everyone" once and for all!) <br/>
               In the world of crypto-kitties, pokemonGO, superman, Blacky the rich cat etc we will bear forth "True Celebrities" (the awesomest version of human). Beautiful Disruption!!! (positive world adjustment). <br/>
               In due time, we will celebrate breakthrough with the @teardrops Smart Media Token; "@surpassinggoogle". <br/>
-              "There is now light inside the tunnel". Your Ultimate "True Fan" (your boy terry). Happy ULOGGING!!! <br/>
+              "There is now light inside the tunnel". Your Ultimate "True Fan" (your boy terry). Happy FARMING!!! <br/>
               </p>
             </Panel>
           </Collapse>
@@ -240,8 +240,8 @@ class EditorMain extends React.Component {
         </div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header="(This is the main ULOGS.org editor!)" key="1">
-              ULOGS: Each day and "YOU" in it carries its own "freshness". So, not a day aren't we capable of reshaping the entire internet and touching the world with "a piece of freshness".
+            <Panel header="(This is the main FARMR.org editor!)" key="1">
+              FARMR: Each day and "YOU" in it carries its own "freshness". So, not a day aren't we capable of reshaping the entire internet and touching the world with "a piece of freshness".
               A ULOG can contain all formats of media, whether sound, pictures, art, videos, text or a combination of all as long as it is freshly-made (by YOU). You can be a public or private figure. Regardless, "you are a celebrity and we are your fans".
             </Panel>
           </Collapse>

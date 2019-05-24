@@ -47,7 +47,7 @@ class PopularCommunity extends React.Component {
               Apply To Give A 30 Mins Symposium About Your Project On A Popular Steem Community
             </h3>
             <p>
-              The ulogs.org ecosystem seeks to unite every steem community, creating balance in the
+              The farmr.club ecosystem seeks to unite every steem community, creating balance in the
               steem ecosystem. We are doing this using ulog-subtags, which in turn grow into
               ulog-communities e.g #farmr-helpie, #farmr-steemmonsters, #farmr-actifit etc
             </p>

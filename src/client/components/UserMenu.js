@@ -69,7 +69,7 @@ class UserMenu extends React.Component {
                 role="presentation"
                 data-key="ulogs"
               >
-                <FormattedMessage id="myulogs" defaultMessage="My Ulogs" />
+                <FormattedMessage id="myulogs" defaultMessage="My Farmrs" />
               </li>
               <li
                 className={this.getItemClasses('comments')}

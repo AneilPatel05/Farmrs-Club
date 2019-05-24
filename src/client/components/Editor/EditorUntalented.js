@@ -216,7 +216,7 @@ class EditorUntalented extends React.Component {
               <p>
               UN(dis)TALENTED (#untalented): We don't want any level of talent or potential talent to go amiss without celebrating it. We seek to reward even "attempts at out-of-the-boxness". If we remove bum, smart or average, "we are genius".
 
-              #untalented is a home (an important aspect of ulogs.org) where "flaws are allowed". When you write under #untalented, "relegate reservations". We will sift even the nonsense to find sense therein.
+              #untalented is a home (an important aspect of farmr.club) where "flaws are allowed". When you write under #untalented, "relegate reservations". We will sift even the nonsense to find sense therein.
               Not too confident? Confident? Too confident? Write under #untalented
               </p>
             </Panel>

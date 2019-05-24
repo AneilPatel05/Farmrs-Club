@@ -16,7 +16,7 @@ import ProfileSettings from '../client/settings/ProfileSettings';
 import Invite from '../client/invite/Invite';
 import User from '../client/user/User';
 import UserProfile from '../client/user/UserProfile';
-import UserUlogs from '../client/user/UserUlogs';
+import UserFarmrs from '../client/user/UserFarmrs';
 import UserComments from '../client/user/UserComments';
 import UserFollowers from '../client/user/UserFollowers';
 import UserFollowing from '../client/user/UserFollowing';
@@ -109,7 +109,7 @@ const routes = [
           {
             path: '/@:name/ulogs',
             exact: true,
-            component: UserUlogs,
+            component: UserFarmrs,
           },
           {
             path: '/@:name/comments',

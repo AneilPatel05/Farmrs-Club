@@ -9,7 +9,7 @@ export const knownDomains = [
   'utopian.io',
   'coinmarketcap.com',
   'youtube.com',
-  'ulogs.org',
+  'farmr.club',
 ];
 
 export const people = [

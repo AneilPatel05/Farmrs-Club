@@ -8,7 +8,7 @@ import './HeroBannerSlider.less';
 
 const handleUserAccountClick = (event) => {
   event.preventDefault();
-  const alertText = `This feature is available only to 'certified farmrs'. Kindly get ['certified'](https://ulogs.org/@surpassinggoogle/do-you-want-to-become-certified-farmrs-kindly-fill-up-this-form-if-you-are-already-a-certified-ulogger-there-is-a-separate), then contact [farmrs@gmail.com](mailto:farmrs@gmail.com) for further inquiries.`
+  const alertText = `This feature is available only to 'certified farmrs'. Kindly get ['certified'](https://farmr.club/@surpassinggoogle/do-you-want-to-become-certified-farmrs-kindly-fill-up-this-form-if-you-are-already-a-certified-ulogger-there-is-a-separate), then contact [farmrs@gmail.com](mailto:farmrs@gmail.com) for further inquiries.`
   Modal.info({
     content: (
       <div>
@@ -21,7 +21,7 @@ const handleUserAccountClick = (event) => {
   });
 };
 
-const UlogsBanner = ({ category }) => (
+const FarmrsBanner = ({ category }) => (
   <div className="HeroBanner">
     <div className="HeroBanner__container">
       <div className="HeroBanner__content-container">
@@ -34,10 +34,10 @@ const UlogsBanner = ({ category }) => (
     </div>
   </div>
 );
-UlogsBanner.propTypes = {
+FarmrsBanner.propTypes = {
   category: PropTypes.string,
 };
-UlogsBanner.defaultProps = {
+FarmrsBanner.defaultProps = {
   category: '',
 };
-export default UlogsBanner;
+export default FarmrsBanner;

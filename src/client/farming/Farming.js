@@ -206,7 +206,7 @@ class Farming extends React.Component {
                   Together FARMR, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
                   We will own our very cookies; we will re-tap into our shine and recover lost shine. We will fly. ("True Celebrity-hood" for "everyone" once and for all") <br/>
                   In due time, we will celebrate breakthrough with the @teardrops Smart Media Token; "@surpassinggoogle". <br/><br/>
-                  <u>Special Note:</u> Everytime you make use of ulogs.org to post, comment etc, you are supporting steemians, projects, FARMRS etc by being their "true fans". Too, you "mine the human" some more, becoming "true celebrities". You will also give back to steem/steemit in gratitude as we contribute a "negligible sum" from our rewards with Steemit INC as beneficiary. <br/>
+                  <u>Special Note:</u> Everytime you make use of farmr.club to post, comment etc, you are supporting steemians, projects, FARMRS etc by being their "true fans". Too, you "mine the human" some more, becoming "true celebrities". You will also give back to steem/steemit in gratitude as we contribute a "negligible sum" from our rewards with Steemit INC as beneficiary. <br/>
                 </p>
               </Collapse.Panel>
             </Collapse>
@@ -293,7 +293,7 @@ class Farming extends React.Component {
                 key="5"
                 style={customPanelStyle}>
                 <p>
-                  Note that ulogs.org integrates 4 websites into one. Thus, we are integrating all the paradigms from SurpassingGoogle, Teardrops, Un(dis)Talented into ulogs.org, so that instead of 4 standalone steem-based websites, we can have one grand website that "mines the human" into its awesomest version. <br/>
+                  Note that farmr.club integrates 4 websites into one. Thus, we are integrating all the paradigms from SurpassingGoogle, Teardrops, Un(dis)Talented into farmr.club, so that instead of 4 standalone steem-based websites, we can have one grand website that "mines the human" into its awesomest version. <br/>
                   <i>When you see a great man/woman, a legend, an icon, a "true celebrity" etc you know it. You feel something. It is different. One reason is; "great men", "legends", "icons", "true celebrities" are still a rarity on Mama Earth. When we remove this rarity, we Surpass Google.</i> @surpassinggoogle <br/><br/>
                   Use this segment to "mine the human" some more. <br/>
                 </p>
@@ -339,7 +339,7 @@ class Farming extends React.Component {
                 style={customPanelStyle}>
                 <p>
                   We don't want any level of talent or potential talent to go amiss without celebrating it. We seek to reward  even <b>"attempts at out-of-the-boxness"</b>. <i>If we remove bum, smart or  average, "we are genius".</i><br/>
-                  #untalented is a home (an important aspect of  ulogs.org) where <b>"flaws are allowed".</b> When you write under #untalented, <b>"relegate reservations".</b> We will sift even the non<b>sense</b> to find <b>sense</b> therein. <br/>
+                  #untalented is a home (an important aspect of  farmr.club) where <b>"flaws are allowed".</b> When you write under #untalented, <b>"relegate reservations".</b> We will sift even the non<b>sense</b> to find <b>sense</b> therein. <br/>
                   <i>Not too confident? Confident? Too confident?</i> Write under a post now under <b>"#untalented".</b> Select the editor below!<br/><br/>
                 </p>
                 <Button>
@@ -367,7 +367,7 @@ class Farming extends React.Component {
                 key="8"
                 style={customPanelStyle}>
                 <p>
-                  <b>On ulogs.org, your freshly-made content is queen.</b> We want to incite you create content on a daily basis as that in itself is rewarding. Anytime you invest in creating "your own content" you have managed to "mine the human" some more. This is world adjusting!<br/>
+                  <b>On farmr.club, your freshly-made content is queen.</b> We want to incite you create content on a daily basis as that in itself is rewarding. Anytime you invest in creating "your own content" you have managed to "mine the human" some more. This is world adjusting!<br/>
                   <b>Farmr.club allows you to explore and enjoy the entire steem ecosystem.</b> Thus, whether is it is a blog, ulog or vlog, we welcome your contributions and will look forward to celebrating <b>'the you'</b> in it; <b>we as your "true fans".</b><br/>
                   You can post to steem like you normally would (<b>e.g blogs etc</b>), using the <b>"General-Purpose" editor below.</b><br/><br/>
                 </p>

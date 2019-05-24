@@ -83,7 +83,7 @@ const UlogStoryEditorFooter = ({
     </Action>
     {!isCertifiedFarmr && 
       <div>
-        <ReactMarkdown source={`Please note that while you will be able to successfully post to steem and of course have your post appear on ulogs.org (as a post), your post will not be displayed on our "Ulog-Stories" display-column as this column is reserved for "certified farmrs" only. However, every(any)one can become "certified". We invite you to contact us!`} />
+        <ReactMarkdown source={`Please note that while you will be able to successfully post to steem and of course have your post appear on farmr.club (as a post), your post will not be displayed on our "Ulog-Stories" display-column as this column is reserved for "certified farmrs" only. However, every(any)one can become "certified". We invite you to contact us!`} />
       </div>
     }
   </div>

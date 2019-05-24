@@ -126,8 +126,8 @@ export default class Wrapper extends React.PureComponent {
 
     const useBeta = getUseBeta(state);
 
-    if (useBeta && appUrl === 'https://ulogs.org') {
-      res.redirect(`https://staging.ulogs.org${req.originalUrl}`);
+    if (useBeta && appUrl === 'https://farmr.club') {
+      res.redirect(`https://staging.farmr.club${req.originalUrl}`);
       return;
     }
 

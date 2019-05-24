@@ -244,7 +244,7 @@ class EditorUlogQuotes extends React.Component {
                 <li>When you want to summarize the entirety of your day, in a Ulog-Quote!</li>
                 <li>When you want to create tiny pieces of #farmracies to marvel and re-marvel yourself, become quote-able by the globe and reach generations-yet-unborn; you can create #farmr-quotes.</li>
                 <li>When you want to attempt out-of-the-boxness during the "art of #farming".</li>
-                <li>Kindly integrate the word "ULOG" or "ULOGS" or "ULOGS.org" somewhere in the images, graphics, avatars etc used to create your #farmr-quote.</li>
+                <li>Kindly integrate the word "ULOG" or "FARMR" or "FARMR.org" somewhere in the images, graphics, avatars etc used to create your #farmr-quote.</li>
                 <li>To code entire schools-of-thoughts into tinier capsules, for the sake of healing the world; you can create #farmr-quotes.</li>
                 <li>To play a role in historical-history with your tiny-looking words.</li>
                 <li>To keeping steeming as difficult as 1, 2, 3.</li>
@@ -261,7 +261,7 @@ class EditorUlogQuotes extends React.Component {
                 <li>Be yourself and as expressive as possible. The world and generations yet unborn will come here to dig from your ulog-experience.</li>
                 <li>Tell us the stories & histories behind your #farmr-quotes.</li>
                 <li>May your #farmr-quotes be fresh, born out of your experience, moments, that-moment etc (per day).</li>
-                <li>Recall that ULOGS are spanless! Thus, your #farmr-quotes can cover life; can be funny; can be playful etc</li>
+                <li>Recall that FARMR are spanless! Thus, your #farmr-quotes can cover life; can be funny; can be playful etc</li>
                 <li>Ultimately, you will know it, when you have created a Ulog-Quote. You will end up memorizing it, treasuring it, living by it. You will end up quoting yourself, then the world will end up quoting you.</li>
                 <li>In the art of #farming under #farmr-quotes, there is no need to resource from the internet. <b className="bold-italic">Keep all videos, images, sound, avatars fresh. As for images, be inventive/innovative. You can use simple applications like paint, autodraw.com etc or you can make it meme-style using <a href="https://imgur.com/memegen">https://imgur.com/memegen</a>. See sample image <a href="https://steemitimages.com/0x0/https://i.imgur.com/sy2A3LG.jpg" rel="nofollow">Here</a>. Let's gift to internet and re-shape it, with "YOU"!</b></li>
                 <li>Where possible, endeavor to add your location as one of your hashtags as well.</li>
@@ -361,7 +361,7 @@ class EditorUlogQuotes extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for ULOGS.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? You can also try one of our specialized editors above!!!<b className="bold-italic"> If you encounter any issues, drop us feedback on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a></b>
         </div>
         <Form.Item>

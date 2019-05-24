@@ -48,7 +48,7 @@ const FormattedTearDropsMessage = () => (
     values={{
       text: (
         <p>
-          A steem-based token that you can use across steemgigs.org, ulogs.org and macrohard.pro.
+          A steem-based token that you can use across steemgigs.org, farmr.club and macrohard.pro.
           TEARDROPS can be transferred, used or <em>kept to be powered up in the near future</em>.
           Get some TEARDROPS .
         </p>

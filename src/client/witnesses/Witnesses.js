@@ -50,7 +50,7 @@ class Witnesses extends React.Component {
         <Helmet>
           <title>
             {intl.formatMessage({ id: 'discover_more_people', defaultMessage: 'discover_more_people' })}{' '}
-            - Ulogs
+            - Farmrs
           </title>
         </Helmet>
         <div className="feed-layout container">
@@ -66,7 +66,7 @@ class Witnesses extends React.Component {
               </h1>
               <FormattedMessage
                 id="vote_ulog_witnesses_description"
-                defaultMessage="Ulog-Witnesses are also 'Certified Farmrs'. On ulogs.org, we want to celebrate these witnesses, drawing in 'true fans' their way. You can vote for as many as 30 witnesses. This page will constantly populate with more of these ulog-witnesses over the course of time. Visit regularly to support these ones."
+                defaultMessage="Ulog-Witnesses are also 'Certified Farmrs'. On farmr.club, we want to celebrate these witnesses, drawing in 'true fans' their way. You can vote for as many as 30 witnesses. This page will constantly populate with more of these ulog-witnesses over the course of time. Visit regularly to support these ones."
               />
             </div>
             <div className="Discover__content">
