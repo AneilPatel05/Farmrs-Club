@@ -33,7 +33,7 @@ class Contact extends React.Component {
                   <strong>Send email to:</strong> comsilbronze4@gmail.com
                 </p>
                 <p>
-                  <strong>Send steem donations to:</strong>@ulogs
+                  <strong>Send steem donations to:</strong>@farmr
                 </p>
                 <p>
                   <strong>Send FIAT donations to:</strong>comsilbronze4@gmail.com

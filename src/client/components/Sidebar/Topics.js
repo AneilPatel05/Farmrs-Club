@@ -11,7 +11,7 @@ class Topics extends React.Component {
     favorite: PropTypes.bool,
     topics: PropTypes.arrayOf(PropTypes.string),
     maxItems: PropTypes.number,
-    maxUlogTopics: PropTypes.number,
+    maxFarmrTopics: PropTypes.number,
     loading: PropTypes.bool,
   };
 
@@ -19,7 +19,7 @@ class Topics extends React.Component {
     favorite: false,
     topics: [],
     maxItems: 5,
-    maxUlogTopics: 7,
+    maxFarmrTopics: 7,
     loading: false,
   };
 
@@ -27,7 +27,7 @@ class Topics extends React.Component {
     super(props);
     this.state = {
       showMore: false,
-      showMoreUlogTopics: false,
+      showMoreFarmrTopics: false,
     };
   }
 
@@ -35,15 +35,15 @@ class Topics extends React.Component {
     this.setState({ showMore });
   }
 
-  changeMoreUlogTopicsVisibility(showMoreUlogTopics) {
-    this.setState({ showMoreUlogTopics });
+  changeMoreFarmrTopicsVisibility(showMoreFarmrTopics) {
+    this.setState({ showMoreFarmrTopics });
   }
 
   render() {
-    const { topics, favorite, maxItems, maxUlogTopics, loading } = this.props;
+    const { topics, favorite, maxItems, maxFarmrTopics, loading } = this.props;
 
     const displayedTopics = this.state.showMore ? topics : topics.slice(0, maxItems);
-    const displayedUlogTopics = this.state.showMoreUlogTopics ? ulogTopics : ulogTopics.slice(0, maxUlogTopics);
+    const displayedFarmrTopics = this.state.showMoreFarmrTopics ? ulogTopics : ulogTopics.slice(0, maxFarmrTopics);
 
     return (
       <div className="Topics">
@@ -56,20 +56,20 @@ class Topics extends React.Component {
         {loading && <Loading center={false} />}
         {!loading && (
           <ul className="Topics__list">
-            {displayedUlogTopics.map(topic => (
+            {displayedFarmrTopics.map(topic => (
               <li key={topic}>
                 <Topic name={topic} favorite={favorite} />
               </li>
             ))}
           </ul>
         )}
-        {!loading && ulogTopics.length > maxUlogTopics && !this.state.showMoreUlogTopics ? (
-          <a role="button" tabIndex={0} onClick={() => this.changeMoreUlogTopicsVisibility(true)}>
+        {!loading && ulogTopics.length > maxFarmrTopics && !this.state.showMoreFarmrTopics ? (
+          <a role="button" tabIndex={0} onClick={() => this.changeMoreFarmrTopicsVisibility(true)}>
             <FormattedMessage id="show_more" defaultMessage="View more" />
           </a>
         ) : null}
-        {!loading && ulogTopics.length > maxUlogTopics && this.state.showMoreUlogTopics ? (
-          <a role="button" tabIndex={0} onClick={() => this.changeMoreUlogTopicsVisibility(false)}>
+        {!loading && ulogTopics.length > maxFarmrTopics && this.state.showMoreFarmrTopics ? (
+          <a role="button" tabIndex={0} onClick={() => this.changeMoreFarmrTopicsVisibility(false)}>
             <FormattedMessage id="show_less" defaultMessage="View less" />
           </a>
         ) : null}

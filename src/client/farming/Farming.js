@@ -86,10 +86,10 @@ class Farming extends React.Component {
           <Link to={'/farming/#art-of-farming'}>The art of FARMR</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to={'/farming/#main-editor'}>Go To The Main Ulog Editor</Link>
+          <Link to={'/farming/#main-editor'}>Go To The Main Farmr Editor</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to={'/farming#knowledge-bank'}>ULOG-KnowledgeBank</Link>
+          <Link to={'/farming#knowledge-bank'}>FARMR-KnowledgeBank</Link>
         </Menu.Item>
         <Menu.Item key="4">
           <Link to={'/farming#surpassing-google'}>SurpassingGoogle</Link>
@@ -214,7 +214,7 @@ class Farming extends React.Component {
             <Card
               bordered={false}
               bodyStyle={customCardStyle}>
-              <h3 style={{color: 'purple'}}>Write A Ulog?</h3>
+              <h3 style={{color: 'purple'}}>Write A Farmr?</h3>
               <p>
                 Writing a ulog is easier with the right editor. Simply expand the tab below to choose the appropriate editor.<br/>
                 Farming is for "everyone", both private and public figures!<br/>
@@ -226,7 +226,7 @@ class Farming extends React.Component {
               activeKey={this.state.activeKey}
               onChange={this.callback}>
               <Collapse.Panel
-                header="Go To The Main Ulog Editor"
+                header="Go To The Main Farmr Editor"
                 key="2"
                 style={customPanelStyle}>
                 <p>
@@ -238,7 +238,7 @@ class Farming extends React.Component {
                   You can write an entire ulog right now. To do so, simply select our <b>"main ulog editor"</b> below.<br/><br/>
                 </p>
                 <Button>
-                  <Link to="/main-editor">Main Ulog Editor</Link>
+                  <Link to="/main-editor">Main Farmr Editor</Link>
                 </Button>
               </Collapse.Panel>
             </Collapse>
@@ -246,7 +246,7 @@ class Farming extends React.Component {
             <Card
               bordered={false}
               bodyStyle={customCardStyle}>
-              <h3 style={{color: 'purple'}}>Do You Want To Ulog Under A Ulog-Subtag?</h3>
+              <h3 style={{color: 'purple'}}>Do You Want To Farmr Under A Farmr-Subtag?</h3>
               <p>
                 Farming under a ulogsubtag allows you to contribute ulogs to specific niches (per day). This further simplifies "the art of farming", while maintaining the power and essence of farming.<br/>
                 Simply expand any of the tabs below, to select an appropriate specialized editor.<br/>
@@ -258,7 +258,7 @@ class Farming extends React.Component {
               activeKey={this.state.activeKey}
               onChange={this.callback}>
               <Collapse.Panel
-                header="ULOG-Knowledge-Bank"
+                header="FARMR-Knowledge-Bank"
                 key="3"
                 style={customPanelStyle}>
                 <p>
@@ -273,12 +273,12 @@ class Farming extends React.Component {
               </Collapse.Panel>
 
               <Collapse.Panel
-                header="ULOG-fanlove (BeLikeTerry)"
+                header="FARMR-fanlove (BeLikeTerry)"
                 key="4"
                 style={customPanelStyle}>
                 <p>
                   To become like me, you will need to stubbornly become the <i>"awesomest version of YOU"</i>. @surpassinggoogle <br/>
-                  Choose an editor from the dropdown below to be <i>"true fans"</i> of a project, community, ULOGGER, steemian etc by using your #farming to emulate, show gratitude, learn about, write about, share moments with etc (per day for freshness). <br/>
+                  Choose an editor from the dropdown below to be <i>"true fans"</i> of a project, community, FARMRGER, steemian etc by using your #farming to emulate, show gratitude, learn about, write about, share moments with etc (per day for freshness). <br/>
                   e.g you can learn about Ned for the sake of <i>#farming under #farmr-ned</i> etc You will also be able to do likewise for projects, communities etc <br/>
                 </p>
                 <Dropdown overlay={fanLoveMenu} trigger={['click']}>

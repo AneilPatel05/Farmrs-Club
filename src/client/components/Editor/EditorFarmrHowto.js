@@ -12,7 +12,6 @@ import Action from '../Button/Action';
 import requiresLogin from '../../auth/requiresLogin';
 import withEditor from './withEditor';
 import EditorInput from './EditorInput';
-import UlogDropdown from './UlogDropdown';
 import { remarkable } from '../Story/Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import './Editor.less';
@@ -21,7 +20,7 @@ import './Editor.less';
 @requiresLogin
 @Form.create()
 @withEditor
-class EditorUlogDIY extends React.Component {
+class EditorFarmrHowto extends React.Component {
   static propTypes = {
     intl: PropTypes.shape().isRequired,
     form: PropTypes.shape().isRequired,
@@ -83,8 +82,8 @@ class EditorUlogDIY extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG (DIY): ',
-      topics: ['ulog', 'ulog-diy'],
+      title: 'FARMR (HOWTO): ',
+      topics: ['ulog', 'ulog-howto'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -222,39 +221,42 @@ class EditorUlogDIY extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header='The "#farmr-diy" Editor' key="1">
+            <Panel header='The "#farmr-howto" Editor' key="1">
               <p>
               We like to reward #farming contributions born solely out of <span className="bold-italic">"your experience" (per day)</span>. We seek to incentivize you to learn something new <span className="bold-italic">(per day)</span>, for the sake of #farming. This way, <span className="bold-italic">"not a day slips emptily by" and not a day aren't you capable of reshaping the INTERNET; touching your "true fans" and attaining "true celebrity-hood" etc</span>
-              <br/> It's simple. When you add #farmr to any existing concept etc an existing concept suddenly turns out all fresh. Simply use this editor to contribute to the Ulog-KnowledgeBank, <span className="bold-italic">freshly-made #farmr-DIY(s) born solely out of your experience (per day)</span>. <br/>
 
-              Become "true fans"! Visit #farmr-diy daily. Join its community on <span className="bold-italic" style={{'color':'blue'}}>Discord</span> & <span className="bold-italic" style={{'color':'blue'}}>Telegram</span>.
+              <br/> It's simple. <a href="https://steemit.com/@farmr/can-farming-and-ulogs-org-reshape-the-entire-internet-what-if-we-re-fresh-every-existing-hashtag-birthing-fresh-ulog-based">When you add #farmr to any existing concept etc an existing concept suddenly turns out all fresh</a>. Simply use this editor to contribute to the Farmr-KnowledgeBank, <span className="bold-italic">freshly-made #farmr-HOWTO(s) born solely out of your experience (per day)</span> <br/>.
 
+              Become "<span className="bold-italic">true fans</span>"! Visit #farmr-howto daily. Join its community on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.
               </p>
             </Panel>
           </Collapse>
         </div>
-        <div className="hashtags">
-          <UlogDropdown />
-        </div>
         <div>
           <Collapse>
-            <Panel header='When/How/Why use the "#farmr-diy" editor?/?/?' key="1">
-              Did you gather some DIY knowledge on a specific skill, craft or expertise today? Are you gathering DIY knowledge as we speak? Do you plan on doing some exciting DIY today, by yourself or with friends etc for the sole reason of contributing a #farmr-DIY post?
+            <Panel header='When/How/Why use the "#farmr-howto" editor?/?/?' key="1">
+              In the course of today and your activities in it, did you learn "how to do something; anything"?
+              Are you learning "how to do something; anything" as we speak?
+              Did you learn "how to do something; anything" for the sake of doing a #farmr-howto post?
+
+              <blockquote style={{'border-left':'3px solid #a9a9a9', 'padding' : '0 10px', 'color' : '#a9a9a9'}}>Teach us step by step, in your own perspective "how to". Remember to insert images and videos that you have freshly-created where necessary.</blockquote>
+
               <br/>
-              <blockquote style={{'border-left':'3px solid #a9a9a9', 'padding' : '0 10px', 'color' : '#a9a9a9'}}>Why not create a post about it right now! Don't let this knowledge stay redundant. The world and your entire audience of "true fans" needs to hear it!</blockquote>
+
+              <blockquote style={{'border-left':'3px solid #a9a9a9', 'padding' : '0 10px', 'color' : '#a9a9a9'}}>Don't let this knowledge stay redundant. The world and your entire audience of "true fans" needs to hear it!_**</blockquote>
             </Panel>
           </Collapse>
           <Collapse>
             <Panel header="Tips To Prowess" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
                 <li>Be yourself and as expressive as possible. <span className="bold-italic">The world and generations yet unborn will come here to dig from your ulog-experience</span>.</li>
-                <li>In the art of #farming on #farmr-diy, there is no need to resource from the internet. <span className="bold-italic">Keep all videos, images, sound, avatars fresh. Let's gift to internet and re-shape it, with "YOU"!</span></li>
-                <li>Relegate reservations, attempt out-of-the-boxness; <span className="bold-italic">"flaws allowed"!</span></li>
-                <li>Every #farmr-diy post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. <span className="bold-italic">Make the most of each post</span>.</li>
-                <li>Remember that you have <span className="bold-italic">"you"</span> as your first audience, an <span className="bold-italic">audience of "true fans"</span>, an <span className="bold-italic">audience in the search engines and an audience of generations yet unborn</span>. Use each #farmr-diy post <span className="bold-italic">to leave your #farmracies in lights</span>.</li>
-                <li><span className="bold-italic">Be "true fans" on #farmr-diy, get inspired, grow your "true fan-base"</span>.</li>
+                <li>In the art of #farming under #farmr-howto, there is no need to resource from the internet. <span className="bold-italic">Keep all videos, images, sound, avatars fresh. Let's gift to internet and re-shape it, with "YOU"</span>!</li>
+                <li>Relegate reservations, attempt out-of-the-boxness; "<span className="bold-italic">flaws allowed</span>"!</li>
+                <li>Every #farmr-howto post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. <span className="bold-italic">Make the most of each post</span>.</li>
+                <li>Remember that you have "<span className="bold-italic">you</span>" as your first audience, an <span className="bold-italic">audience of "true fans"</span>, an <span className="bold-italic">audience in the search engines and an audience of generations yet unborn</span>. Use each #farmr-howto post <span className="bold-italic">to leave your #farmracies in lights</span>.</li>
+                <li><span className="bold-italic">Be "true fans" on #farmr-howto, get inspired, grow your "true fan-base".</span></li>
                 <li>Grow each time!</li>
-                <li><span className="bold-italic">Join the #farmr-diy community on</span> <span className="bold-italic" style={{'color' : 'blue'}}>Discord</span> & <span className="bold-italic" style={{'color' : 'blue'}}>Telegram</span>.</li>
+                <li><span className="bold-italic">Join the #farmr-howto community on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.</span></li>
                 <li>etc</li>
               </ul>
             </Panel>
@@ -263,7 +265,7 @@ class EditorUlogDIY extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - DIY
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -300,7 +302,7 @@ class EditorUlogDIY extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG (NED): ',
+                defaultMessage: 'FARMR (HOWTO): ',
               })}
             />,
           )}
@@ -343,8 +345,8 @@ class EditorUlogDIY extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (DIY):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-diy"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
-          Want to <span className="bold-italic">"mine the human"</span> some more? <b>You can also try one of our specialized editors above!!!</b>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"FARMR (howto):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-howto"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
+          Want to <span className="bold-italic">"mine the human"</span> some more? You can also try one of our specialized editors above!!!<b>If you encounter any issues, drop us feedback on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a></b>
         </div>
         <Form.Item>
           {getFieldDecorator('body', {
@@ -466,4 +468,4 @@ class EditorUlogDIY extends React.Component {
   }
 }
 
-export default EditorUlogDIY;
+export default EditorFarmrHowto;

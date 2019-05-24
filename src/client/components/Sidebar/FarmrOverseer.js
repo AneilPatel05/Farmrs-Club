@@ -6,7 +6,7 @@ import FollowButton from '../../widgets/FollowButton';
 import DelegateButton from '../StoryFooter/DelegateButton';
 import './User.less';
 
-const UlogOverseer = ({ user }) => (
+const FarmrOverseer = ({ user }) => (
   <div key={user.name} className="User">
     <div className="User__top">
       <div className="User__links">
@@ -26,8 +26,8 @@ const UlogOverseer = ({ user }) => (
   </div>
 );
 
-UlogOverseer.propTypes = {
+FarmrOverseer.propTypes = {
   user: PropTypes.shape().isRequired,
 };
 
-export default UlogOverseer;
+export default FarmrOverseer;

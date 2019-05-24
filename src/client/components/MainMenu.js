@@ -61,7 +61,7 @@ class MainMenu extends React.Component {
                              role="presentation"
                              className="MainMenu__item"
                              onClick={this.handleClick}
-                             data-href="/@ulogs/ulogs-org-communities"
+                             data-href="/@farmr/ulogs-org-communities"
                            >
                              <FormattedMessage id="communities" defaultMessage="Communities" />
                            </li> */}
@@ -69,7 +69,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-support-us"
+                data-href="/@farmr/ulogs-org-support-us"
               >
                 <FormattedMessage id="supportus" defaultMessage="Support us" />
               </li>
@@ -77,7 +77,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-contact-us"
+                data-href="/@farmr/ulogs-org-contact-us"
               >
                 <FormattedMessage id="contactus" defaultMessage="Contact us" />
               </li>
@@ -85,7 +85,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-faq-s-and-answers"
+                data-href="/@farmr/ulogs-org-faq-s-and-answers"
               >
                 <FormattedMessage id="faq" defaultMessage="FAQ" />
               </li>
@@ -93,7 +93,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-privacy-policy"
+                data-href="/@farmr/ulogs-org-privacy-policy"
               >
                 <FormattedMessage id="privacy" defaultMessage="Privacy Policy" />
               </li>

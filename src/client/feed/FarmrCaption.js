@@ -7,7 +7,7 @@ import { injectIntl, FormattedMessage } from 'react-intl';
 import VerifiedFarmrs from '../components/VerifiedFarmrs/VerifiedFarmrs';
 
 @injectIntl
-class UlogCaption extends React.Component {
+class FarmrCaption extends React.Component {
   static propTypes = {
     category: PropTypes.string.isRequired,
   };
@@ -91,7 +91,7 @@ class UlogCaption extends React.Component {
         <br />
         <br />
         Simply use <a href="https://farmr.club/ulog-howto">This Editor</a> to contribute to the
-        Ulog-KnowledgeBank, freshly-made{' '}
+        Farmr-KnowledgeBank, freshly-made{' '}
         <a href="https://farmr.club/created/ulog-howto">#farmr-HOWTO</a>(s) born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
@@ -127,7 +127,7 @@ class UlogCaption extends React.Component {
         <br />
         <br />
         Simply use <a href="https://farmr.club/ulog-diy">This Editor</a> to contribute to the
-        Ulog-KnowledgeBank, freshly-made <a href="https://farmr.club/created/ulog-diy">#farmr-DIY</a>(s)
+        Farmr-KnowledgeBank, freshly-made <a href="https://farmr.club/created/ulog-diy">#farmr-DIY</a>(s)
         born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
@@ -278,7 +278,7 @@ class UlogCaption extends React.Component {
 
     const ulographyCaption = (
       <span>
-        <b>Ulography</b>: This is the Ulog-generated hashtag for (Ulog + Photography). <br />
+        <b>FarmrPhotography</b>: This is the Farmr-generated hashtag for (Farmr + Photography). <br />
         <a href="https://farmr.club/created/ulography">#farmrraphy</a> allows you to contribute (&
         curate) <b>photographs created by "YOU" (per day)</b> and it is already birthing a{' '}
         <a href="https://discord.gg/mWVYjxc">growing community of "true fans"</a>. <br />
@@ -286,7 +286,7 @@ class UlogCaption extends React.Component {
         concept etc an existing concept suddenly turns out all fresh. (A major essence of the{' '}
         <a href="https://farmr.club/created/ulog">#farmr</a> movement is to gift to the internet,
         instead of resource from it, in a bid to reshape it.) <br />
-        To create a Ulog under "<a href="https://farmr.club/created/ulography">#farmrraphy</a>",
+        To create a Farmr under "<a href="https://farmr.club/created/ulography">#farmrraphy</a>",
         simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
@@ -294,7 +294,7 @@ class UlogCaption extends React.Component {
         then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">#farmr</a>"
         as your 1st hashtag & "<a href="https://farmr.club/created/ulography">#farmrraphy</a>" as your
         2nd hashtag. You can then add other hashtags e.g your "#location" etc. Don't forget to add
-        "(Ulog + Photography)" or "ULOG (Photography)" somewhere IN-TITLE. <br />
+        "(Farmr + Photography)" or "FARMR (Photography)" somewhere IN-TITLE. <br />
         <br />
         <b>
           Become "true fans"! Visit <a href="https://farmr.club/created/ulography">#farmrraphy</a>{' '}
@@ -334,7 +334,7 @@ class UlogCaption extends React.Component {
       <span>
         <a href="https://farmr.club/created/ulog-gratefulvibes">
           <b>#farmr-gratefulvibes</b>
-        </a>: the <b>Ulog-subtag for (Ulog + GratefulVibes)</b>. <br />
+        </a>: the <b>Farmr-subtag for (Farmr + GratefulVibes)</b>. <br />
         It allows you to ulog about <b>your gratefulness (per day)</b>, also as a means to{' '}
         <b>"gift to the internet"</b>, by <b>not resourcing from it</b>; thus, reshaping it. <br />{' '}
         We want to serve the search engines with <b>"grateful pieces of YOU" (per day)</b> and{' '}
@@ -349,7 +349,7 @@ class UlogCaption extends React.Component {
           forward a GratefulVibe today!
         </b>{' '}
         <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-gratefulvibes">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-gratefulvibes">
           <b>#farmr-gratefulvibes</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -362,7 +362,7 @@ class UlogCaption extends React.Component {
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://farmr.club/created/gratefulvibes">
           <b>#gratefulvibes</b>
         </a>" etc. Don't forget to{' '}
-        <b>add "(Ulog + GratefulVibes):" or "ULOG (GratefulVibes):" somewhere IN-TITLE</b>. <br />
+        <b>add "(Farmr + GratefulVibes):" or "FARMR (GratefulVibes):" somewhere IN-TITLE</b>. <br />
         <br />
         <b>
           Become "true fans"! Visit{' '}
@@ -437,7 +437,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-resolutions">
           <b>#farmr-resolutions</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + Resolutions)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + Resolutions)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -446,13 +446,13 @@ class UlogCaption extends React.Component {
         Yes, <b>farming</b> can be as fun and simple as telling us about <b>your resolutions</b>.
         Basically,{' '}
         <b>
-          <i>not a day should pass by without your Ulogacies in it</i>
+          <i>not a day should pass by without your Farmracies in it</i>
         </b>. Share <b>your resolutions (per day)</b> with us and the world and{' '}
         <b>
           <i>tell us when you meet it or fail to meet it</i>
         </b>. <br />
         <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-resolutions">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-resolutions">
           <b>#farmr-resolutions</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -463,12 +463,12 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-resolutions">
           <b>#farmr-resolutions</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Resolutions):" somewhere IN-TITLE</b> e.g: <br />
+        forget to <b>add "(Farmr + Resolutions):" somewhere IN-TITLE</b> e.g: <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
           <li>
             <font size="2">
               <b>
-                (Ulog + Resolutions): Today, I Resolve To Climb 2 Banana Trees...[TAGS-Order:{' '}
+                (Farmr + Resolutions): Today, I Resolve To Climb 2 Banana Trees...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
               </b>
@@ -477,7 +477,7 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Resolutions): I Didn't End Up Climbing Because I Ate 2
+                (Farmr + Resolutions): I Didn't End Up Climbing Because I Ate 2
                 Bananas...[TAGS-Order: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
               </b>
@@ -514,13 +514,13 @@ class UlogCaption extends React.Component {
       <span>
         <div style={{ color: 'purple' }}>
           <b>
-            <i>"Memes plus your Ulogacies become SuperMemes". @surpassinggoogle</i>
+            <i>"Memes plus your Farmracies become SuperMemes". @surpassinggoogle</i>
           </b>{' '}
           <br />
         </div>
         <a href="https://farmr.club/created/ulog-memes">
           <b>#farmr-memes</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + Memes)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + Memes)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -535,7 +535,7 @@ class UlogCaption extends React.Component {
           <b>#farmr-memes</b>
         </a>,{' '}
         <b>
-          <i>not a day passes by without your Ulogacies in it</i>
+          <i>not a day passes by without your Farmracies in it</i>
         </b>. <br />
         <b>In the art of farming</b>, we want to{' '}
         <b>
@@ -554,7 +554,7 @@ class UlogCaption extends React.Component {
           <b>#farmr-memes</b>
         </a>, solely out of your <b>"freshly-created" images, graphics and text (per day)</b>.<br />
         <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-memes">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-memes">
           <b>#farmr-memes</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -565,12 +565,12 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-memes">
           <b>#farmr-memes</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Memes):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        forget to <b>add "(Farmr + Memes):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
           <li>
             <font size="2">
               <b>
-                (Ulog + Memes): A Fly Cannot Bird...[TAGS-Order:{' '}
+                (Farmr + Memes): A Fly Cannot Bird...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-memes">#farmr-memes</a>, etc.]
               </b>
@@ -634,7 +634,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-blocktrades">
           <b>#farmr-blocktrades</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + Blocktrades.us)</b>. Basically,{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + Blocktrades.us)</b>. Basically,{' '}
         <a href="https://farmr.club/created/ulog-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>{' '}
@@ -677,7 +677,7 @@ class UlogCaption extends React.Component {
         </font>{' '}
         <br />
         <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-blocktrades">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -689,12 +689,12 @@ class UlogCaption extends React.Component {
           <b>#farmr-blocktrades</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc. Don't forget to{' '}
-        <b>add "(Ulog + Blocktrades):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        <b>add "(Farmr + Blocktrades):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
           <li>
             <font size="2">
               <b>
-                (Ulog + Blocktrades.us): How Blocktrades Refunded Me...[TAGS-Order:{' '}
+                (Farmr + Blocktrades.us): How Blocktrades Refunded Me...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
@@ -704,7 +704,7 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Blocktrades.us): Thank You Blocktrades For Blocks Of Upvotes...[TAGS-Order:{' '}
+                (Farmr + Blocktrades.us): Thank You Blocktrades For Blocks Of Upvotes...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
@@ -714,7 +714,7 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Blocktrades.us): How Blocktrades Expand Base In My Location...[TAGS-Order:{' '}
+                (Farmr + Blocktrades.us): How Blocktrades Expand Base In My Location...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
@@ -771,7 +771,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-showerthoughts">
           <b>#farmr-showerthoughts</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + Showerthoughts)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + Showerthoughts)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -786,7 +786,7 @@ class UlogCaption extends React.Component {
           <b>#farmr-showerthoughts</b>
         </a>,{' '}
         <b>
-          <i>not a day passes by without your Ulogacies in it</i>
+          <i>not a day passes by without your Farmracies in it</i>
         </b>. <br />
         <div style={{ color: 'purple' }}>
           <b>
@@ -797,7 +797,7 @@ class UlogCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-showerthoughts">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -808,13 +808,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Showerthoughts):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
+        forget to <b>add "(Farmr + Showerthoughts):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
         <br />
         <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
           <li>
             <font size="2">
               <b>
-                (Ulog + Showerthoughts): What If A Fly Could Bird...[TAGS-Order:{' '}
+                (Farmr + Showerthoughts): What If A Fly Could Bird...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
@@ -824,7 +824,7 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Showerthoughts): Let Me Build My Own Country...[TAGS-Order:{' '}
+                (Farmr + Showerthoughts): Let Me Build My Own Country...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
@@ -834,7 +834,7 @@ class UlogCaption extends React.Component {
           <li>
             <font size="2">
               <b>
-                (Ulog + Showerthoughts): My Plan To Make Ned Try Farming...[TAGS-Order:{' '}
+                (Farmr + Showerthoughts): My Plan To Make Ned Try Farming...[TAGS-Order:{' '}
                 <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                 <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
@@ -893,7 +893,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + SnookMadeMeDoIt)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + SnookMadeMeDoIt)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -905,7 +905,7 @@ class UlogCaption extends React.Component {
         </a>{' '}
         Farmrs (per day). This way,{' '}
         <b>
-          <i>not a day passes by without your Ulogacies in it</i>
+          <i>not a day passes by without your Farmracies in it</i>
         </b>. <br />
         <a href="https://farmr.club/created/ulog-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
@@ -969,7 +969,7 @@ class UlogCaption extends React.Component {
           <b>"farmr.club</b>
         </a>{' '}
         to ulog about how you <b>"made them do it"</b>. <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-snookmademedoit">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -980,14 +980,14 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + SnookMadeMeDoIt):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
+        forget to <b>add "(Farmr + SnookMadeMeDoIt):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
         <br />
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SnookMadeMeDoIt): @baasteemit Got Me To Say My First "baa"...<u>
+                  (Farmr + SnookMadeMeDoIt): @baasteemit Got Me To Say My First "baa"...<u>
                     TAGS-Order:
                   </u>{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
@@ -1080,7 +1080,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-utopian">
           <b>#farmr-utopian</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + Utopian.io)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + Utopian.io)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -1134,7 +1134,7 @@ class UlogCaption extends React.Component {
           <br />
           <br />
         </div>
-        To post a Ulog under "<a href="https://farmr.club/created/ulog-utopian">
+        To post a Farmr under "<a href="https://farmr.club/created/ulog-utopian">
           <b>#farmr-utopian</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -1146,13 +1146,13 @@ class UlogCaption extends React.Component {
           <b>#farmr-utopian</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://farmr.club/created/utopian-io">"#utopian-io"</a> etc. Don't forget to{' '}
-        <b>add "(Ulog + Utopian.io):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        <b>add "(Farmr + Utopian.io):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Utopian.io): @utopian-io Visited My Ulog Today...[TAGS-ORDER:{' '}
+                  (Farmr + Utopian.io): @utopian-io Visited My Farmr Today...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
@@ -1162,7 +1162,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Utopian.io): How Utopian.io Can Expand It Reach In My
+                  (Farmr + Utopian.io): How Utopian.io Can Expand It Reach In My
                   Location...[TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
@@ -1172,7 +1172,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Utopian.io): I Spoke To @elear Of Utopian.io And He Wants To Support My
+                  (Farmr + Utopian.io): I Spoke To @elear Of Utopian.io And He Wants To Support My
                   Idea...[TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
@@ -1269,7 +1269,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under{' '}
+        To post a Farmr under{' '}
         <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -1281,13 +1281,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-thejohalfiles">
           <b>#farmr-thejohalfiles</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + TheJohalFiles):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        forget to <b>add "(Farmr + TheJohalFiles):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + TheJohalFiles): My Attempt To Get Him To Do His First Ulog...[TAGS-ORDER:{' '}
+                  (Farmr + TheJohalFiles): My Attempt To Get Him To Do His First Farmr...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
@@ -1297,7 +1297,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + TheJohalFiles): How TheJohalfiles Left A File On My Desk...[TAGS-ORDER:{' '}
+                  (Farmr + TheJohalFiles): How TheJohalfiles Left A File On My Desk...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
@@ -1307,7 +1307,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + TheJohalFiles): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
+                  (Farmr + TheJohalFiles): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
@@ -1338,13 +1338,13 @@ class UlogCaption extends React.Component {
       <span>
         <div style={{ color: 'purple' }}>
           <b>
-            <i>"GIFs plus your Ulogacies become SuperGIFs". @surpassinggoogle</i>
+            <i>"GIFs plus your Farmracies become SuperGIFs". @surpassinggoogle</i>
           </b>{' '}
           <br />
         </div>
         <a href="https://farmr.club/created/ulogifs">
           <b>#farmrifs</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + GIFs)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + GIFs)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -1359,7 +1359,7 @@ class UlogCaption extends React.Component {
           <b>#farmrifs</b>
         </a>,{' '}
         <b>
-          <i>not a day passes by without your Ulogacies in it</i>
+          <i>not a day passes by without your Farmracies in it</i>
         </b>. <br />
         <b>In the art of farming</b>, we want to{' '}
         <b>
@@ -1379,7 +1379,7 @@ class UlogCaption extends React.Component {
         </a>, solely out of your{' '}
         <b>"freshly-created" images, graphics, videos and text (per day)</b>.<br />
         <br />
-        To post a Ulog under "<a href="https://farmr.club/created/ulogifs">
+        To post a Farmr under "<a href="https://farmr.club/created/ulogifs">
           <b>#farmrifs</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
@@ -1390,13 +1390,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulogifs">
           <b>#farmrifs</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + GIFs):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        forget to <b>add "(Farmr + GIFs):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + GIFs): A Fly Cannot Bird...[TAGS-Order:{' '}
+                  (Farmr + GIFs): A Fly Cannot Bird...[TAGS-Order:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulogifs">#farmrifs</a>, etc.]
                 </b>
@@ -1511,7 +1511,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -1523,13 +1523,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-surfyogi">
           <b>#farmr-surfyogi</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + SurfYogi):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
+        forget to <b>add "(Farmr + SurfYogi):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SurfYogi): My Attempt To Get Him To Do His First Ulog...[TAGS-ORDER:{' '}
+                  (Farmr + SurfYogi): My Attempt To Get Him To Do His First Farmr...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
@@ -1538,7 +1538,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SurfYogi): I Sent SurfYogi A White Tshirt...[TAGS-ORDER:{' '}
+                  (Farmr + SurfYogi): I Sent SurfYogi A White Tshirt...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
@@ -1547,7 +1547,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SurfYogi): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
+                  (Farmr + SurfYogi): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
@@ -1657,7 +1657,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -1669,13 +1669,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-bobbylee">
           <b>#farmr-bobbylee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + BobbyLee):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + BobbyLee):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + BobbyLee): My Attempt To Get Him To Do His First Ulog. [TAGS-ORDER:{' '}
+                  (Farmr + BobbyLee): My Attempt To Get Him To Do His First Farmr. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
@@ -1684,7 +1684,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + BobbyLee): I Wrote Bobby A "Thank You" Ulog And He Said "Wow".
+                  (Farmr + BobbyLee): I Wrote Bobby A "Thank You" Farmr And He Said "Wow".
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
@@ -1693,7 +1693,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + BobbyLee): I Drew A BobbyLee Portrait From My Image Nation. [TAGS-ORDER:{' '}
+                  (Farmr + BobbyLee): I Drew A BobbyLee Portrait From My Image Nation. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
@@ -1819,7 +1819,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under{' '}
+        To post a Farmr under{' '}
         <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -1831,13 +1831,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-stellabelle">
           <b>#farmr-stellabelle</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Stellabelle):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + Stellabelle):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Stellabelle): My Attempt To Get Her To Do Her First UloGIF. [TAGS-ORDER:{' '}
+                  (Farmr + Stellabelle): My Attempt To Get Her To Do Her First UloGIF. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
@@ -1846,7 +1846,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Stellabelle): I Created Some UloGIFs That I Am Sure She Will Like.
+                  (Farmr + Stellabelle): I Created Some UloGIFs That I Am Sure She Will Like.
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
@@ -1855,7 +1855,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Stellabelle): Because Of Her, I Re-loved My Woman. [TAGS-ORDER:{' '}
+                  (Farmr + Stellabelle): Because Of Her, I Re-loved My Woman. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
@@ -1909,7 +1909,7 @@ class UlogCaption extends React.Component {
         brightens the spaces. She wanders across <b>Mama Earth</b> and manages to let us peer into
         her adventures. <b>Spots-from-creation</b> she carries behind her,{' '}
         <b>re-telling us of the Creator Jehovah</b>. <br />
-        She <b>YaoMings</b> on the steem blockchain, <b>leaving her Ulogacies in lights</b> for all
+        She <b>YaoMings</b> on the steem blockchain, <b>leaving her Farmracies in lights</b> for all
         to see. <br />
         <b>She has supported "dreams" on the steem blockchain</b>, by means of mentorship, timely
         engagement, curation and actual community etc; <b>"true fan-hood"</b>. <br />
@@ -1978,7 +1978,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -1990,13 +1990,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-sweetsssj">
           <b>#farmr-sweetsssj</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Sweetsssj):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + Sweetsssj):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Sweetsssj): My Attempt To Get Her To Do Her First Ulog. [TAGS-ORDER:{' '}
+                  (Farmr + Sweetsssj): My Attempt To Get Her To Do Her First Farmr. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
@@ -2005,7 +2005,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Sweetsssj): I Ulogged About Travel "Sweetsssj-Style". [TAGS-ORDER:{' '}
+                  (Farmr + Sweetsssj): I Farmred About Travel "Sweetsssj-Style". [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
@@ -2014,7 +2014,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Sweetsssj): My Selfie-Moments With Sweetssj Earlier Today In Beijin.
+                  (Farmr + Sweetsssj): My Selfie-Moments With Sweetssj Earlier Today In Beijin.
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
@@ -2167,7 +2167,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -2180,14 +2180,14 @@ class UlogCaption extends React.Component {
           <b>#farmr-dimimp</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://farmr.club/created/steemjet">
           #steemjet
-        </a>" etc. Don't forget to <b>add "(Ulog + DimImp):" somewhere IN-TITLE</b>. See{' '}
+        </a>" etc. Don't forget to <b>add "(Farmr + DimImp):" somewhere IN-TITLE</b>. See{' '}
         <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + DimImp): My Attempt To Get @dimimp To Ulog. [TAGS-ORDER:{' '}
+                  (Farmr + DimImp): My Attempt To Get @dimimp To Farmr. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
@@ -2197,7 +2197,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + DimImp): What I Learned From @dimimp Today. [TAGS-ORDER:{' '}
+                  (Farmr + DimImp): What I Learned From @dimimp Today. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
@@ -2207,7 +2207,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + DimImp): My Mentality Improved After An Encounter With @dimpimp.
+                  (Farmr + DimImp): My Mentality Improved After An Encounter With @dimpimp.
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
@@ -2332,7 +2332,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -2344,13 +2344,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-teamsteem">
           <b>#farmr-teamsteem</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + TeamSteem):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + TeamSteem):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + TeamSteem): My Attempt To Get @teamsteem To Ulog About Me. [TAGS-ORDER:{' '}
+                  (Farmr + TeamSteem): My Attempt To Get @teamsteem To Farmr About Me. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
@@ -2359,7 +2359,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + TeamSteem): My Selfie Moments With Him In Quebec. [TAGS-ORDER:{' '}
+                  (Farmr + TeamSteem): My Selfie Moments With Him In Quebec. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
@@ -2368,7 +2368,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Teamsteem): Thank You @teamsteem, For Making Me Do My First Pull-Up.
+                  (Farmr + Teamsteem): Thank You @teamsteem, For Making Me Do My First Pull-Up.
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
@@ -2521,7 +2521,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a>,
+        To post a Farmr under <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -2533,13 +2533,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-kusknee">
           <b>#farmr-kusknee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Kus-Knee):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + Kus-Knee):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Kus-Knee): Today @kus-knee Told Me Why He Is Called The Old Dog.
+                  (Farmr + Kus-Knee): Today @kus-knee Told Me Why He Is Called The Old Dog.
                   [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
@@ -2548,7 +2548,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Kus-Knee): I FaceTimed @kus-knee And Here Is What He Told Me About
+                  (Farmr + Kus-Knee): I FaceTimed @kus-knee And Here Is What He Told Me About
                   Entepreneurship. [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
@@ -2557,7 +2557,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Kus-Knee): I Love Steem Because I Found @kus-knee. [TAGS-ORDER:{' '}
+                  (Farmr + Kus-Knee): I Love Steem Because I Found @kus-knee. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
                 </b>
@@ -2597,12 +2597,12 @@ class UlogCaption extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://steemconnect.com/sign/follow?following=@ulogs"
+                  href="https://steemconnect.com/sign/follow?following=@farmr"
                   target="_blank"
                   rel="noopener noreferrer"
                   i
                 >
-                  @ulogs [<u>Follow</u>]
+                  @farmr [<u>Follow</u>]
                 </a>{' '}
                 Contact: [<a href="https://discord.gg/SFYBHp5">
                   <b>
@@ -2735,7 +2735,7 @@ class UlogCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Ulog under{' '}
+        To post a Farmr under{' '}
         <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
@@ -2747,13 +2747,13 @@ class UlogCaption extends React.Component {
         </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-papapepper">
           <b>#farmr-papapepper</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
-        forget to <b>add "(Ulog + Papa-Pepper):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        forget to <b>add "(Farmr + Papa-Pepper):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Papa-Pepper): A New Niche In Homesteading Discovered, Thanks To
+                  (Farmr + Papa-Pepper): A New Niche In Homesteading Discovered, Thanks To
                   @papa-pepper [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
                 </b>
@@ -2762,7 +2762,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Papa-Pepper): "Applying Blockchain Technology To The Contest Economy"; I
+                  (Farmr + Papa-Pepper): "Applying Blockchain Technology To The Contest Economy"; I
                   Learned This From @papa-pepper [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
@@ -2772,7 +2772,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Papa-Pepper): Hey @papa-pepper, What Do You Think About My New BackYard Of
+                  (Farmr + Papa-Pepper): Hey @papa-pepper, What Do You Think About My New BackYard Of
                   Peppers. [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
                 </b>
@@ -2812,12 +2812,12 @@ class UlogCaption extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://steemconnect.com/sign/follow?following=@ulogs"
+                  href="https://steemconnect.com/sign/follow?following=@farmr"
                   target="_blank"
                   rel="noopener noreferrer"
                   i
                 >
-                  @ulogs [<u>Follow</u>]
+                  @farmr [<u>Follow</u>]
                 </a>{' '}
                 Contact: [<a href="https://discord.gg/M847Kvs">
                   <b>
@@ -2848,7 +2848,7 @@ class UlogCaption extends React.Component {
         </div>
         <a href="https://farmr.club/created/ulog-steemjet">
           <b>#farmr-steemjet</b>
-        </a>: is the Ulog-subtag for <b>(Ulog + SteemJet)</b>. When you add{' '}
+        </a>: is the Farmr-subtag for <b>(Farmr + SteemJet)</b>. When you add{' '}
         <a href="https://farmr.club/created/ulog">
           <b>#farmr</b>
         </a>{' '}
@@ -2908,7 +2908,7 @@ class UlogCaption extends React.Component {
         <b>
           <i>"true celebrity-hood for 'everyone', once and for all"</i>
         </b>. <br /> <br />
-        To post a Ulog under{' '}
+        To post a Farmr under{' '}
         <a href="https://farmr.club/created/ulog-steemjet">
           <b>#farmr-steemjet</b>
         </a>, simply use{' '}
@@ -2923,13 +2923,13 @@ class UlogCaption extends React.Component {
         <a href="https://farmr.club/created/steemjet">
           <b>#steemjet</b>
         </a>, "your location" etc. Don't forget to{' '}
-        <b>add "(Ulog + SteemJet):" somewhere IN-TITLE</b>. See <b>sample</b>:
+        <b>add "(Farmr + SteemJet):" somewhere IN-TITLE</b>. See <b>sample</b>:
         <div style={{ color: 'purple' }}>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <font size="2">
                 <b>
-                  (Ulog + Steemjet): "I Just Found Myself, Thanks To @steemjet". [TAGS-ORDER:{' '}
+                  (Farmr + Steemjet): "I Just Found Myself, Thanks To @steemjet". [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
                 </b>
@@ -2938,7 +2938,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SteemJet): How I Spent My Today As A SpaceForcer. [TAGS-ORDER:{' '}
+                  (Farmr + SteemJet): How I Spent My Today As A SpaceForcer. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
                 </b>
@@ -2947,7 +2947,7 @@ class UlogCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Ulog + SteemJet): Applying Steem Technology To More "Wreck-It-Ralph Use. My
+                  (Farmr + SteemJet): Applying Steem Technology To More "Wreck-It-Ralph Use. My
                   SteemJet Suggestion! [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
@@ -2988,12 +2988,12 @@ class UlogCaption extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://steemconnect.com/sign/follow?following=@ulogs"
+                  href="https://steemconnect.com/sign/follow?following=@farmr"
                   target="_blank"
                   rel="noopener noreferrer"
                   i
                 >
-                  @ulogs [<u>Follow</u>]
+                  @farmr [<u>Follow</u>]
                 </a>{' '}
                 Contact: [<a href="https://discord.gg/9Bhxtm">
                   <b>
@@ -3112,4 +3112,4 @@ class UlogCaption extends React.Component {
   }
 }
 
-export default UlogCaption;
+export default FarmrCaption;

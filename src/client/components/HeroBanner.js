@@ -12,14 +12,14 @@ class HeroBanner extends React.Component {
     {
       image: '/images/hero-1.png',
       titleID: 'hero_banner_title_1',
-      defaultTitle: 'Write and publish a ULOG on steem',
+      defaultTitle: 'Write and publish a FARMR on steem',
       className: 'HeroBannerSlider__image',
       number: 1,
     },
     {
       image: '/images/hero-2.png',
       titleID: 'hero_banner_title_2',
-      defaultTitle: 'Our Community will become your true fan and upvote your ULOG',
+      defaultTitle: 'Our Community will become your true fan and upvote your FARMR',
       className: 'HeroBannerSlider__image',
       number: 2,
     },
@@ -57,14 +57,14 @@ class HeroBanner extends React.Component {
               <img
                 src="/images/hero-1.png"
                 className="HeroBanner__content__image"
-                alt="Write and publish a ULOG on steem"
+                alt="Write and publish a FARMR on steem"
               />
               <div className="HeroBanner__content__description">
                 <div className="HeroBanner__content__number">1</div>
                 <div className="HeroBanner__content__title">
                   <FormattedMessage
                     id="hero_banner_title_1"
-                    defaultMessage="Write and publish a ULOG on steem"
+                    defaultMessage="Write and publish a FARMR on steem"
                   />
                 </div>
               </div>
@@ -73,14 +73,14 @@ class HeroBanner extends React.Component {
               <img
                 src="/images/hero-2.png"
                 className="HeroBanner__content__image"
-                alt="Our Community will become your true fan and upvote your ULOG"
+                alt="Our Community will become your true fan and upvote your FARMR"
               />
               <div className="HeroBanner__content__description">
                 <div className="HeroBanner__content__number">2</div>
                 <div className="HeroBanner__content__title">
                   <FormattedMessage
                     id="hero_banner_title_2"
-                    defaultMessage="Our Community will become your true fan and upvote your ULOG"
+                    defaultMessage="Our Community will become your true fan and upvote your FARMR"
                   />
                 </div>
               </div>

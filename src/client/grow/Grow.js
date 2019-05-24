@@ -20,7 +20,7 @@ class Grow extends React.Component {
   };
 
   render() {
-    // for the 'About Ulog' style
+    // for the 'About Farmr' style
     const customPanelStyle = {
       marginBottom: 5,
       overflow: 'hidden',

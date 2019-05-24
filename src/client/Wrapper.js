@@ -238,7 +238,7 @@ export default class Wrapper extends React.PureComponent {
         this.props.history.push('/vote-ulog-witnesses');
         break;
       case 'about-ulogs':
-        this.props.history.push('/@ulogs/ulogs-org-faq-s-and-answers');
+        this.props.history.push('/@farmr/ulogs-org-faq-s-and-answers');
         break;
       case 'ulog-subtags':
         this.props.history.push('/ulog-subtags');

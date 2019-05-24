@@ -225,7 +225,7 @@ class EditorUntalented extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item

@@ -12,7 +12,7 @@ import Action from '../Button/Action';
 import requiresLogin from '../../auth/requiresLogin';
 import withEditor from './withEditor';
 import EditorInput from './EditorInput';
-import UlogDropdown from './UlogDropdown';
+import FarmrDropdown from './FarmrDropdown';
 import { remarkable } from '../Story/Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import './Editor.less';
@@ -83,7 +83,7 @@ class EditorSurpassingGoogle extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG: ',
+      title: 'FARMR: ',
       topics: ['ulog', 'surpassinggoogle'],
     });
 
@@ -230,12 +230,12 @@ class EditorSurpassingGoogle extends React.Component {
           </Collapse>
         </div>
         <div className="hashtags">
-          <UlogDropdown />
+          <FarmrDropdown />
         </div>
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -272,7 +272,7 @@ class EditorSurpassingGoogle extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG: ',
+                defaultMessage: 'FARMR: ',
               })}
             />,
           )}

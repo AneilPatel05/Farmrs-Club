@@ -76,7 +76,7 @@ class CreateCommunity extends React.Component {
           intl.formatMessage(
             {
               id: 'subtag_too_short',
-              defaultMessage: 'Ulog subtag {subtag} is too short.',
+              defaultMessage: 'Farmr subtag {subtag} is too short.',
             },
             {
               subtag: ulogSubTag,
@@ -94,7 +94,7 @@ class CreateCommunity extends React.Component {
           intl.formatMessage(
             {
               id: 'subtag_too_long',
-              defaultMessage: 'Ulog subtag {subtag} is too long.',
+              defaultMessage: 'Farmr subtag {subtag} is too long.',
             },
             {
               subtag: ulogSubTag,
@@ -116,7 +116,7 @@ class CreateCommunity extends React.Component {
             intl.formatMessage(
               {
                 id: 'community_error_found_tag',
-                defaultMessage: "Ulog community {subtag} already exists. Please try another one.",
+                defaultMessage: "Farmr community {subtag} already exists. Please try another one.",
               },
               {
                 subtag: ulogSubTag,
@@ -136,7 +136,7 @@ class CreateCommunity extends React.Component {
     const postBody = "";
     const community = form.getFieldValue('community');
     const ulogSubTag = "ulog-" + community;
-    const postTitle = `A New Ulog Community - ${ulogSubTag} - Has Been Created!`;
+    const postTitle = `A New Farmr Community - ${ulogSubTag} - Has Been Created!`;
     const tags = [ulogSubTag];
     const data = {
       body: postBody,
@@ -175,7 +175,7 @@ class CreateCommunity extends React.Component {
       if (!err) {
         const community = values.community;
         const ulogSubTag = "ulog-" + community;
-    
+
         if (_.isEmpty(ulogSubTag)) {
           this.props.notify(
             this.props.intl.formatMessage({
@@ -196,7 +196,7 @@ class CreateCommunity extends React.Component {
     const { intl, postCreationLoading } = this.props;
     const { getFieldDecorator } = this.props.form;
 
-    // Style for the 'About' description 
+    // Style for the 'About' description
     const customPanelStyle = {
       marginBottom: 5,
       overflow: 'hidden',
@@ -212,7 +212,7 @@ class CreateCommunity extends React.Component {
       <div className="shifted">
         <div className="container">
           <div className="center" style={{ marginBottom: '50px' }}>
-            <h2 style={{ color: 'purple', textAlign: 'center' }}>Create A Ulog-Community</h2>
+            <h2 style={{ color: 'purple', textAlign: 'center' }}>Create A Farmr-Community</h2>
             <Collapse defaultActiveKey={['1']}>
               <Collapse.Panel header="About Communities" key="1" style={customPanelStyle}>
                 <ReactMarkdown source={community.aboutCommunities} />
@@ -223,9 +223,9 @@ class CreateCommunity extends React.Component {
               <Collapse.Panel showArrow={false} key="1" disabled>
                 <List itemLayout="vertical" size="large">
                   <List.Item
-                    key="Create A Ulog-Community"
+                    key="Create A Farmr-Community"
                   >
-                    <h3>Create A Ulog-Community</h3>
+                    <h3>Create A Farmr-Community</h3>
                     <div style={customCardStyle}>
                       <ReactMarkdown source={community.createCommunity} />
                     </div>

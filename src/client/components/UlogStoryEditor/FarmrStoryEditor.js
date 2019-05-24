@@ -19,8 +19,8 @@ import { notify } from '../../app/Notification/notificationActions';
 import withEditor from '../Editor/withEditor';
 import { createPost } from '../../post/Write/editorActions';
 import Avatar from '../Avatar';
-import UlogStoryEditorFooter from './UlogStoryEditorFooter';
-import './UlogStoryEditor.less';
+import FarmrStoryEditorFooter from './FarmrStoryEditorFooter';
+import './FarmrStoryEditor.less';
 
 const version = require('../../../../package.json').version;
 
@@ -39,7 +39,7 @@ const version = require('../../../../package.json').version;
     createPost,
   },
 )
-class UlogStoryEditor extends React.Component {
+class FarmrStoryEditor extends React.Component {
   // component's property types for checking
   static propTypes = {
     postCreationLoading: PropTypes.bool.isRequired,
@@ -252,12 +252,12 @@ class UlogStoryEditor extends React.Component {
     const isCertifiedFarmr = certifiedFarmrs.includes(user.name);
 
     return (
-      <div className="UlogStoryEditor">
-        <div className="UlogStoryEditor__contents">
-          <div className="UlogStoryEditor__avatar">
+      <div className="FarmrStoryEditor">
+        <div className="FarmrStoryEditor__contents">
+          <div className="FarmrStoryEditor__avatar">
             <Avatar username={user.name} size={40} />
           </div>
-          <div className="UlogStoryEditor__dropzone-base">
+          <div className="FarmrStoryEditor__dropzone-base">
             <Dropzone
               disableClick
               style={{ flex: 1 }}
@@ -269,7 +269,7 @@ class UlogStoryEditor extends React.Component {
               onDragLeave={this.handleDragLeave}
             >
               {this.state.dropzoneActive && (
-                <div className="UlogStoryEditor__dropzone">
+                <div className="FarmrStoryEditor__dropzone">
                   <div>
                     <i className="iconfont icon-picture" />
                     <FormattedMessage id="drop_image" defaultMessage="Drop your images here" />
@@ -291,7 +291,7 @@ class UlogStoryEditor extends React.Component {
             </Dropzone>
           </div>
         </div>
-        <UlogStoryEditorFooter
+        <FarmrStoryEditorFooter
           imageUploading={imageUploading}
           postCreationLoading={postCreationLoading}
           isCertifiedFarmr={isCertifiedFarmr}
@@ -315,4 +315,4 @@ class UlogStoryEditor extends React.Component {
   }
 }
 
-export default UlogStoryEditor;
+export default FarmrStoryEditor;

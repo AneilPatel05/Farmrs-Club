@@ -8,14 +8,14 @@ import _ from 'lodash';
 import {
   getFarmrsFollowingList,
 } from '../../reducers';
-import UlogStory from './UlogStory';
+import FarmrStory from './FarmrStory';
 import Loading from '../../components/Icon/Loading';
 import { ulogStoriesTags } from '../../helpers/constants';
 import steemAPI from '../../steemAPI';
 import SteemConnect from '../../steemConnectAPI';
 import './InterestingPeople.less';
 import './SidebarContentBlock.less';
-import UlogStoryEditor from '../UlogStoryEditor/UlogStoryEditor';
+import FarmrStoryEditor from '../FarmrStoryEditor/FarmrStoryEditor';
 
 @withRouter
 @connect(
@@ -23,7 +23,7 @@ import UlogStoryEditor from '../UlogStoryEditor/UlogStoryEditor';
     certifiedFarmrs: getFarmrsFollowingList(state),
   }),
 )
-class UlogStories extends React.Component {
+class FarmrStories extends React.Component {
   static propTypes = {
     authenticated: PropTypes.bool.isRequired,
     authenticatedUser: PropTypes.shape({
@@ -54,7 +54,7 @@ class UlogStories extends React.Component {
       displayStories: 0,
     };
 
-    this.getUlogStories = this.getUlogStories.bind(this);
+    this.getFarmrStories = this.getFarmrStories.bind(this);
     this.showModal = this.showModal.bind(this);
     this.modalHandleOk = this.modalHandleOk.bind(this);
   }
@@ -67,10 +67,10 @@ class UlogStories extends React.Component {
   }
 
   componentDidMount() {
-    this.getUlogStories();
+    this.getFarmrStories();
   }
 
-  getUlogStories() {
+  getFarmrStories() {
     steemAPI
       .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
@@ -85,7 +85,7 @@ class UlogStories extends React.Component {
             }
             return name;
           });
-        
+
         // if there are certified farmrs
         if (certifiedFarmrNames.length > 0) {
           // get the latest posts from each certified farmr
@@ -120,21 +120,21 @@ class UlogStories extends React.Component {
                 // Add 'ulog' and 'ulogs' as valid ulog story tags
                 ulogStoriesTags.push('ulog', 'ulogs');
                 // filter posts that do not contain valid ulog tags
-                let containsUlogTag = false;
+                let containsFarmrTag = false;
                 ulogStoriesTags.forEach(subtag => {
                   const tags = JSON.parse(post.json_metadata).tags;
                   if (tags.indexOf(subtag) >= 0) {
-                    containsUlogTag = true;
+                    containsFarmrTag = true;
                   }
                 })
-                if (!containsUlogTag) return;
+                if (!containsFarmrTag) return;
 
                 // push post to ulog stories array
                 let { ulogStoriesArr } = this.state;
                 ulogStoriesArr.push(
-                  { 
-                    author: post.author, 
-                    permlink: post.permlink, 
+                  {
+                    author: post.author,
+                    permlink: post.permlink,
                     created: post.created
                   }
                 );
@@ -145,7 +145,7 @@ class UlogStories extends React.Component {
                   ulogStoriesArr,
                 });
               });
-              
+
           });
 
           // set the initial list to display the first 5 ulog stories
@@ -178,7 +178,7 @@ class UlogStories extends React.Component {
       return 0;
     });
 
-    const slicedUlogStories = ulogStoriesArr.slice(0, displayStories);
+    const slicedFarmrStories = ulogStoriesArr.slice(0, displayStories);
     const { authenticated, location } = this.props;
     const hasMoreStories = (displayStories < ulogStoriesArr.length);
     const next = location.pathname.length > 1 ? location.pathname : '';
@@ -204,10 +204,10 @@ class UlogStories extends React.Component {
           <div style={{ textAlign: 'left', padding: 3 }}>
             Share images, ulography, graphics, ulog-news, ulog-arts plain text etc freshly-created by you, today.
           </div>
-          {slicedUlogStories.map(story => 
-            <UlogStory key={story.permlink} story={{ author: story.author, permlink: story.permlink }} />
+          {slicedFarmrStories.map(story =>
+            <FarmrStory key={story.permlink} story={{ author: story.author, permlink: story.permlink }} />
           )}
-          {hasMoreStories && 
+          {hasMoreStories &&
             <Button onClick={this.handleLoadMore} type="primary">
               View More
             </Button>
@@ -225,11 +225,11 @@ class UlogStories extends React.Component {
           onCancel={this.modalHandleOk}
           footer={null}
         >
-          <UlogStoryEditor />
+          <FarmrStoryEditor />
         </Modal>
       </div>
     );
   }
 }
 
-export default UlogStories;
+export default FarmrStories;

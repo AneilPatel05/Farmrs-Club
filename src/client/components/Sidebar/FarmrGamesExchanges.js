@@ -6,7 +6,7 @@ import { FormattedMessage, injectIntl } from 'react-intl';
 import { connect } from 'react-redux';
 import ReactMarkdown from 'react-markdown';
 import _ from 'lodash';
-import UlogGamesExchangesUser from './UlogGamesExchangesUser';
+import FarmrGamesExchangesUser from './FarmrGamesExchangesUser';
 import FarmrTVThumbnailView from './FarmrTVThumbnailView';
 import Loading from '../../components/Icon/Loading';
 import steemAPI from '../../steemAPI';
@@ -62,7 +62,7 @@ const moveLeftDiv = id => {
   scrollToRight(start - 100, 200, id);
 };
 @withRouter
-class UlogGamesExchanges extends React.Component {
+class FarmrGamesExchanges extends React.Component {
   static propTypes = {
     isFetchingFollowingList: PropTypes.bool.isRequired,
     authenticated: PropTypes.bool.isRequired,
@@ -85,18 +85,18 @@ class UlogGamesExchanges extends React.Component {
       ulogExchanges: [],
     };
 
-    this.getUlogGamesAndExchanges = this.getUlogGamesAndExchanges.bind(this);
+    this.getFarmrGamesAndExchanges = this.getFarmrGamesAndExchanges.bind(this);
     this.getFarmrsTVVideaos = this.getFarmrsTVVideaos.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
-      this.getUlogGamesAndExchanges();
+      this.getFarmrGamesAndExchanges();
       this.getFarmrsTVVideaos();
     }
   }
 
-  getUlogGamesAndExchanges() {
+  getFarmrGamesAndExchanges() {
     this.setState({ ulogGames: [], ulogExchanges: [] });
 
     steemAPI
@@ -113,7 +113,7 @@ class UlogGamesExchanges extends React.Component {
             }
             return name;
           });
-        
+
         // if there are certified farmrs
         if (certifiedFarmrNames.length > 0) {
           // get the latest posts from each certified farmr
@@ -138,37 +138,37 @@ class UlogGamesExchanges extends React.Component {
                 posts.forEach(post => {
                   // filter-out posts from non-certified users
                   if(certifiedFarmrNames.indexOf(post.author) < 0) return;
-  
+
                   // filter posts that have been created more than 7 days ago
                   const today = new Date();
                   const sevenDaysAgo = new Date();
                   sevenDaysAgo.setDate(today.getDate() - 7);
                   const created = new Date(post.created);
                   if(created < sevenDaysAgo) return;
-  
+
                   // filter posts that do not contain #farmr-games or #farmr-exchanges tags
                   const tags = JSON.parse(post.json_metadata).tags;
                   if (tags.indexOf("ulog-games") < 0 && tags.indexOf("ulog-exchanges") < 0) return;
-  
+
                   // create story object from post
-                  const story = { 
-                    author: post.author, 
-                    permlink: post.permlink, 
+                  const story = {
+                    author: post.author,
+                    permlink: post.permlink,
                     created: post.created
                   }
-  
+
                   // push story to appropriate array
                   if (tags.indexOf("ulog-games") >= 0) {
                     let { ulogGames } = this.state;
                     ulogGames.push(story);
                     this.setState({ ulogGames });
-  
+
                   } else if (tags.indexOf("ulog-exchanges") >= 0) {
                     let { ulogExchanges } = this.state;
                     ulogExchanges.push(story);
                     this.setState({ ulogExchanges });
                   }
-  
+
                 })
 
               });
@@ -224,8 +224,8 @@ class UlogGamesExchanges extends React.Component {
                 }}
               >
                 {ulogGames.length === 0 && <div>No Farmr.club games to display.</div>}
-                {ulogGames.map(story => 
-                  <UlogGamesExchangesUser
+                {ulogGames.map(story =>
+                  <FarmrGamesExchangesUser
                     key={story.permlink}
                     story={{ author: story.author, permlink: story.permlink }}
                     authenticated={authenticated}
@@ -266,8 +266,8 @@ class UlogGamesExchanges extends React.Component {
               }}
             >
               {ulogExchanges.length === 0 && <div>No Farmr.club exchanges to display.</div>}
-              {ulogExchanges.map(story => 
-                <UlogGamesExchangesUser
+              {ulogExchanges.map(story =>
+                <FarmrGamesExchangesUser
                   key={story.permlink}
                   story={{ author: story.author, permlink: story.permlink }}
                   authenticated={authenticated}
@@ -284,4 +284,4 @@ class UlogGamesExchanges extends React.Component {
 const mapStateToProps = state => ({
   authenticated: getIsAuthenticated(state),
 });
-export default connect(mapStateToProps)(injectIntl(UlogGamesExchanges));
+export default connect(mapStateToProps)(injectIntl(FarmrGamesExchanges));

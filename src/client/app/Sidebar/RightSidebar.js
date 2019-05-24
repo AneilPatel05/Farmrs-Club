@@ -14,7 +14,7 @@ import { checkWitnessVote } from '../../helpers/voteHelpers';
 import { updateRecommendations } from '../../user/userActions';
 import InterestingFarmrsWithAPI from '../../components/Sidebar/InterestingFarmrsWithAPI';
 import OverseeingFarmrs from '../../components/Sidebar/OverseeingFarmrs';
-import UlogStories from '../../components/Sidebar/UlogStories';
+import FarmrStories from '../../components/Sidebar/FarmrStories';
 import SignUp from '../../components/Sidebar/SignUp';
 import WitnessVote from '../../components/Sidebar/WitnessVote';
 import PostRecommendation from '../../components/Sidebar/PostRecommendation';
@@ -23,7 +23,7 @@ import UserActivitySearch from '../../activity/UserActivitySearch';
 import WalletSidebar from '../../components/Sidebar/WalletSidebar';
 import FeedSidebar from '../../components/Sidebar/FeedSidebar';
 import ChatBar from '../../components/Sidebar/ChatBar';
-import UlogGamesExchanges from '../../components/Sidebar/UlogGamesExchanges';
+import FarmrGamesExchanges from '../../components/Sidebar/FarmrGamesExchanges';
 import VideoExample from '../../components/Sidebar/VideoExample';
 
 @withRouter
@@ -114,13 +114,13 @@ export default class RightSidebar extends React.Component {
               <div>
                 {authenticated && !showPostRecommendation ? (
                   <div>
-                    <UlogStories
+                    <FarmrStories
                       authenticated={authenticated}
                       authenticatedUser={authenticatedUser}
                       followingList={followingList}
                       isFetchingFollowingList={isFetchingFollowingList}
                     />
-                    <UlogGamesExchanges isFetchingFollowingList={false} />
+                    <FarmrGamesExchanges isFetchingFollowingList={false} />
                     <ChatBar isFetchingFollowingList={false} authenticated={authenticated} />
                     <InterestingFarmrsWithAPI
                       authenticatedUser={authenticatedUser}
@@ -130,13 +130,13 @@ export default class RightSidebar extends React.Component {
                   </div>
                 ) : (
                   <div>
-                    <UlogStories
+                    <FarmrStories
                       authenticated={authenticated}
                       authenticatedUser={authenticatedUser}
                       followingList={followingList}
                       isFetchingFollowingList={isFetchingFollowingList}
                     />
-                    <UlogGamesExchanges isFetchingFollowingList={false} />
+                    <FarmrGamesExchanges isFetchingFollowingList={false} />
                     <ChatBar isFetchingFollowingList={false} authenticated={authenticated} />
                   </div>
                 )}

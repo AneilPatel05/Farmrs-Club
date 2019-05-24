@@ -6,7 +6,7 @@ import Avatar from '../Avatar';
 import ViewButton from '../../widgets/ViewButton';
 import './User.less';
 
-const UlogStory = ({ story }) => (
+const FarmrStory = ({ story }) => (
   <div key={story.author} className="User">
     <div className="User__top">
       <div className="User__links">
@@ -27,8 +27,8 @@ const UlogStory = ({ story }) => (
   </div>
 );
 
-UlogStory.propTypes = {
+FarmrStory.propTypes = {
   story: PropTypes.shape().isRequired,
 };
 
-export default UlogStory;
+export default FarmrStory;

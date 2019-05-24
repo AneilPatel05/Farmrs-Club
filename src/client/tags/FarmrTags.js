@@ -6,10 +6,10 @@ import { connect } from 'react-redux';
 import topics from '../helpers/ulogTopics';
 import { getTrendingTags } from '../helpers/apiHelpers';
 import Loading from '../components/Icon/Loading';
-import './UlogTags.less'
+import './FarmrTags.less'
 
 @injectIntl
-export default class UlogTags extends React.Component {
+export default class FarmrTags extends React.Component {
   state = {
     order: 'name',
     tags: {},
@@ -146,7 +146,7 @@ export default class UlogTags extends React.Component {
         <div className="ulogTags row">
           <div className="column">
             <br/>
-            <h3 className="ulogheader">Trending Ulog Subtags and Communities</h3>
+            <h3 className="ulogheader">Trending Farmr Subtags and Communities</h3>
             <table>
               <thead>
                 <tr>{cols}</tr>

@@ -7,10 +7,10 @@ import { injectIntl } from 'react-intl';
 const menu = (
   <Menu>
     <Menu.Item key="10">
-      <Link to={'/ulog-knowledge-bank'}>ULOG-Knowledge-Bank</Link>
+      <Link to={'/ulog-knowledge-bank'}>FARMR-Knowledge-Bank</Link>
     </Menu.Item>
     <Menu.Item key="11">
-      <Link to={'/ulog-fanlove'}>ULOG-Fan Love</Link>
+      <Link to={'/ulog-fanlove'}>FARMR-Fan Love</Link>
     </Menu.Item>
     <Menu.Item key="12">
       <Link to={'/surpassinggoogle'}>SurpassingGoogle</Link>
@@ -18,7 +18,7 @@ const menu = (
   </Menu>
 );
 
-const UlogDropdown = ({ intl }) => (
+const FarmrDropdown = ({ intl }) => (
   <Dropdown overlay={menu} trigger={['click']}>
     <a className="ant-dropdown-link" href="#">
       Try More #farming? <Icon type="down" />
@@ -26,8 +26,8 @@ const UlogDropdown = ({ intl }) => (
   </Dropdown>
 );
 
-UlogDropdown.propTypes = {
+FarmrDropdown.propTypes = {
   intl: PropTypes.shape().isRequired,
 };
 
-export default injectIntl(UlogDropdown);
+export default injectIntl(FarmrDropdown);

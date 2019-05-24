@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Avatar from '../Avatar';
 import './User.less';
 
-const UlogGamesExchangesUser = ({ story, authenticated }) => (
+const FarmrGamesExchangesUser = ({ story, authenticated }) => (
   <div className="User__links_overflow_x_auto" key={story.permlink}>
     {authenticated && (
       <Link to={`/@${story.author}/${story.permlink}`} >
@@ -19,9 +19,9 @@ const UlogGamesExchangesUser = ({ story, authenticated }) => (
   </div>
 );
 
-UlogGamesExchangesUser.propTypes = {
+FarmrGamesExchangesUser.propTypes = {
   story: PropTypes.shape().isRequired,
   authenticated: PropTypes.bool.isRequired,
 };
 
-export default UlogGamesExchangesUser;
+export default FarmrGamesExchangesUser;

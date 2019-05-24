@@ -253,10 +253,10 @@ class Topnav extends React.Component {
                     <FormattedMessage id="settings" defaultMessage="Settings" />
                   </PopoverMenuItem>
                   <PopoverMenuItem key="ulog-witnesses">
-                    <FormattedMessage id="ulog-witnesses" defaultMessage="Ulog-Witnesses"/>
+                    <FormattedMessage id="ulog-witnesses" defaultMessage="Farmr-Witnesses"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="ulog-subtags">
-                    <FormattedMessage id="ulog-subtags" defaultMessage="Ulog-Subtags"/>
+                    <FormattedMessage id="ulog-subtags" defaultMessage="Farmr-Subtags"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="custom-profile">
                     <FormattedMessage id="custom_profile" defaultMessage="Custom Profile"/>
@@ -271,7 +271,7 @@ class Topnav extends React.Component {
                     <FormattedMessage id="get_certified" defaultMessage='Get "Certified"'/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="ulog-faucet" fullScreenHidden>
-                    <FormattedMessage id="ulog_faucet" defaultMessage="Ulog-Faucet"/>
+                    <FormattedMessage id="ulog_faucet" defaultMessage="Farmr-Faucet"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="merchandise" fullScreenHidden>
                     <FormattedMessage id="merchandise" defaultMessage="Merchandise"/>
@@ -380,7 +380,7 @@ class Topnav extends React.Component {
         <div className="topnav-layout">
           <div className={classNames('left', { 'Topnav__mobile-hidden': searchBarActive })}>
             <Link className="Topnav__brand" to="/">
-              <img src="https://cdn.steemitimages.com/DQmWJWYybMeYiMkxdfJaYPKeMAKMp6MbCuTC9UGMd9E33yK/logo.png" alt="Ulog" className="Topnav__logo" />
+              <img src="https://cdn.steemitimages.com/DQmWJWYybMeYiMkxdfJaYPKeMAKMp6MbCuTC9UGMd9E33yK/logo.png" alt="Farmr" className="Topnav__logo" />
             </Link>
             <span className="Topnav__version"> alpha</span>
           </div>

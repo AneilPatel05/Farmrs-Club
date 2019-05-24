@@ -12,6 +12,7 @@ import Action from '../Button/Action';
 import requiresLogin from '../../auth/requiresLogin';
 import withEditor from './withEditor';
 import EditorInput from './EditorInput';
+import FarmrDropdown from './FarmrDropdown';
 import { remarkable } from '../Story/Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import './Editor.less';
@@ -20,7 +21,7 @@ import './Editor.less';
 @requiresLogin
 @Form.create()
 @withEditor
-class EditorUlogSurpassingGoogle extends React.Component {
+class EditorFarmrNed extends React.Component {
   static propTypes = {
     intl: PropTypes.shape().isRequired,
     form: PropTypes.shape().isRequired,
@@ -82,8 +83,8 @@ class EditorUlogSurpassingGoogle extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG (SurpassingGoogle): ',
-      topics: ['ulog', 'ulog-surpassinggoogle'],
+      title: 'FARMR (NED): ',
+      topics: ['ulog', 'ulog-ned'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -221,48 +222,38 @@ class EditorUlogSurpassingGoogle extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header='The "#farmr-surpassinggoogle" Editor' key="1">
+            <Panel header='The "#farmr-ned" Editor' key="1">
               <p>
-                 <span className="bold-italic">@surpassinggoogle</span> is just <span className="bold-italic">"your boy Terry"</span> and mere dust overall. His entire tired being, "even that", loves you like crazy.
-                  He breaks down and he doesnt mind, so that <span className="bold-italic">"suffering must now have essence"</span> and especially, so that generations yet unborn meet <span className="bold-italic">"lights" inside every tunnel.</span>
-                  <br/> He is SurpassingGoogle by means of the Teardrops SMTs, which seeks to reward <span className="bold-italic">"proof of tears".</span> He is helping to bring forth the <span className="bold-italic">art of #farming,</span> an entire curriculum that <span className="bold-italic">mines the human "into its awesomest version".</span> <br/>
-                  <br/> You can support him by voting on his witness called "<a href="https://v2.steemconnect.com/sign/account-witness-vote?witness=steemgigs&approve=true">steemgigs</a>"; called so to represent "everyone has something to offer". <br/>
+Ned Scott is the CEO of Steemit and someone worthy of constant <span className="bold-italic">THANKS</span> or perhaps <span className="bold-italic">emulation</span>. <br/>
+He sustains the steem blockchain; he is birthing <span className="bold-italic">Smart Media Tokens</span>; he is creating <span className="bold-italic">"beautiful disruptions"</span> by putting <span className="bold-italic">"everyone"</span> in the equation. <br/>
+<span className="bold-italic">FARMR.org:</span> He won't request <span className="bold-italic">"true fans"</span> but we say; <span className="bold-italic">"True Celebrity-hood for "everyone" once and for all".</span> <br/>
               </p>
             </Panel>
           </Collapse>
         </div>
+        <div className="hashtags">
+          <FarmrDropdown />
+        </div>
         <div>
           <Collapse>
-            <Panel header="Terry Ajayi's Cookies:" key="1">
+            <Panel header="Ned's Cookies: +" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>He dedicates his entire steem journey to his mum. Boys do that.</li>
-                <li>He loves humans like crazy, deeply-rootedly, unshakenly.</li>
-                <li>He understands and has done suffering like crazy but loves like crazy still.</li>
-                <li>His substance is deeply-rooted. He will forgive a hundred times.</li>
-                <li>He will sift even the not-so-good to find good in it.</li>
-                <li>He creates beautiful disruptions.</li>
-                <li>He is un(dis)talented, a legit illiterate and possesses rare INTEL.</li>
-                <li>He wants to build every noble dream.</li>
-                <li>He is always on the more testimonial harder route.</li>
-                <li>He celebrates attempts at out-of-the-boxness</li>
-                <li>He will dig, dig, dig, especially if being "this diggist" involves "YOU".</li>
-                <li>To prayers, "his amen is on default".</li>
-                <li>He is ever-unshakenLY "your boy terry".</li>
+                <li>He involved his mum in deriving the name "Steemit". Men do that!</li>
+                <li>He is social. He parties. He is geek. That's something!</li>
+                <li>His vision is within the dream.</li>
+                <li>He doesn't allow events shake him. He doesn't just react to stimuli. He is Ned.</li>
                 <li>etc</li>
               </ul>
             </Panel>
           </Collapse>
           <Collapse>
-            <Panel header="When/How/Why use the #farmr-surpassinggoogle editor?/?/?" key="1">
+            <Panel header="When/How/Why use the #farmr-ned editor?/?/? +" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>If you are farming to SurpassingGoogle too.</li>
-                <li>If you want to keep your dreams alive in dream-bits, using your FARMR.</li>
-                <li>If you want to attempt out-of-the-boxness and some un(dis)talentedness too.</li>
                 <li>If you are farming on subjects that you have learned about him as his "true fan".</li>
-                <li>To give back to @surpassinggoogle while farming daily.</li>
+                <li>To add his personality (style etc) to your FARMR</li>
+                <li>To give back to steemit/steem/ned while farming daily.</li>
                 <li>To rehearse CEOism in the art of farming.</li>
-                <li>To contribute experiences, selfies, meetups, moments, dreams, imagination etc shared with @surpassinggoogle etc</li>
-                <li>To love @surpassinggoogle like crazy.</li>
+                <li>To contribute experiences, selfies, meetups with Ned Scott etc</li>
                 <li>etc</li>
               </ul>
             </Panel>
@@ -271,7 +262,7 @@ class EditorUlogSurpassingGoogle extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -308,7 +299,7 @@ class EditorUlogSurpassingGoogle extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG (SurpassingGoogle): ',
+                defaultMessage: 'FARMR (NED): ',
               })}
             />,
           )}
@@ -351,7 +342,7 @@ class EditorUlogSurpassingGoogle extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (SurpassingGoogle):"</span> from Title above and kindly remove the default <span className="bold-italic"> "#farmr & #farmr-surpassinggoogle"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"FARMR (NED):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-ned"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? <b>You can also try one of our specialized editors above!!!</b>
         </div>
         <Form.Item>
@@ -474,4 +465,4 @@ class EditorUlogSurpassingGoogle extends React.Component {
   }
 }
 
-export default EditorUlogSurpassingGoogle;
+export default EditorFarmrNed;

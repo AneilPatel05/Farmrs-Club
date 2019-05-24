@@ -5,7 +5,7 @@ import { FormattedMessage } from 'react-intl';
 import { Button, Collapse, Modal } from 'antd';
 import ReactMarkdown from 'react-markdown';
 import _ from 'lodash';
-import UlogOverseer from './UlogOverseer';
+import FarmrOverseer from './FarmrOverseer';
 import Loading from '../../components/Icon/Loading';
 import steemAPI from '../../steemAPI';
 import './InterestingPeople.less';
@@ -29,15 +29,15 @@ class OverseeingFarmrs extends React.Component {
       noUsers: false,
     };
 
-    this.getUlogOverseers = this.getUlogOverseers.bind(this);
+    this.getFarmrOverseers = this.getFarmrOverseers.bind(this);
     this.handleUserAccountClick = this.handleUserAccountClick.bind(this);
   }
 
   componentDidMount() {
-    this.getUlogOverseers();
+    this.getFarmrOverseers();
   }
 
-  getUlogOverseers() {
+  getFarmrOverseers() {
     steemAPI.sendAsync('get_accounts', [["ulogs"]])
       .then(users =>
         this.setState({
@@ -93,7 +93,7 @@ class OverseeingFarmrs extends React.Component {
               <i className="iconfont icon-group SidebarContentBlock__icon" />{' '}
               <FormattedMessage id="overseeing_farmrs" defaultMessage="Overseeing Farmrs" />
               <button
-                onClick={this.getUlogOverseers}
+                onClick={this.getFarmrOverseers}
                 className="InterestingPeople__button-refresh"
               >
                 <i
@@ -111,7 +111,7 @@ class OverseeingFarmrs extends React.Component {
             className="SidebarContentBlock__content"
             style={{ textAlign: 'center', overflowY: 'auto', height: 'auto', paddingLeft: 0 }}
           >
-            {users && users.map(user => <UlogOverseer key={user.name} user={user} />)}
+            {users && users.map(user => <FarmrOverseer key={user.name} user={user} />)}
             <Button
               type="primary"
               href="https://discord.gg/wWrnSXK"

@@ -57,15 +57,15 @@ class Page extends React.Component {
     const shouldDisplaySelector = location.pathname !== '/' || (!authenticated && loaded);
     const displayTopicSelector = location.pathname === '/trending';
     const robots = location.pathname === '/' ? 'index,follow' : 'noindex,follow';
-    const displayUlogCaption =
+    const displayFarmrCaption =
       category &&
       category.match(
         /^(ulog-quotes|ulog-howto|ulog-diy|ulog-surpassinggoogle|teardrops|untalented|ulog-ned|ulography|ulog-gratefulvibes|ulog-resolutions|ulog-memes|ulog-blocktrades|ulog-showerthoughts|ulog-snookmademedoit|ulog-utopian|ulog-thejohalfiles|ulogifs|ulog-surfyogi|ulog-bobbylee|ulog-stellabelle|ulog-sweetsssj|ulog-dimimp|ulog-teamsteem|ulog-kusknee|ulog-papapepper|ulog-steemjet)$/,
       );
-    const isStartsWithUlog = category && category.startsWith('ulog-');
+    const isStartsWithFarmr = category && category.startsWith('ulog-');
 
-    const convertUlogTag = `Thank you for beginning the process of creating a Ulog-Community. To further the process, start by contributing ulogs under this very ulog-subtag and inviting others to do the same. You can start now! Simply visit this editor on 'https://farmr.club/main-editor' to contribute a ulog and make sure to use the ulog-subtag here as one of the tags underneath your post.&nbsp;  
-      To complete the process of creating a Ulog-Community, kindly send an email containing your intention to [farmrs@gmail.com](mailto:farmrs@gmail.com) &nbsp;  
+    const convertFarmrTag = `Thank you for beginning the process of creating a Farmr-Community. To further the process, start by contributing ulogs under this very ulog-subtag and inviting others to do the same. You can start now! Simply visit this editor on 'https://farmr.club/main-editor' to contribute a ulog and make sure to use the ulog-subtag here as one of the tags underneath your post.&nbsp;
+      To complete the process of creating a Farmr-Community, kindly send an email containing your intention to [farmrs@gmail.com](mailto:farmrs@gmail.com) &nbsp;
       Note: Anyone can choose to complete the process!`
 
     return (
@@ -77,7 +77,7 @@ class Page extends React.Component {
         <ScrollToTop />
 
         <ScrollToTopOnMount />
-        {(authenticated && !displayUlogCaption && !isStartsWithUlog) ? (
+        {(authenticated && !displayFarmrCaption && !isStartsWithFarmr) ? (
           <Carousel autoplay className="feed-carousel">
             <div>
               <a href="ulog/@uloggers/uloggers-today-s-certified-and-verified-ulogger-true-celebrity-is-jejes-join-in-as-her-true-fans-we-will-fix-many-worries">
@@ -139,8 +139,8 @@ class Page extends React.Component {
         ) : (
           <HeroBannerContainer />
         )}
-        {(authenticated && displayUlogCaption) && <FarmrsBanner category={category} />}
-        {(authenticated && !displayUlogCaption && isStartsWithUlog) && <FarmrsBanner category={category} />}
+        {(authenticated && displayFarmrCaption) && <FarmrsBanner category={category} />}
+        {(authenticated && !displayFarmrCaption && isStartsWithFarmr) && <FarmrsBanner category={category} />}
         <MainMenu />
         <div className="shifted">
           <div className="feed-layout container">
@@ -155,11 +155,11 @@ class Page extends React.Component {
               </div>
             </Affix>
             <div className="center">
-              {(!displayUlogCaption && isStartsWithUlog) && 
+              {(!displayFarmrCaption && isStartsWithFarmr) &&
                 <Collapse>
-                  <Collapse.Panel header={'Convert #' + category + ' To A Ulog-Community'} key="1">
+                  <Collapse.Panel header={'Convert #' + category + ' To A Farmr-Community'} key="1">
                     <p>
-                      <ReactMarkdown source={convertUlogTag} />
+                      <ReactMarkdown source={convertFarmrTag} />
                     </p>
                   </Collapse.Panel>
                 </Collapse>

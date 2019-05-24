@@ -20,7 +20,7 @@ import './Editor.less';
 @requiresLogin
 @Form.create()
 @withEditor
-class EditorUlogQuotes extends React.Component {
+class EditorFarmrQuotes extends React.Component {
   static propTypes = {
     intl: PropTypes.shape().isRequired,
     form: PropTypes.shape().isRequired,
@@ -82,7 +82,7 @@ class EditorUlogQuotes extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG (QUOTES): ',
+      title: 'FARMR (QUOTES): ',
       topics: ['ulog', 'ulog-quotes'],
     });
 
@@ -239,12 +239,12 @@ class EditorUlogQuotes extends React.Component {
           <Collapse>
             <Panel header='When/How/Why use the "#farmr-quotes" editor?/?/?' key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>When you have "a learning moment" within the day; you can capture it in a Ulog-Quote.</li>
-                <li>To capture "moments" within your day; you can create a Ulog-Quote.</li>
-                <li>When you want to summarize the entirety of your day, in a Ulog-Quote!</li>
+                <li>When you have "a learning moment" within the day; you can capture it in a Farmr-Quote.</li>
+                <li>To capture "moments" within your day; you can create a Farmr-Quote.</li>
+                <li>When you want to summarize the entirety of your day, in a Farmr-Quote!</li>
                 <li>When you want to create tiny pieces of #farmracies to marvel and re-marvel yourself, become quote-able by the globe and reach generations-yet-unborn; you can create #farmr-quotes.</li>
                 <li>When you want to attempt out-of-the-boxness during the "art of #farming".</li>
-                <li>Kindly integrate the word "ULOG" or "FARMR" or "FARMR.org" somewhere in the images, graphics, avatars etc used to create your #farmr-quote.</li>
+                <li>Kindly integrate the word "FARMR" or "FARMR" or "FARMR.org" somewhere in the images, graphics, avatars etc used to create your #farmr-quote.</li>
                 <li>To code entire schools-of-thoughts into tinier capsules, for the sake of healing the world; you can create #farmr-quotes.</li>
                 <li>To play a role in historical-history with your tiny-looking words.</li>
                 <li>To keeping steeming as difficult as 1, 2, 3.</li>
@@ -262,13 +262,13 @@ class EditorUlogQuotes extends React.Component {
                 <li>Tell us the stories & histories behind your #farmr-quotes.</li>
                 <li>May your #farmr-quotes be fresh, born out of your experience, moments, that-moment etc (per day).</li>
                 <li>Recall that FARMR are spanless! Thus, your #farmr-quotes can cover life; can be funny; can be playful etc</li>
-                <li>Ultimately, you will know it, when you have created a Ulog-Quote. You will end up memorizing it, treasuring it, living by it. You will end up quoting yourself, then the world will end up quoting you.</li>
+                <li>Ultimately, you will know it, when you have created a Farmr-Quote. You will end up memorizing it, treasuring it, living by it. You will end up quoting yourself, then the world will end up quoting you.</li>
                 <li>In the art of #farming under #farmr-quotes, there is no need to resource from the internet. <b className="bold-italic">Keep all videos, images, sound, avatars fresh. As for images, be inventive/innovative. You can use simple applications like paint, autodraw.com etc or you can make it meme-style using <a href="https://imgur.com/memegen">https://imgur.com/memegen</a>. See sample image <a href="https://steemitimages.com/0x0/https://i.imgur.com/sy2A3LG.jpg" rel="nofollow">Here</a>. Let's gift to internet and re-shape it, with "YOU"!</b></li>
                 <li>Where possible, endeavor to add your location as one of your hashtags as well.</li>
                 <li>Relegate reservations, attempt out-of-the-boxness; "flaws allowed"!</li>
                 <li>Have fun but create more testimonial use for fun.</li>
-                <li>Every Ulog-Quote post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. Make the most of each post.</li>
-                <li>Remember that you have "<b className="bold-italic">you</b>" as your first audience, an audience of "true fans", an audience in the search engines and an audience of generations-yet-unborn. Use each Ulog-Quote to leave your #farmracies in lights.</li>
+                <li>Every Farmr-Quote post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. Make the most of each post.</li>
+                <li>Remember that you have "<b className="bold-italic">you</b>" as your first audience, an audience of "true fans", an audience in the search engines and an audience of generations-yet-unborn. Use each Farmr-Quote to leave your #farmracies in lights.</li>
                 <li>Be "true fans" on #farmr-quotes, get inspired, grow your "true fan-base".</li>
                 <li>Grow each time!</li>
                 <li>Think of the Creator Jehovah.</li>
@@ -281,7 +281,7 @@ class EditorUlogQuotes extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -318,7 +318,7 @@ class EditorUlogQuotes extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG (QUOTES): ',
+                defaultMessage: 'FARMR (QUOTES): ',
               })}
             />,
           )}
@@ -361,7 +361,7 @@ class EditorUlogQuotes extends React.Component {
           )}
         </Form.Item>
         <div style={{ color : 'purple' }}>
-          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"ULOG (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
+          <span className="bold-italic">Farmr.club allows you to enjoy the entire steem ecosystem.</span> So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default <span className="bold-italic">"FARMR (QUOTES):"</span> from Title above and kindly remove the default <span className="bold-italic">"#farmr & #farmr-quotes"</span> from among the tags in the Hashtags box. <span className="bold-italic">(Please help us as we try to reserve #farmr, only for FARMR.)</span><br/><br/>
           Want to <span className="bold-italic">"mine the human"</span> some more? You can also try one of our specialized editors above!!!<b className="bold-italic"> If you encounter any issues, drop us feedback on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a></b>
         </div>
         <Form.Item>
@@ -484,4 +484,4 @@ class EditorUlogQuotes extends React.Component {
   }
 }
 
-export default EditorUlogQuotes;
+export default EditorFarmrQuotes;

@@ -12,7 +12,7 @@ import Action from '../Button/Action';
 import requiresLogin from '../../auth/requiresLogin';
 import withEditor from './withEditor';
 import EditorInput from './EditorInput';
-import UlogDropdown from './UlogDropdown';
+import FarmrDropdown from './FarmrDropdown';
 import { remarkable } from '../Story/Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import './Editor.less';
@@ -83,7 +83,7 @@ class EditorMain extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG: ',
+      title: 'FARMR: ',
       topics: ['ulog'],
     });
 
@@ -236,13 +236,13 @@ class EditorMain extends React.Component {
           </Collapse>
         </div>
         <div className="hashtags">
-          <UlogDropdown />
+          <FarmrDropdown />
         </div>
         <div>
           <Collapse defaultActiveKey={['1']}>
             <Panel header="(This is the main FARMR.org editor!)" key="1">
               FARMR: Each day and "YOU" in it carries its own "freshness". So, not a day aren't we capable of reshaping the entire internet and touching the world with "a piece of freshness".
-              A ULOG can contain all formats of media, whether sound, pictures, art, videos, text or a combination of all as long as it is freshly-made (by YOU). You can be a public or private figure. Regardless, "you are a celebrity and we are your fans".
+              A FARMR can contain all formats of media, whether sound, pictures, art, videos, text or a combination of all as long as it is freshly-made (by YOU). You can be a public or private figure. Regardless, "you are a celebrity and we are your fans".
             </Panel>
           </Collapse>
 
@@ -250,7 +250,7 @@ class EditorMain extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -287,7 +287,7 @@ class EditorMain extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG: ',
+                defaultMessage: 'FARMR: ',
               })}
             />,
           )}
@@ -330,8 +330,8 @@ class EditorMain extends React.Component {
           )}
         </Form.Item>
 <div>
-Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#farmr" from among the tags in the Hashtags box.
-Please help us as we try to reserve #farmr, only for ULOGs. (If your post is a ULOG, you will not have cheetah-worries etc)
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "FARMR:" from Title above and kindly remove the default "#farmr" from among the tags in the Hashtags box.
+Please help us as we try to reserve #farmr, only for FARMRs. (If your post is a FARMR, you will not have cheetah-worries etc)
 Want to "mine the human" some more, you can also try one of our specialized editors above!!!
 </div>
         <Form.Item>

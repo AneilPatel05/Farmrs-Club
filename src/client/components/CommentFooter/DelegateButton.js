@@ -80,7 +80,7 @@ class DelegateButton extends React.Component {
             className="delegateSubMenu"
             key='ulogs-sub'
             title={
-              <span><Icon type='user' /><span>@ulogs</span></span>
+              <span><Icon type='user' /><span>@farmr</span></span>
             }
           >
             {this.renderDelegateSpSubMenu('ulogs', delegationAmounts)}

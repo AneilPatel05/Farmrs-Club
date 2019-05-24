@@ -30,11 +30,11 @@ import Editor from '../../components/Editor/Editor';
 import EditorMain from '../../components/Editor/EditorMain';
 import EditorTeardrop from '../../components/Editor/EditorTeardrop';
 import EditorUntalented from '../../components/Editor/EditorUntalented';
-import EditorUlogNed from '../../components/Editor/EditorUlogNed';
-import EditorUlogDIY from '../../components/Editor/EditorUlogDIY';
-import EditorUlogQuotes from '../../components/Editor/EditorUlogQuotes';
-import EditorUlogHowto from '../../components/Editor/EditorUlogHowto';
-import EditorUlogSurpassingGoogle from '../../components/Editor/EditorUlogSurpassingGoogle';
+import EditorFarmrNed from '../../components/Editor/EditorFarmrNed';
+import EditorFarmrDIY from '../../components/Editor/EditorFarmrDIY';
+import EditorFarmrQuotes from '../../components/Editor/EditorFarmrQuotes';
+import EditorFarmrHowto from '../../components/Editor/EditorFarmrHowto';
+import EditorFarmrSurpassingGoogle from '../../components/Editor/EditorFarmrSurpassingGoogle';
 import EditorBeLikeTerry from '../../components/Editor/EditorBeLikeTerry';
 import Affix from '../../components/Utils/Affix';
 import steemAPI from '../../steemAPI';
@@ -274,7 +274,7 @@ class Write extends React.Component {
    */
   handleExtraMonetization = () => {
     const { user } =  this.props
-    
+
     if (this.state.certifiedFarmrs.indexOf(user.name) >= 0) {
       message.success('Coming soon!', 3);
     } else {
@@ -406,7 +406,7 @@ class Write extends React.Component {
               <Route
                 path="/ulog-ned"
                 render={() => (
-                  <EditorUlogNed
+                  <EditorFarmrNed
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -427,7 +427,7 @@ class Write extends React.Component {
               <Route
                 path="/ulog-diy"
                 render={() => (
-                  <EditorUlogDIY
+                  <EditorFarmrDIY
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -448,7 +448,7 @@ class Write extends React.Component {
               <Route
                 path="/ulog-howto"
                 render={() => (
-                  <EditorUlogHowto
+                  <EditorFarmrHowto
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -469,7 +469,7 @@ class Write extends React.Component {
               <Route
                 path="/ulog-quotes"
                 render={() => (
-                  <EditorUlogQuotes
+                  <EditorFarmrQuotes
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -490,7 +490,7 @@ class Write extends React.Component {
               <Route
                 path="/ulog-surpassinggoogle"
                 render={() => (
-                  <EditorUlogSurpassingGoogle
+                  <EditorFarmrSurpassingGoogle
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}

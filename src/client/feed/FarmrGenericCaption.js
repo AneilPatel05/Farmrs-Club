@@ -8,7 +8,7 @@ import ReactMarkdown from 'react-markdown';
 import { generic } from '../helpers/ulogCaptions';
 
 @injectIntl
-class UlogGenericCaption extends React.Component {
+class FarmrGenericCaption extends React.Component {
   static propTypes = {
     category: PropTypes.string.isRequired,
   };
@@ -49,4 +49,4 @@ class UlogGenericCaption extends React.Component {
   }
 }
 
-export default UlogGenericCaption;
+export default FarmrGenericCaption;
