@@ -404,7 +404,7 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-ned"
+                path="/farmr-ned"
                 render={() => (
                   <EditorFarmrNed
                     ref={this.setForm}
@@ -425,7 +425,7 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-diy"
+                path="/farmr-diy"
                 render={() => (
                   <EditorFarmrDIY
                     ref={this.setForm}
@@ -446,7 +446,7 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-howto"
+                path="/farmr-howto"
                 render={() => (
                   <EditorFarmrHowto
                     ref={this.setForm}
@@ -467,7 +467,7 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-quotes"
+                path="/farmr-quotes"
                 render={() => (
                   <EditorFarmrQuotes
                     ref={this.setForm}
@@ -488,7 +488,7 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-surpassinggoogle"
+                path="/farmr-surpassinggoogle"
                 render={() => (
                   <EditorFarmrSurpassingGoogle
                     ref={this.setForm}

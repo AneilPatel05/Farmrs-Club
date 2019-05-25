@@ -234,17 +234,17 @@ export default class Wrapper extends React.PureComponent {
       case 'my-profile':
         this.props.history.push(`/@${this.props.username}`);
         break;
-      case 'ulog-witnesses':
-        this.props.history.push('/vote-ulog-witnesses');
+      case 'farmr-witnesses':
+        this.props.history.push('/vote-farmr-witnesses');
         break;
-      case 'about-ulogs':
-        this.props.history.push('/@farmr/ulogs-org-faq-s-and-answers');
+      case 'about-farmr':
+        this.props.history.push('/@farmr/farmr-club-faq-s-and-answers');
         break;
-      case 'ulog-subtags':
-        this.props.history.push('/ulog-subtags');
+      case 'farmr-subtags':
+        this.props.history.push('/farmr-subtags');
         break;
       case 'custom-profile':
-      case 'ulog-faucet':
+      case 'farmr-faucet':
       case 'get-certified':
       case 'merchandise':
       case 'exchange':

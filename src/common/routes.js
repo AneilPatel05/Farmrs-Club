@@ -46,7 +46,7 @@ const routes = [
         component: Bookmarks,
       },
       {
-        path: '/ulog-subtags',
+        path: '/farmr-subtags',
         exact: true,
         component: FarmrTags,
       },
@@ -72,7 +72,7 @@ const routes = [
       },
       {
         path:
-          '/(editor|main-editor|teardrops|untalented|fanlove|ulog-ned|ulog-surpassinggoogle|ulog-diy|ulog-howto|ulog-quotes)',
+          '/(editor|main-editor|teardrops|untalented|fanlove|farmr-ned|farmr-surpassinggoogle|farmr-diy|farmr-howto|farmr-quotes)',
         exact: true,
         component: Editor,
       },
@@ -97,7 +97,7 @@ const routes = [
         component: Notifications,
       },
       {
-        path: '/@:name/(ulogs|comments|followers|followed|reblogs|feed|transfers|activity)?',
+        path: '/@:name/(farmr|comments|followers|followed|reblogs|feed|transfers|activity)?',
         component: User,
         exact: true,
         routes: [
@@ -107,7 +107,7 @@ const routes = [
             component: UserProfile,
           },
           {
-            path: '/@:name/ulogs',
+            path: '/@:name/farmr',
             exact: true,
             component: UserFarmrs,
           },
@@ -149,7 +149,7 @@ const routes = [
         component: Discover,
       },
       {
-        path: '/vote-ulog-witnesses',
+        path: '/vote-farmr-witnesses',
         exact: true,
         component: Witnesses,
       },
@@ -163,7 +163,7 @@ const routes = [
         component: Search,
       },
       {
-        path: '/(farming|ulog-knowledge-bank|ulog-fanlove|surpassinggoogle)',
+        path: '/(farming|farmr-knowledge-bank|farmr-fanlove|surpassinggoogle)',
         component: Farming,
       },
       {

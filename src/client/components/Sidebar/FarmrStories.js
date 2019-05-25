@@ -10,7 +10,7 @@ import {
 } from '../../reducers';
 import FarmrStory from './FarmrStory';
 import Loading from '../../components/Icon/Loading';
-import { ulogStoriesTags } from '../../helpers/constants';
+import { farmrStoriesTags } from '../../helpers/constants';
 import steemAPI from '../../steemAPI';
 import SteemConnect from '../../steemConnectAPI';
 import './InterestingPeople.less';
@@ -47,8 +47,8 @@ class FarmrStories extends React.Component {
     this.state = {
       certifiedFarmrNames: [],
       certifiedFarmrs: [],
-      ulogStoriesObj: {},
-      ulogStoriesArr: [],
+      farmrStoriesObj: {},
+      farmrStoriesArr: [],
       loading: true,
       showModalLogin: false,
       displayStories: 0,
@@ -117,11 +117,11 @@ class FarmrStories extends React.Component {
                 const created = new Date(post.created);
                 if(created < threeDaysAgo) return;
 
-                // Add 'ulog' and 'ulogs' as valid ulog story tags
-                ulogStoriesTags.push('ulog', 'ulogs');
-                // filter posts that do not contain valid ulog tags
+                // Add 'farmr' and 'farmr' as valid farmr story tags
+                farmrStoriesTags.push('farmr', 'farmr');
+                // filter posts that do not contain valid farmr tags
                 let containsFarmrTag = false;
-                ulogStoriesTags.forEach(subtag => {
+                farmrStoriesTags.forEach(subtag => {
                   const tags = JSON.parse(post.json_metadata).tags;
                   if (tags.indexOf(subtag) >= 0) {
                     containsFarmrTag = true;
@@ -129,9 +129,9 @@ class FarmrStories extends React.Component {
                 })
                 if (!containsFarmrTag) return;
 
-                // push post to ulog stories array
-                let { ulogStoriesArr } = this.state;
-                ulogStoriesArr.push(
+                // push post to farmr stories array
+                let { farmrStoriesArr } = this.state;
+                farmrStoriesArr.push(
                   {
                     author: post.author,
                     permlink: post.permlink,
@@ -139,16 +139,16 @@ class FarmrStories extends React.Component {
                   }
                 );
 
-                // set ulog stories to state
-                // set loading and no users to false to display ulog stories
+                // set farmr stories to state
+                // set loading and no users to false to display farmr stories
                 this.setState({
-                  ulogStoriesArr,
+                  farmrStoriesArr,
                 });
               });
 
           });
 
-          // set the initial list to display the first 5 ulog stories
+          // set the initial list to display the first 5 farmr stories
           this.setState({ displayStories: 5 });
 
         }
@@ -168,9 +168,9 @@ class FarmrStories extends React.Component {
   };
 
   render() {
-    const { ulogStoriesArr, loading, showModalLogin, displayStories } = this.state;
-    // sort ulog stories by descending created date
-    ulogStoriesArr.sort((a, b) => {
+    const { farmrStoriesArr, loading, showModalLogin, displayStories } = this.state;
+    // sort farmr stories by descending created date
+    farmrStoriesArr.sort((a, b) => {
       var keyA = new Date(a.created),
           keyB = new Date(b.created);
       if(keyA > keyB) return -1;
@@ -178,9 +178,9 @@ class FarmrStories extends React.Component {
       return 0;
     });
 
-    const slicedFarmrStories = ulogStoriesArr.slice(0, displayStories);
+    const slicedFarmrStories = farmrStoriesArr.slice(0, displayStories);
     const { authenticated, location } = this.props;
-    const hasMoreStories = (displayStories < ulogStoriesArr.length);
+    const hasMoreStories = (displayStories < farmrStoriesArr.length);
     const next = location.pathname.length > 1 ? location.pathname : '';
 
     if (loading) {
@@ -202,7 +202,7 @@ class FarmrStories extends React.Component {
           <div style={{ fontWeight: 'bold', paddingTop: 10 }}>Add A Farmr-Story</div>
           <br/>
           <div style={{ textAlign: 'left', padding: 3 }}>
-            Share images, ulography, graphics, ulog-news, ulog-arts plain text etc freshly-created by you, today.
+            Share images, photography, graphics, farmr-news, farmr-arts plain text etc freshly-created by you, today.
           </div>
           {slicedFarmrStories.map(story =>
             <FarmrStory key={story.permlink} story={{ author: story.author, permlink: story.permlink }} />

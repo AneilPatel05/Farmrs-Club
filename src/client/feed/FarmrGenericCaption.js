@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { Collapse, Button, Icon } from 'antd';
 import { injectIntl, FormattedMessage } from 'react-intl';
 import ReactMarkdown from 'react-markdown';
-import { generic } from '../helpers/ulogCaptions';
+import { generic } from '../helpers/farmrCaptions';
 
 @injectIntl
 class FarmrGenericCaption extends React.Component {
@@ -22,7 +22,7 @@ class FarmrGenericCaption extends React.Component {
     const about = `About #${category}`;
 
     return (
-      <div className="ulog-quotes">
+      <div className="farmr-quotes">
         <Collapse defaultActiveKey={['1']}>
           <Collapse.Panel header={about} key="1">
             <ReactMarkdown source={generic} />

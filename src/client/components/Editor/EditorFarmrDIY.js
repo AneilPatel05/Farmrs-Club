@@ -84,7 +84,7 @@ class EditorFarmrDIY extends React.Component {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
       title: 'FARMR (DIY): ',
-      topics: ['ulog', 'ulog-diy'],
+      topics: ['farmr', 'farmr-diy'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -147,10 +147,10 @@ class EditorFarmrDIY extends React.Component {
   }
 
   checkTopics = intl => (rule, value, callback) => {
-    if (value[0] !== 'ulog') {
+    if (value[0] !== 'farmr') {
       callback(
         intl.formatMessage({
-          id: 'ulog_not_topic',
+          id: 'farmr_not_topic',
           defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
@@ -247,7 +247,7 @@ class EditorFarmrDIY extends React.Component {
           <Collapse>
             <Panel header="Tips To Prowess" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>Be yourself and as expressive as possible. <span className="bold-italic">The world and generations yet unborn will come here to dig from your ulog-experience</span>.</li>
+                <li>Be yourself and as expressive as possible. <span className="bold-italic">The world and generations yet unborn will come here to dig from your farmr-experience</span>.</li>
                 <li>In the art of #farming on #farmr-diy, there is no need to resource from the internet. <span className="bold-italic">Keep all videos, images, sound, avatars fresh. Let's gift to internet and re-shape it, with "YOU"!</span></li>
                 <li>Relegate reservations, attempt out-of-the-boxness; <span className="bold-italic">"flaws allowed"!</span></li>
                 <li>Every #farmr-diy post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. <span className="bold-italic">Make the most of each post</span>.</li>

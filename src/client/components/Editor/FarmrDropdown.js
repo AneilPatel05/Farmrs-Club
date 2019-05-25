@@ -7,10 +7,10 @@ import { injectIntl } from 'react-intl';
 const menu = (
   <Menu>
     <Menu.Item key="10">
-      <Link to={'/ulog-knowledge-bank'}>FARMR-Knowledge-Bank</Link>
+      <Link to={'/farmr-knowledge-bank'}>FARMR-Knowledge-Bank</Link>
     </Menu.Item>
     <Menu.Item key="11">
-      <Link to={'/ulog-fanlove'}>FARMR-Fan Love</Link>
+      <Link to={'/farmr-fanlove'}>FARMR-Fan Love</Link>
     </Menu.Item>
     <Menu.Item key="12">
       <Link to={'/surpassinggoogle'}>SurpassingGoogle</Link>

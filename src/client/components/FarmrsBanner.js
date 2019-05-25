@@ -8,7 +8,7 @@ import './HeroBannerSlider.less';
 
 const handleUserAccountClick = (event) => {
   event.preventDefault();
-  const alertText = `This feature is available only to 'certified farmrs'. Kindly get ['certified'](https://farmr.club/@surpassinggoogle/do-you-want-to-become-certified-farmrs-kindly-fill-up-this-form-if-you-are-already-a-certified-ulogger-there-is-a-separate), then contact [farmrs@gmail.com](mailto:farmrs@gmail.com) for further inquiries.`
+  const alertText = `This feature is available only to 'certified farmrs'. Kindly get ['certified'](https://farmr.club/@surpassinggoogle/do-you-want-to-become-certified-farmrs-kindly-fill-up-this-form-if-you-are-already-a-certified-farmr-there-is-a-separate), then contact [farmrs@gmail.com](mailto:farmrs@gmail.com) for further inquiries.`
   Modal.info({
     content: (
       <div>

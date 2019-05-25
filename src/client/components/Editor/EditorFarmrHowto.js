@@ -83,7 +83,7 @@ class EditorFarmrHowto extends React.Component {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
       title: 'FARMR (HOWTO): ',
-      topics: ['ulog', 'ulog-howto'],
+      topics: ['farmr', 'farmr-howto'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -146,10 +146,10 @@ class EditorFarmrHowto extends React.Component {
   }
 
   checkTopics = intl => (rule, value, callback) => {
-    if (value[0] !== 'ulog') {
+    if (value[0] !== 'farmr') {
       callback(
         intl.formatMessage({
-          id: 'ulog_not_topic',
+          id: 'farmr_not_topic',
           defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
@@ -225,7 +225,7 @@ class EditorFarmrHowto extends React.Component {
               <p>
               We like to reward #farming contributions born solely out of <span className="bold-italic">"your experience" (per day)</span>. We seek to incentivize you to learn something new <span className="bold-italic">(per day)</span>, for the sake of #farming. This way, <span className="bold-italic">"not a day slips emptily by" and not a day aren't you capable of reshaping the INTERNET; touching your "true fans" and attaining "true celebrity-hood" etc</span>
 
-              <br/> It's simple. <a href="https://steemit.com/@farmr/can-farming-and-ulogs-org-reshape-the-entire-internet-what-if-we-re-fresh-every-existing-hashtag-birthing-fresh-ulog-based">When you add #farmr to any existing concept etc an existing concept suddenly turns out all fresh</a>. Simply use this editor to contribute to the Farmr-KnowledgeBank, <span className="bold-italic">freshly-made #farmr-HOWTO(s) born solely out of your experience (per day)</span> <br/>.
+              <br/> It's simple. <a href="https://steemit.com/@farmr/can-farming-and-farmr-club-reshape-the-entire-internet-what-if-we-re-fresh-every-existing-hashtag-birthing-fresh-farmr-based">When you add #farmr to any existing concept etc an existing concept suddenly turns out all fresh</a>. Simply use this editor to contribute to the Farmr-KnowledgeBank, <span className="bold-italic">freshly-made #farmr-HOWTO(s) born solely out of your experience (per day)</span> <br/>.
 
               Become "<span className="bold-italic">true fans</span>"! Visit #farmr-howto daily. Join its community on <a href="https://discord.gg/EkynDXt">Discord</a> & <a href="https://t.me/teardrops_smt">Telegram</a>.
               </p>
@@ -249,7 +249,7 @@ class EditorFarmrHowto extends React.Component {
           <Collapse>
             <Panel header="Tips To Prowess" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>Be yourself and as expressive as possible. <span className="bold-italic">The world and generations yet unborn will come here to dig from your ulog-experience</span>.</li>
+                <li>Be yourself and as expressive as possible. <span className="bold-italic">The world and generations yet unborn will come here to dig from your farmr-experience</span>.</li>
                 <li>In the art of #farming under #farmr-howto, there is no need to resource from the internet. <span className="bold-italic">Keep all videos, images, sound, avatars fresh. Let's gift to internet and re-shape it, with "YOU"</span>!</li>
                 <li>Relegate reservations, attempt out-of-the-boxness; "<span className="bold-italic">flaws allowed</span>"!</li>
                 <li>Every #farmr-howto post that you write here appears on the decentralized steem blockchain and can earn you a variety of rewards, steem, opportunities etc. <span className="bold-italic">Make the most of each post</span>.</li>

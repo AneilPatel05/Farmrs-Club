@@ -22,7 +22,7 @@ class FarmrCaption extends React.Component {
   }
 
   render() {
-    const ulogQuotesCaption = (
+    const farmrQuotesCaption = (
       <span>
         <i>
           "We have all created quotes. We tend to quote others; we can quote ourselves too; we can
@@ -41,9 +41,9 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Join the movement! Be "true fans" on{' '}
-          <a href="https://farmr.club/created/ulog-quotes">#farmr-quotes</a>! You can create{' '}
-          <a href="https://farmr.club/created/ulog-quotes">#farmr-quotes</a> right now by using{' '}
-          <a href="https://farmr.club/ulog-quotes">This Editor</a>! Join us on{' '}
+          <a href="https://farmr.club/created/farmr-quotes">#farmr-quotes</a>! You can create{' '}
+          <a href="https://farmr.club/created/farmr-quotes">#farmr-quotes</a> right now by using{' '}
+          <a href="https://farmr.club/farmr-quotes">This Editor</a>! Join us on{' '}
           <a href="https://discord.gg/QFaFj87">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
@@ -74,7 +74,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogHowtoCaption = (
+    const farmrHowtoCaption = (
       <span>
         We like to reward #farming contributions born solely out of{' '}
         <b>
@@ -84,21 +84,21 @@ class FarmrCaption extends React.Component {
         It's simple.{' '}
         <b>
           <i>
-            When you add <a href="https://farmr.club/created/ulog">#farmr</a> to any existing concept
+            When you add <a href="https://farmr.club/created/farmr">#farmr</a> to any existing concept
             etc an existing concept suddenly turns out all fresh.
           </i>
         </b>
         <br />
         <br />
-        Simply use <a href="https://farmr.club/ulog-howto">This Editor</a> to contribute to the
+        Simply use <a href="https://farmr.club/farmr-howto">This Editor</a> to contribute to the
         Farmr-KnowledgeBank, freshly-made{' '}
-        <a href="https://farmr.club/created/ulog-howto">#farmr-HOWTO</a>(s) born solely out of{' '}
+        <a href="https://farmr.club/created/farmr-howto">#farmr-HOWTO</a>(s) born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
         </b>.<br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://farmr.club/created/ulog-howto">#farmr-howto</a>{' '}
+          Become "true fans"! Visit <a href="https://farmr.club/created/farmr-howto">#farmr-howto</a>{' '}
           daily! Join its community on <a href="https://discord.gg/EkynDXt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
@@ -110,7 +110,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogDiyCaption = (
+    const farmrDiyCaption = (
       <span>
         We like to reward #farming contributions born solely out of{' '}
         <b>
@@ -120,26 +120,26 @@ class FarmrCaption extends React.Component {
         It's simple.{' '}
         <b>
           <i>
-            When you add <a href="https://farmr.club/created/ulog">#farmr</a> to any existing concept
+            When you add <a href="https://farmr.club/created/farmr">#farmr</a> to any existing concept
             etc an existing concept suddenly turns out all fresh.
           </i>
         </b>
         <br />
         <br />
-        Simply use <a href="https://farmr.club/ulog-diy">This Editor</a> to contribute to the
-        Farmr-KnowledgeBank, freshly-made <a href="https://farmr.club/created/ulog-diy">#farmr-DIY</a>(s)
+        Simply use <a href="https://farmr.club/farmr-diy">This Editor</a> to contribute to the
+        Farmr-KnowledgeBank, freshly-made <a href="https://farmr.club/created/farmr-diy">#farmr-DIY</a>(s)
         born solely out of{' '}
         <b>
           <i>your experience (per day)</i>
         </b>.<br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://farmr.club/created/ulog-diy">#farmr-diy</a>{' '}
+          Become "true fans"! Visit <a href="https://farmr.club/created/farmr-diy">#farmr-diy</a>{' '}
           daily! Join its community on <a href="https://discord.gg/qyY6hAQ">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-diy">#farmr-diy</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-diy">#farmr-diy</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
           </ul>
@@ -147,7 +147,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogSurpassinggoogleCaption = (
+    const farmrSurpassinggoogleCaption = (
       <span>
         <span className="bold-italic">@surpassinggoogle</span> is just{' '}
         <span className="bold-italic">"your boy Terry"</span> and mere dust overall. His entire
@@ -159,18 +159,18 @@ class FarmrCaption extends React.Component {
         <span className="bold-italic">"proof of tears".</span> He is helping to bring forth the{' '}
         <span className="bold-italic">art of #farming,</span> an entire curriculum that{' '}
         <span className="bold-italic">mines the human "into its awesomest version".</span> <br />
-        Simply use <a href="https://farmr.club/ulog-surpassinggoogle">This Editor</a> to "love him
+        Simply use <a href="https://farmr.club/farmr-surpassinggoogle">This Editor</a> to "love him
         like crazy; to emulate him; to learn about him, to be "true fans" of him, to share memories
         with him etc (per day)<br />
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
+          <a href="https://farmr.club/created/farmr-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
           daily! Join its community on <a href="https://discord.gg/2qTW6XV">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
+          <a href="https://farmr.club/created/farmr-surpassinggoogle">#farmr-surpassinggoogle</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
@@ -242,7 +242,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogNedCaption = (
+    const farmrNedCaption = (
       <span>
         Ned Scott is the CEO of Steemit and someone worthy of constant{' '}
         <span className="bold-italic">THANKS</span> or perhaps{' '}
@@ -257,18 +257,18 @@ class FarmrCaption extends React.Component {
         <br />
         Simply use{' '}
         <span className="bold-italic">
-          <a href="https://farmr.club/ulog-ned">This Editor</a>
+          <a href="https://farmr.club/farmr-ned">This Editor</a>
         </span>{' '}
         to "give back"; to emulate him; to learn about him, to be "true fans" of him, to share
         memories with him; to reach out to him etc (per day) <br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://farmr.club/created/ulog-ned">#farmr-ned</a>{' '}
+          Become "true fans"! Visit <a href="https://farmr.club/created/farmr-ned">#farmr-ned</a>{' '}
           daily! Join its community on <a href="https://discord.gg/Up8eMGa">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-ned">#farmr-ned</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-ned">#farmr-ned</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>[Coming Soon!!!]</li>
           </ul>
@@ -276,34 +276,34 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulographyCaption = (
+    const photographyCaption = (
       <span>
         <b>FarmrPhotography</b>: This is the Farmr-generated hashtag for (Farmr + Photography). <br />
-        <a href="https://farmr.club/created/ulography">#farmrraphy</a> allows you to contribute (&
+        <a href="https://farmr.club/created/photography">#farmrraphy</a> allows you to contribute (&
         curate) <b>photographs created by "YOU" (per day)</b> and it is already birthing a{' '}
         <a href="https://discord.gg/mWVYjxc">growing community of "true fans"</a>. <br />
-        It's simple! When you add <a href="https://farmr.club/created/ulog">#farmr</a> to any existing
+        It's simple! When you add <a href="https://farmr.club/created/farmr">#farmr</a> to any existing
         concept etc an existing concept suddenly turns out all fresh. (A major essence of the{' '}
-        <a href="https://farmr.club/created/ulog">#farmr</a> movement is to gift to the internet,
+        <a href="https://farmr.club/created/farmr">#farmr</a> movement is to gift to the internet,
         instead of resource from it, in a bid to reshape it.) <br />
-        To create a Farmr under "<a href="https://farmr.club/created/ulography">#farmrraphy</a>",
+        To create a Farmr under "<a href="https://farmr.club/created/photography">#farmrraphy</a>",
         simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">#farmr</a>"
-        as your 1st hashtag & "<a href="https://farmr.club/created/ulography">#farmrraphy</a>" as your
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">#farmr</a>"
+        as your 1st hashtag & "<a href="https://farmr.club/created/photography">#farmrraphy</a>" as your
         2nd hashtag. You can then add other hashtags e.g your "#location" etc. Don't forget to add
         "(Farmr + Photography)" or "FARMR (Photography)" somewhere IN-TITLE. <br />
         <br />
         <b>
-          Become "true fans"! Visit <a href="https://farmr.club/created/ulography">#farmrraphy</a>{' '}
+          Become "true fans"! Visit <a href="https://farmr.club/created/photography">#farmrraphy</a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/mWVYjxc">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulography">#farmrraphy</a> currently:<br />
+          <a href="https://farmr.club/created/photography">#farmrraphy</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -330,17 +330,17 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogGratefulvibesCaption = (
+    const farmrGratefulvibesCaption = (
       <span>
-        <a href="https://farmr.club/created/ulog-gratefulvibes">
+        <a href="https://farmr.club/created/farmr-gratefulvibes">
           <b>#farmr-gratefulvibes</b>
         </a>: the <b>Farmr-subtag for (Farmr + GratefulVibes)</b>. <br />
-        It allows you to ulog about <b>your gratefulness (per day)</b>, also as a means to{' '}
+        It allows you to farmr about <b>your gratefulness (per day)</b>, also as a means to{' '}
         <b>"gift to the internet"</b>, by <b>not resourcing from it</b>; thus, reshaping it. <br />{' '}
         We want to serve the search engines with <b>"grateful pieces of YOU" (per day)</b> and{' '}
         <b>each day, "You" in it</b>, carries its own <b>gratefulness</b>. <br />
         It's simple! When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to any "existing concept" etc "an existing concept suddenly turns out all fresh".{' '}
@@ -349,15 +349,15 @@ class FarmrCaption extends React.Component {
           forward a GratefulVibe today!
         </b>{' '}
         <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-gratefulvibes">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-gratefulvibes">
           <b>#farmr-gratefulvibes</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-gratefulvibes">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-gratefulvibes">
           <b>#farmr-gratefulvibes</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://farmr.club/created/gratefulvibes">
           <b>#gratefulvibes</b>
@@ -366,7 +366,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-gratefulvibes">
+          <a href="https://farmr.club/created/farmr-gratefulvibes">
             <b>#farmr-gratefulvibes</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -379,7 +379,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-gratefulvibes">
+          <a href="https://farmr.club/created/farmr-gratefulvibes">
             #farmr-gratefulvibes
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -427,7 +427,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogResolutionsCaption = (
+    const farmrResolutionsCaption = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -435,10 +435,10 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-resolutions">
+        <a href="https://farmr.club/created/farmr-resolutions">
           <b>#farmr-resolutions</b>
         </a>: is the Farmr-subtag for <b>(Farmr + Resolutions)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
@@ -452,15 +452,15 @@ class FarmrCaption extends React.Component {
           <i>tell us when you meet it or fail to meet it</i>
         </b>. <br />
         <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-resolutions">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-resolutions">
           <b>#farmr-resolutions</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-resolutions">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-resolutions">
           <b>#farmr-resolutions</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Resolutions):" somewhere IN-TITLE</b> e.g: <br />
@@ -469,8 +469,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Resolutions): Today, I Resolve To Climb 2 Banana Trees...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-resolutions">#farmr-resolutions</a>, etc.]
               </b>
             </font>
           </li>
@@ -478,8 +478,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Resolutions): I Didn't End Up Climbing Because I Ate 2
-                Bananas...[TAGS-Order: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-resolutions">#farmr-resolutions</a>, etc.]
+                Bananas...[TAGS-Order: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-resolutions">#farmr-resolutions</a>, etc.]
               </b>
             </font>
           </li>
@@ -487,7 +487,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-resolutions">
+          <a href="https://farmr.club/created/farmr-resolutions">
             <b>#farmr-resolutions</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -500,7 +500,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-resolutions">
+          <a href="https://farmr.club/created/farmr-resolutions">
             #farmr-resolutions
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -510,7 +510,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogMemesCaption = (
+    const farmrMemesCaption = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -518,20 +518,20 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-memes">
+        <a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>: is the Farmr-subtag for <b>(Farmr + Memes)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
         <br />
         Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
-        <a href="https://farmr.club/created/ulog-memes">
+        <a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>{' '}
         (per day). With your{' '}
-        <a href="https://farmr.club/created/ulog-memes">
+        <a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>,{' '}
         <b>
@@ -550,19 +550,19 @@ class FarmrCaption extends React.Component {
         </b>{' '}
         at least once a day, in a bid to <b>reshape the very internet</b>. So, be inventive,{' '}
         <b>"YOU"</b>, "true celebrity" etc by creating your{' '}
-        <a href="https://farmr.club/created/ulog-memes">
+        <a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>, solely out of your <b>"freshly-created" images, graphics and text (per day)</b>.<br />
         <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-memes">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-memes">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-memes">
           <b>#farmr-memes</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Memes):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -571,8 +571,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Memes): A Fly Cannot Bird...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-memes">#farmr-memes</a>, etc.]
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-memes">#farmr-memes</a>, etc.]
               </b>
             </font>
           </li>
@@ -580,7 +580,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-memes">
+          <a href="https://farmr.club/created/farmr-memes">
             <b>#farmr-memes</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -593,7 +593,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-memes">#farmr-memes</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-memes">#farmr-memes</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <a
@@ -621,7 +621,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogBlocktradesCaption = (
+    const farmrBlocktradesCaption = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -632,10 +632,10 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-blocktrades">
+        <a href="https://farmr.club/created/farmr-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>: is the Farmr-subtag for <b>(Farmr + Blocktrades.us)</b>. Basically,{' '}
-        <a href="https://farmr.club/created/ulog-blocktrades">
+        <a href="https://farmr.club/created/farmr-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>{' '}
         incites you to record your experience etc (per day) with{' '}
@@ -652,7 +652,7 @@ class FarmrCaption extends React.Component {
         <br />
         <font size="2">
           By farming under{' '}
-          <a href="https://farmr.club/created/ulog-blocktrades">
+          <a href="https://farmr.club/created/farmr-blocktrades">
             <b>#farmr-blocktrades</b>
           </a>, you can give back, emulate their enterprise, be "true fan", reach out, share
           experiences, give feedback, give suggestions etc. Yes, on{' '}
@@ -677,15 +677,15 @@ class FarmrCaption extends React.Component {
         </font>{' '}
         <br />
         <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-blocktrades">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-blocktrades">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-blocktrades">
           <b>#farmr-blocktrades</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc. Don't forget to{' '}
@@ -695,8 +695,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Blocktrades.us): How Blocktrades Refunded Me...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -705,8 +705,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Blocktrades.us): Thank You Blocktrades For Blocks Of Upvotes...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -715,8 +715,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Blocktrades.us): How Blocktrades Expand Base In My Location...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-blocktrades">#farmr-blocktrades</a>,{' '}
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-blocktrades">#farmr-blocktrades</a>,{' '}
                 <a href="https://farmr.club/created/blocktrades">#blocktrades</a> etc.]
               </b>
             </font>
@@ -725,7 +725,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-blocktrades">
+          <a href="https://farmr.club/created/farmr-blocktrades">
             <b>#farmr-blocktrades</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -738,7 +738,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-blocktrades">
+          <a href="https://farmr.club/created/farmr-blocktrades">
             #farmr-blocktrades
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -761,7 +761,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogShowerthoughtsCaption = (
+    const farmrShowerthoughtsCaption = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -769,10 +769,10 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-showerthoughts">
+        <a href="https://farmr.club/created/farmr-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>: is the Farmr-subtag for <b>(Farmr + Showerthoughts)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
@@ -782,7 +782,7 @@ class FarmrCaption extends React.Component {
         <br />
         Yes, <b>farming</b> can be as fun and simple as creating your very own #farmr-showerthoughts
         (per day). With your{' '}
-        <a href="https://farmr.club/created/ulog-showerthoughts">
+        <a href="https://farmr.club/created/farmr-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>,{' '}
         <b>
@@ -791,21 +791,21 @@ class FarmrCaption extends React.Component {
         <div style={{ color: 'purple' }}>
           <b>
             <i>
-              Each time you showerthink and ulog about it, you "mine the human" attaining "true
+              Each time you showerthink and farmr about it, you "mine the human" attaining "true
               celebrityhood". @surpassinggoogle
             </i>
           </b>{' '}
           <br />
         </div>
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-showerthoughts">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-showerthoughts">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-showerthoughts">
           <b>#farmr-showerthoughts</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Showerthoughts):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
@@ -815,8 +815,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Showerthoughts): What If A Fly Could Bird...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -825,8 +825,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Showerthoughts): Let Me Build My Own Country...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -835,8 +835,8 @@ class FarmrCaption extends React.Component {
             <font size="2">
               <b>
                 (Farmr + Showerthoughts): My Plan To Make Ned Try Farming...[TAGS-Order:{' '}
-                <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>,
+                <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                <a href="https://farmr.club/created/farmr-showerthoughts">#farmr-showerthoughts</a>,
                 etc.]
               </b>
             </font>
@@ -845,7 +845,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-showerthoughts">
+          <a href="https://farmr.club/created/farmr-showerthoughts">
             <b>#farmr-showerthoughts</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -858,7 +858,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-showerthoughts">#farmr-showerthoughts</a>{' '}
+          <a href="https://farmr.club/created/farmr-showerthoughts">#farmr-showerthoughts</a>{' '}
           currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
@@ -880,7 +880,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogSnookmademedoitCaption = (
+    const farmrSnookmademedoitCaption = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -891,26 +891,26 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-snookmademedoit">
+        <a href="https://farmr.club/created/farmr-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>: is the Farmr-subtag for <b>(Farmr + SnookMadeMeDoIt)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
         <br />
         Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
-        <a href="https://farmr.club/created/ulog-snookmademedoit">
+        <a href="https://farmr.club/created/farmr-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>{' '}
         Farmrs (per day). This way,{' '}
         <b>
           <i>not a day passes by without your Farmracies in it</i>
         </b>. <br />
-        <a href="https://farmr.club/created/ulog-snookmademedoit">
+        <a href="https://farmr.club/created/farmr-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>{' '}
-        will bear forth an entire fun community of Farmrs. Yes, you can ulog about things{' '}
+        will bear forth an entire fun community of Farmrs. Yes, you can farmr about things{' '}
         <a href="https://farmr.club/@snook">
           <b>"@snook</b>
         </a>{' '}
@@ -963,21 +963,21 @@ class FarmrCaption extends React.Component {
           </font>{' '}
           <br />
         </div>
-        Well, you can also ulog about <b>non-steemians</b> who <b>"made you do something"</b>. Then,
+        Well, you can also farmr about <b>non-steemians</b> who <b>"made you do something"</b>. Then,
         share the resulting Farmrs with them. They may sign up on{' '}
         <a href="https://farmr.club">
           <b>"farmr.club</b>
         </a>{' '}
-        to ulog about how you <b>"made them do it"</b>. <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-snookmademedoit">
+        to farmr about how you <b>"made them do it"</b>. <br />
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-snookmademedoit">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-snookmademedoit">
           <b>#farmr-snookmademedoit</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + SnookMadeMeDoIt):" somewhere IN-TITLE</b>. See <b>sample</b>:{' '}
@@ -990,8 +990,8 @@ class FarmrCaption extends React.Component {
                   (Farmr + SnookMadeMeDoIt): @baasteemit Got Me To Say My First "baa"...<u>
                     TAGS-Order:
                   </u>{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-snookmademedoit">#farmr-snookmademedoit</a>,
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-snookmademedoit">#farmr-snookmademedoit</a>,
                   etc.]
                 </b>
               </font>
@@ -1001,7 +1001,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-snookmademedoit">
+          <a href="https://farmr.club/created/farmr-snookmademedoit">
             <b>#farmr-snookmademedoit</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -1014,7 +1014,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-snookmademedoit">#farmr-snookmademedoit</a>{' '}
+          <a href="https://farmr.club/created/farmr-snookmademedoit">#farmr-snookmademedoit</a>{' '}
           currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1067,7 +1067,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogUtopian = (
+    const farmrUtopian = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -1078,10 +1078,10 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-utopian">
+        <a href="https://farmr.club/created/farmr-utopian">
           <b>#farmr-utopian</b>
         </a>: is the Farmr-subtag for <b>(Farmr + Utopian.io)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept suddenly turns out all fresh</b>.{' '}
@@ -1108,7 +1108,7 @@ class FarmrCaption extends React.Component {
           <br />
           <font size="2">
             By farming under{' '}
-            <a href="https://farmr.club/created/ulog-utopian">
+            <a href="https://farmr.club/created/farmr-utopian">
               <b>#farmr-utopian</b>
             </a>, you can give back, emulate their enterprise, be "true fan", reach out, share
             experiences, give feedback, give suggestions etc. Yes, on{' '}
@@ -1134,15 +1134,15 @@ class FarmrCaption extends React.Component {
           <br />
           <br />
         </div>
-        To post a Farmr under "<a href="https://farmr.club/created/ulog-utopian">
+        To post a Farmr under "<a href="https://farmr.club/created/farmr-utopian">
           <b>#farmr-utopian</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-utopian">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-utopian">
           <b>#farmr-utopian</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://farmr.club/created/utopian-io">"#utopian-io"</a> etc. Don't forget to{' '}
@@ -1153,8 +1153,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Utopian.io): @utopian-io Visited My Farmr Today...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1163,8 +1163,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Utopian.io): How Utopian.io Can Expand It Reach In My
-                  Location...[TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
+                  Location...[TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1173,8 +1173,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Utopian.io): I Spoke To @elear Of Utopian.io And He Wants To Support My
-                  Idea...[TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a>,{' '}
+                  Idea...[TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-utopian">#farmr-utopian</a>,{' '}
                   <a href="https://farmr.club/created/utopian-io">#utopian-io</a> etc.]
                 </b>
               </font>
@@ -1184,7 +1184,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-utopian">
+          <a href="https://farmr.club/created/farmr-utopian">
             <b>#farmr-utopian</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -1197,7 +1197,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-utopian">#farmr-utopian</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-utopian">#farmr-utopian</a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>
               <b>[Coming Soon!!!]</b>
@@ -1207,7 +1207,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogThejohalfiles = (
+    const farmrThejohalfiles = (
       <span>
         <a href="https://farmr.club/@thejohalfiles">
           <b>@thejohalfiles</b>
@@ -1270,15 +1270,15 @@ class FarmrCaption extends React.Component {
         </div>
         <br />
         To post a Farmr under{' '}
-        <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>, simply use{' '}
+        <a href="https://farmr.club/created/farmr-thejohalfiles">#farmr-thejohalfiles</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-thejohalfiles">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-thejohalfiles">
           <b>#farmr-thejohalfiles</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + TheJohalFiles):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -1288,8 +1288,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + TheJohalFiles): My Attempt To Get Him To Do His First Farmr...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1298,8 +1298,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + TheJohalFiles): How TheJohalfiles Left A File On My Desk...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1308,8 +1308,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + TheJohalFiles): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a>{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-thejohalfiles">#farmr-thejohalfiles</a>{' '}
                   etc.]
                 </b>
               </font>
@@ -1318,13 +1318,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-thejohalfiles">#farmr-thejohalfiles</a> daily, to
+          <a href="https://farmr.club/created/farmr-thejohalfiles">#farmr-thejohalfiles</a> daily, to
           curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/Eg8uCZB">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-thejohalfiles">
+          <a href="https://farmr.club/created/farmr-thejohalfiles">
             #farmr-thejohalfiles
           </a> currently:<br />
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
@@ -1342,20 +1342,20 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulogifs">
+        <a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>: is the Farmr-subtag for <b>(Farmr + GIFs)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to <b>any existing concept</b> etc <b>an existing concept suddenly turns out all fresh</b>.{' '}
         <br />
         Yes, <b>farming</b> can be as fun and simple as creating your very own{' '}
-        <a href="https://farmr.club/created/ulogifs">
+        <a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>{' '}
         (per day). With your{' '}
-        <a href="https://farmr.club/created/ulogifs">
+        <a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>,{' '}
         <b>
@@ -1374,20 +1374,20 @@ class FarmrCaption extends React.Component {
         </b>{' '}
         at least once a day, in a bid to <b>reshape the very internet</b>. So, be inventive,{' '}
         <b>"YOU"</b>, "true celebrity" etc by creating your very own{' '}
-        <a href="https://farmr.club/created/ulogifs">
+        <a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>, solely out of your{' '}
         <b>"freshly-created" images, graphics, videos and text (per day)</b>.<br />
         <br />
-        To post a Farmr under "<a href="https://farmr.club/created/ulogifs">
+        To post a Farmr under "<a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>", simply click on{' '}
         <a href="https://farmr.club/editor">
           <b>This Editor;</b>
         </a>{' '}
-        then, make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        then, make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulogifs">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/gifs">
           <b>#farmrifs</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + GIFs):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -1397,8 +1397,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + GIFs): A Fly Cannot Bird...[TAGS-Order:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulogifs">#farmrifs</a>, etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/gifs">#farmrifs</a>, etc.]
                 </b>
               </font>
             </li>
@@ -1407,7 +1407,7 @@ class FarmrCaption extends React.Component {
         <br />
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulogifs">
+          <a href="https://farmr.club/created/gifs">
             <b>#farmrifs</b>
           </a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
@@ -1420,7 +1420,7 @@ class FarmrCaption extends React.Component {
           </a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulogifs">#farmrifs</a> currently:<br />
+          <a href="https://farmr.club/created/gifs">#farmrifs</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1442,7 +1442,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogSurfyogi = (
+    const farmrSurfyogi = (
       <span>
         <a href="https://farmr.club/@surfyogi">
           <b>@surfyogi</b>
@@ -1511,16 +1511,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-surfyogi">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-surfyogi">
           <b>#farmr-surfyogi</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + SurfYogi):" somewhere IN-TITLE</b>. See <b>sample</b>: <br />
@@ -1530,8 +1530,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + SurfYogi): My Attempt To Get Him To Do His First Farmr...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1539,8 +1539,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + SurfYogi): I Sent SurfYogi A White Tshirt...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1548,8 +1548,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + SurfYogi): I Am Learning To Do Deeds Without Noise ...[TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a> etc.]
                 </b>
               </font>
             </li>
@@ -1557,13 +1557,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/EpVxmW4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-surfyogi">#farmr-surfyogi</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-surfyogi">#farmr-surfyogi</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1591,7 +1591,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogBobbylee = (
+    const farmrBobbylee = (
       <span>
         <a href="https://farmr.club/@bobbylee">
           <b>@bobbylee</b>
@@ -1657,16 +1657,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-bobbylee">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-bobbylee">
           <b>#farmr-bobbylee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + BobbyLee):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -1676,8 +1676,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + BobbyLee): My Attempt To Get Him To Do His First Farmr. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1685,8 +1685,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + BobbyLee): I Wrote Bobby A "Thank You" Farmr And He Said "Wow".
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1694,8 +1694,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + BobbyLee): I Drew A BobbyLee Portrait From My Image Nation. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a> etc.]
                 </b>
               </font>
             </li>
@@ -1703,13 +1703,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/PEfzyM4">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-bobbylee">#farmr-bobbylee</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-bobbylee">#farmr-bobbylee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -1737,14 +1737,14 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogStellabelle = (
+    const farmrStellabelle = (
       <span>
         <a href="https://farmr.club/@stellabelle">
           <b>@stellabelle</b>
         </a>{' '}
         is <b>non-stop</b> in how <b>she moves</b>. For a great noble cause; to play roles in things
         that can constitute historical-history; <b>she simply moves!</b> She leaves{' '}
-        <b>her ulogacies</b> in every space, leading matters. <br />
+        <b>her farmracies</b> in every space, leading matters. <br />
         <b>
           <i>Her mind’s eye has spanless arrays of colors.</i>
         </b>{' '}
@@ -1820,15 +1820,15 @@ class FarmrCaption extends React.Component {
         </div>
         <br />
         To post a Farmr under{' '}
-        <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a>, simply use{' '}
+        <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate her; to learn about her, to be <b>"true fans"</b> of her,
         to share memories with her; to reach out to her etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-stellabelle">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-stellabelle">
           <b>#farmr-stellabelle</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Stellabelle):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -1838,8 +1838,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Stellabelle): My Attempt To Get Her To Do Her First UloGIF. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1847,8 +1847,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Stellabelle): I Created Some UloGIFs That I Am Sure She Will Like.
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1856,8 +1856,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Stellabelle): Because Of Her, I Re-loved My Woman. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
               </font>
             </li>
@@ -1865,13 +1865,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-stellabelle">#farmr-stellabelle</a> daily, to
+          <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> daily, to
           curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/b2NzBn8">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-stellabelle">
+          <a href="https://farmr.club/created/farmr-stellabelle">
             #farmr-stellabelle
           </a> currently:<br />
           <div style={{ color: 'purple' }}>
@@ -1901,7 +1901,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogSweetsssj = (
+    const farmrSweetsssj = (
       <span>
         <a href="https://farmr.club/@sweetsssj">
           <b>@sweetsssj</b>
@@ -1978,16 +1978,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate her; to learn about her, to be <b>"true fans"</b> of her,
         to share memories with her; to reach out to her etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-sweetsssj">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-sweetsssj">
           <b>#farmr-sweetsssj</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Sweetsssj):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -1997,8 +1997,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Sweetsssj): My Attempt To Get Her To Do Her First Farmr. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2006,8 +2006,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Sweetsssj): I Farmred About Travel "Sweetsssj-Style". [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2015,8 +2015,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Sweetsssj): My Selfie-Moments With Sweetssj Earlier Today In Beijin.
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> etc.]
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a> etc.]
                 </b>
               </font>
             </li>
@@ -2024,13 +2024,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/xrbRM9Y">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-sweetsssj">#farmr-sweetsssj</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-sweetsssj">#farmr-sweetsssj</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2058,7 +2058,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogDimimp = (
+    const farmrDimimp = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -2167,16 +2167,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him(er); to learn about him(er), to be <b>"true fans"</b>{' '}
         of him(er), to share memories with him(er); to reach out to him(er) etc <b>(per day)</b>.{' '}
-        <br /> Make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        <br /> Make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-dimimp">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-dimimp">
           <b>#farmr-dimimp</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "<a href="https://farmr.club/created/steemjet">
           #steemjet
@@ -2188,8 +2188,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + DimImp): My Attempt To Get @dimimp To Farmr. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
@@ -2198,8 +2198,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + DimImp): What I Learned From @dimimp Today. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
@@ -2208,8 +2208,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + DimImp): My Mentality Improved After An Encounter With @dimpimp.
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a>{' '}
                   <a href="https://farmr.club/created/steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
@@ -2217,13 +2217,13 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <b>
-          Become "true fans"! Visit <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a>{' '}
+          Become "true fans"! Visit <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a>{' '}
           daily, to curate, engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/EBRJxQM">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-dimimp">#farmr-dimimp</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-dimimp">#farmr-dimimp</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2251,7 +2251,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogTeamsteem = (
+    const farmrTeamsteem = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -2332,16 +2332,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-teamsteem">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-teamsteem">
           <b>#farmr-teamsteem</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + TeamSteem):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -2351,8 +2351,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + TeamSteem): My Attempt To Get @teamsteem To Farmr About Me. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2360,8 +2360,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + TeamSteem): My Selfie Moments With Him In Quebec. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2369,8 +2369,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Teamsteem): Thank You @teamsteem, For Making Me Do My First Pull-Up.
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> etc.]
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a> etc.]
                 </b>
               </font>
             </li>
@@ -2378,13 +2378,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/3jTA4Tt">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-teamsteem">#farmr-teamsteem</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-teamsteem">#farmr-teamsteem</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2412,7 +2412,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogKusknee = (
+    const farmrKusknee = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -2521,16 +2521,16 @@ class FarmrCaption extends React.Component {
           </ul>
         </div>
         <br />
-        To post a Farmr under <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a>,
+        To post a Farmr under <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a>,
         simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-kusknee">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-kusknee">
           <b>#farmr-kusknee</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Kus-Knee):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -2540,8 +2540,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Kus-Knee): Today @kus-knee Told Me Why He Is Called The Old Dog.
-                  [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
+                  [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2549,8 +2549,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Kus-Knee): I FaceTimed @kus-knee And Here Is What He Told Me About
-                  Entepreneurship. [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
+                  Entepreneurship. [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2558,8 +2558,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Kus-Knee): I Love Steem Because I Found @kus-knee. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a> etc.]
                 </b>
               </font>
             </li>
@@ -2567,13 +2567,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/SFYBHp5">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-kusknee">#farmr-kusknee</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-kusknee">#farmr-kusknee</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2608,7 +2608,7 @@ class FarmrCaption extends React.Component {
                   <b>
                     <u>Discord</u>
                   </b>
-                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=ulogs">
+                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=farmr">
                   <b>
                     <u>Click Here</u>
                   </b>
@@ -2620,7 +2620,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogPapapepper = (
+    const farmrPapapepper = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -2736,15 +2736,15 @@ class FarmrCaption extends React.Component {
         </div>
         <br />
         To post a Farmr under{' '}
-        <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a>, simply use{' '}
+        <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor</a>
         </span>{' '}
         to <b>"give back"</b>; to emulate him; to learn about him, to be <b>"true fans"</b> of him,
         to share memories with him; to reach out to him etc <b>(per day)</b>. <br /> Make sure to
-        use the more popular "<a href="https://farmr.club/created/ulog">
+        use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-papapepper">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-papapepper">
           <b>#farmr-papapepper</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g "your location" etc. Don't
         forget to <b>add "(Farmr + Papa-Pepper):" somewhere IN-TITLE</b>. See <b>sample</b>:
@@ -2754,8 +2754,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Papa-Pepper): A New Niche In Homesteading Discovered, Thanks To
-                  @papa-pepper [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
+                  @papa-pepper [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2764,8 +2764,8 @@ class FarmrCaption extends React.Component {
                 <b>
                   (Farmr + Papa-Pepper): "Applying Blockchain Technology To The Contest Economy"; I
                   Learned This From @papa-pepper [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2773,8 +2773,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Papa-Pepper): Hey @papa-pepper, What Do You Think About My New BackYard Of
-                  Peppers. [TAGS-ORDER: <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> etc.]
+                  Peppers. [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a> etc.]
                 </b>
               </font>
             </li>
@@ -2782,13 +2782,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/M847Kvs">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-papapepper">#farmr-papapepper</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-papapepper">#farmr-papapepper</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2823,7 +2823,7 @@ class FarmrCaption extends React.Component {
                   <b>
                     <u>Discord</u>
                   </b>
-                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=ulogs">
+                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=farmr">
                   <b>
                     <u>Click Here</u>
                   </b>
@@ -2835,7 +2835,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const ulogSteemjet = (
+    const farmrSteemjet = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -2846,10 +2846,10 @@ class FarmrCaption extends React.Component {
           </b>{' '}
           <br />
         </div>
-        <a href="https://farmr.club/created/ulog-steemjet">
+        <a href="https://farmr.club/created/farmr-steemjet">
           <b>#farmr-steemjet</b>
         </a>: is the Farmr-subtag for <b>(Farmr + SteemJet)</b>. When you add{' '}
-        <a href="https://farmr.club/created/ulog">
+        <a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
         </a>{' '}
         to any <b>existing concept</b> etc an <b>existing concept</b> suddenly turns out all{' '}
@@ -2880,12 +2880,12 @@ class FarmrCaption extends React.Component {
         </b>{' '}
         <br />
         By farming under{' '}
-        <a href="https://farmr.club/created/ulog-steemjet">
+        <a href="https://farmr.club/created/farmr-steemjet">
           <b>#farmr-steemjet</b>
         </a>, you can{' '}
         <b>
           give back, emulate their enterprise, be "true fan", reach out, share experiences, give
-          feedback, give suggestions, create ulogacies, grow etc
+          feedback, give suggestions, create farmracies, grow etc
         </b>. Yes, on{' '}
         <a href="https://farmr.club">
           <b>farmr.club</b>
@@ -2909,15 +2909,15 @@ class FarmrCaption extends React.Component {
           <i>"true celebrity-hood for 'everyone', once and for all"</i>
         </b>. <br /> <br />
         To post a Farmr under{' '}
-        <a href="https://farmr.club/created/ulog-steemjet">
+        <a href="https://farmr.club/created/farmr-steemjet">
           <b>#farmr-steemjet</b>
         </a>, simply use{' '}
         <span className="bold-italic">
           <a href="https://farmr.club/editor">This Editor.</a>
         </span>{' '}
-        Make sure to use the more popular "<a href="https://farmr.club/created/ulog">
+        Make sure to use the more popular "<a href="https://farmr.club/created/farmr">
           <b>#farmr</b>
-        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/ulog-steemjet">
+        </a>" as your 1st hashtag & "<a href="https://farmr.club/created/farmr-steemjet">
           <b>#farmr-steemjet</b>
         </a>" as your 2nd hashtag. You can then add other hashtags e.g{' '}
         <a href="https://farmr.club/created/steemjet">
@@ -2930,8 +2930,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + Steemjet): "I Just Found Myself, Thanks To @steemjet". [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2939,8 +2939,8 @@ class FarmrCaption extends React.Component {
               <font size="2">
                 <b>
                   (Farmr + SteemJet): How I Spent My Today As A SpaceForcer. [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2949,8 +2949,8 @@ class FarmrCaption extends React.Component {
                 <b>
                   (Farmr + SteemJet): Applying Steem Technology To More "Wreck-It-Ralph Use. My
                   SteemJet Suggestion! [TAGS-ORDER:{' '}
-                  <a href="https://farmr.club/created/ulog">#farmr</a>,{' '}
-                  <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> etc.]
+                  <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
+                  <a href="https://farmr.club/created/farmr-steemjet">#farmr-steemjet</a> etc.]
                 </b>
               </font>
             </li>
@@ -2958,13 +2958,13 @@ class FarmrCaption extends React.Component {
         </div>
         <b>
           Become "true fans"! Visit{' '}
-          <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> daily, to curate,
+          <a href="https://farmr.club/created/farmr-steemjet">#farmr-steemjet</a> daily, to curate,
           engage, support, contribute etc! Join its community on{' '}
           <a href="https://discord.gg/9Bhxtm">Discord</a> &{' '}
           <a href="https://t.me/teardrops_smt">Telegram</a>. <br />
           <br />
           Verified/Certified @farmrs who oversee{' '}
-          <a href="https://farmr.club/created/ulog-steemjet">#farmr-steemjet</a> currently:<br />
+          <a href="https://farmr.club/created/farmr-steemjet">#farmr-steemjet</a> currently:<br />
           <div style={{ color: 'purple' }}>
             <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
               <li>
@@ -2999,7 +2999,7 @@ class FarmrCaption extends React.Component {
                   <b>
                     <u>Discord</u>
                   </b>
-                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=ulogs">
+                </a>] Delegate: [<a href="https://steembottracker.com/delegation.html?delegatee=farmr">
                   <b>
                     <u>Click Here</u>
                   </b>
@@ -3013,58 +3013,58 @@ class FarmrCaption extends React.Component {
 
     const category = this.props.category;
     let caption = [];
-    if (category === 'ulog-quotes') {
-      caption = ulogQuotesCaption;
-    } else if (category === 'ulog-howto') {
-      caption = ulogHowtoCaption;
-    } else if (category === 'ulog-diy') {
-      caption = ulogDiyCaption;
-    } else if (category === 'ulog-surpassinggoogle') {
-      caption = ulogSurpassinggoogleCaption;
+    if (category === 'farmr-quotes') {
+      caption = farmrQuotesCaption;
+    } else if (category === 'farmr-howto') {
+      caption = farmrHowtoCaption;
+    } else if (category === 'farmr-diy') {
+      caption = farmrDiyCaption;
+    } else if (category === 'farmr-surpassinggoogle') {
+      caption = farmrSurpassinggoogleCaption;
     } else if (category === 'teardrops') {
       caption = teardropsCaption;
     } else if (category === 'untalented') {
       caption = untalentedCaption;
-    } else if (category === 'ulog-ned') {
-      caption = ulogNedCaption;
-    } else if (category === 'ulography') {
-      caption = ulographyCaption;
-    } else if (category === 'ulog-gratefulvibes') {
-      caption = ulogGratefulvibesCaption;
-    } else if (category === 'ulog-resolutions') {
-      caption = ulogResolutionsCaption;
-    } else if (category === 'ulog-memes') {
-      caption = ulogMemesCaption;
-    } else if (category === 'ulog-blocktrades') {
-      caption = ulogBlocktradesCaption;
-    } else if (category === 'ulog-showerthoughts') {
-      caption = ulogShowerthoughtsCaption;
-    } else if (category === 'ulog-snookmademedoit') {
-      caption = ulogSnookmademedoitCaption;
-    } else if (category === 'ulog-utopian') {
-      caption = ulogUtopian;
-    } else if (category === 'ulog-thejohalfiles') {
-      caption = ulogThejohalfiles;
-    } else if (category === 'ulogifs') {
+    } else if (category === 'farmr-ned') {
+      caption = farmrNedCaption;
+    } else if (category === 'photography') {
+      caption = photographyCaption;
+    } else if (category === 'farmr-gratefulvibes') {
+      caption = farmrGratefulvibesCaption;
+    } else if (category === 'farmr-resolutions') {
+      caption = farmrResolutionsCaption;
+    } else if (category === 'farmr-memes') {
+      caption = farmrMemesCaption;
+    } else if (category === 'farmr-blocktrades') {
+      caption = farmrBlocktradesCaption;
+    } else if (category === 'farmr-showerthoughts') {
+      caption = farmrShowerthoughtsCaption;
+    } else if (category === 'farmr-snookmademedoit') {
+      caption = farmrSnookmademedoitCaption;
+    } else if (category === 'farmr-utopian') {
+      caption = farmrUtopian;
+    } else if (category === 'farmr-thejohalfiles') {
+      caption = farmrThejohalfiles;
+    } else if (category === 'gifs') {
       caption = uloGifs;
-    } else if (category === 'ulog-surfyogi') {
-      caption = ulogSurfyogi;
-    } else if (category === 'ulog-bobbylee') {
-      caption = ulogBobbylee;
-    } else if (category === 'ulog-stellabelle') {
-      caption = ulogStellabelle;
-    } else if (category === 'ulog-sweetsssj') {
-      caption = ulogSweetsssj;
-    } else if (category === 'ulog-dimimp') {
-      caption = ulogDimimp;
-    } else if (category === 'ulog-teamsteem') {
-      caption = ulogTeamsteem;
-    } else if (category === 'ulog-kusknee') {
-      caption = ulogKusknee;
-    } else if (category === 'ulog-papapepper') {
-      caption = ulogPapapepper;
-    } else if (category === 'ulog-steemjet') {
-      caption = ulogSteemjet;
+    } else if (category === 'farmr-surfyogi') {
+      caption = farmrSurfyogi;
+    } else if (category === 'farmr-bobbylee') {
+      caption = farmrBobbylee;
+    } else if (category === 'farmr-stellabelle') {
+      caption = farmrStellabelle;
+    } else if (category === 'farmr-sweetsssj') {
+      caption = farmrSweetsssj;
+    } else if (category === 'farmr-dimimp') {
+      caption = farmrDimimp;
+    } else if (category === 'farmr-teamsteem') {
+      caption = farmrTeamsteem;
+    } else if (category === 'farmr-kusknee') {
+      caption = farmrKusknee;
+    } else if (category === 'farmr-papapepper') {
+      caption = farmrPapapepper;
+    } else if (category === 'farmr-steemjet') {
+      caption = farmrSteemjet;
     }
     const about = `About #${category}`;
 
@@ -3072,7 +3072,7 @@ class FarmrCaption extends React.Component {
     const withOwnEditor =
     category &&
     category.match(
-      /^(ulog-diy|ulog-howto|ulog-ned|ulog-quotes|ulog-surpassinggoogle|teardrops|untalented)$/,
+      /^(farmr-diy|farmr-howto|farmr-ned|farmr-quotes|farmr-surpassinggoogle|teardrops|untalented)$/,
     );
 
     // set post now link to /main-editor then override if sub-tag editor already available
@@ -3084,7 +3084,7 @@ class FarmrCaption extends React.Component {
     }
 
     return (
-      <div className="ulog-quotes">
+      <div className="farmr-quotes">
         <Collapse defaultActiveKey={['1']}>
           <Collapse.Panel header={about} key="1">
             {caption}

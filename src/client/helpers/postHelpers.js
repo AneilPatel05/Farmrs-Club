@@ -68,8 +68,8 @@ export function getContentImages(content, parsed = false) {
 
 export function createPostMetadata(body, tags, oldMetadata = {}) {
   let metaData = {
-    community: 'ulogs',
-    app: `ulogs/${appVersion}`,
+    community: 'farmr',
+    app: `farmr/${appVersion}`,
     format: 'markdown',
   };
 

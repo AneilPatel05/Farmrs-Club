@@ -60,11 +60,11 @@ class Page extends React.Component {
     const displayFarmrCaption =
       category &&
       category.match(
-        /^(ulog-quotes|ulog-howto|ulog-diy|ulog-surpassinggoogle|teardrops|untalented|ulog-ned|ulography|ulog-gratefulvibes|ulog-resolutions|ulog-memes|ulog-blocktrades|ulog-showerthoughts|ulog-snookmademedoit|ulog-utopian|ulog-thejohalfiles|ulogifs|ulog-surfyogi|ulog-bobbylee|ulog-stellabelle|ulog-sweetsssj|ulog-dimimp|ulog-teamsteem|ulog-kusknee|ulog-papapepper|ulog-steemjet)$/,
+        /^(farmr-quotes|farmr-howto|farmr-diy|farmr-surpassinggoogle|teardrops|untalented|farmr-ned|photography|farmr-gratefulvibes|farmr-resolutions|farmr-memes|farmr-blocktrades|farmr-showerthoughts|farmr-snookmademedoit|farmr-utopian|farmr-thejohalfiles|gifs|farmr-surfyogi|farmr-bobbylee|farmr-stellabelle|farmr-sweetsssj|farmr-dimimp|farmr-teamsteem|farmr-kusknee|farmr-papapepper|farmr-steemjet)$/,
       );
-    const isStartsWithFarmr = category && category.startsWith('ulog-');
+    const isStartsWithFarmr = category && category.startsWith('farmr-');
 
-    const convertFarmrTag = `Thank you for beginning the process of creating a Farmr-Community. To further the process, start by contributing ulogs under this very ulog-subtag and inviting others to do the same. You can start now! Simply visit this editor on 'https://farmr.club/main-editor' to contribute a ulog and make sure to use the ulog-subtag here as one of the tags underneath your post.&nbsp;
+    const convertFarmrTag = `Thank you for beginning the process of creating a Farmr-Community. To further the process, start by contributing farmr under this very farmr-subtag and inviting others to do the same. You can start now! Simply visit this editor on 'https://farmr.club/main-editor' to contribute a farmr and make sure to use the farmr-subtag here as one of the tags underneath your post.&nbsp;
       To complete the process of creating a Farmr-Community, kindly send an email containing your intention to [farmrs@gmail.com](mailto:farmrs@gmail.com) &nbsp;
       Note: Anyone can choose to complete the process!`
 
@@ -80,7 +80,7 @@ class Page extends React.Component {
         {(authenticated && !displayFarmrCaption && !isStartsWithFarmr) ? (
           <Carousel autoplay className="feed-carousel">
             <div>
-              <a href="ulog/@uloggers/uloggers-today-s-certified-and-verified-ulogger-true-celebrity-is-jejes-join-in-as-her-true-fans-we-will-fix-many-worries">
+              <a href="farmr/@farmrs/farmrs-today-s-certified-and-verified-farmr-true-celebrity-is-jejes-join-in-as-her-true-fans-we-will-fix-many-worries">
                 <img width={'100%'} height={'100%'} alt="900x500" src="/images/slide1.jpg" />
               </a>
             </div>
@@ -91,7 +91,7 @@ class Page extends React.Component {
               controls
             />
             <div>
-              <a href="ulog/@uloggers/uloggers-today-s-certified-and-verified-ulogger-true-celebrity-is-enjieneer-join-in-as-her-true-fans-we-will-fix-many-worries">
+              <a href="farmr/@farmrs/farmrs-today-s-certified-and-verified-farmr-true-celebrity-is-enjieneer-join-in-as-her-true-fans-we-will-fix-many-worries">
                 <img width={'100%'} height={'100%'} alt="900x500" src="/images/slide2.jpg" />
               </a>
             </div>
@@ -108,7 +108,7 @@ class Page extends React.Component {
               controls
             />
             <div>
-              <a href="ulog/@uloggers/uloggers-today-s-certified-and-verified-ulogger-true-celebrity-is-kneelyrac-join-in-as-her-true-fans-we-will-fix-many-worries">
+              <a href="farmr/@farmrs/farmrs-today-s-certified-and-verified-farmr-true-celebrity-is-kneelyrac-join-in-as-her-true-fans-we-will-fix-many-worries">
                 <img width={'100%'} height={'100%'} alt="900x500" src="/images/slide3.jpg" />
               </a>
             </div>
@@ -125,7 +125,7 @@ class Page extends React.Component {
               controls
             />
             <div>
-              <a href="ulog/@uloggers/uloggers-today-s-certified-and-verified-ulogger-true-celebrity-is-sn0white-join-in-as-her-true-fans-we-will-fix-many-worries">
+              <a href="farmr/@farmrs/farmrs-today-s-certified-and-verified-farmr-true-celebrity-is-sn0white-join-in-as-her-true-fans-we-will-fix-many-worries">
                 <img width={'100%'} height={'100%'} alt="900x500" src="/images/slide4.jpg" />
               </a>
             </div>

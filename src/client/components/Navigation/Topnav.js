@@ -252,11 +252,11 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="settings">
                     <FormattedMessage id="settings" defaultMessage="Settings" />
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-witnesses">
-                    <FormattedMessage id="ulog-witnesses" defaultMessage="Farmr-Witnesses"/>
+                  <PopoverMenuItem key="farmr-witnesses">
+                    <FormattedMessage id="farmr-witnesses" defaultMessage="Farmr-Witnesses"/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-subtags">
-                    <FormattedMessage id="ulog-subtags" defaultMessage="Farmr-Subtags"/>
+                  <PopoverMenuItem key="farmr-subtags">
+                    <FormattedMessage id="farmr-subtags" defaultMessage="Farmr-Subtags"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="custom-profile">
                     <FormattedMessage id="custom_profile" defaultMessage="Custom Profile"/>
@@ -270,8 +270,8 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="get-certified">
                     <FormattedMessage id="get_certified" defaultMessage='Get "Certified"'/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-faucet" fullScreenHidden>
-                    <FormattedMessage id="ulog_faucet" defaultMessage="Farmr-Faucet"/>
+                  <PopoverMenuItem key="farmr-faucet" fullScreenHidden>
+                    <FormattedMessage id="farmr_faucet" defaultMessage="Farmr-Faucet"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="merchandise" fullScreenHidden>
                     <FormattedMessage id="merchandise" defaultMessage="Merchandise"/>
@@ -282,8 +282,8 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="teardrop-smt" fullScreenHidden>
                     <FormattedMessage id="teardrop_smt" defaultMessage="Teardrop SMT"/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="about-ulogs">
-                    <FormattedMessage id="about-ulogs" defaultMessage="About Farmr.club"/>
+                  <PopoverMenuItem key="about-farmr">
+                    <FormattedMessage id="about-farmr" defaultMessage="About Farmr.club"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="logout">
                     <FormattedMessage id="logout" defaultMessage="Logout" />

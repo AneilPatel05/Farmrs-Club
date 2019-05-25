@@ -38,7 +38,7 @@ class OverseeingFarmrs extends React.Component {
   }
 
   getFarmrOverseers() {
-    steemAPI.sendAsync('get_accounts', [["ulogs"]])
+    steemAPI.sendAsync('get_accounts', [["farmr"]])
       .then(users =>
         this.setState({
           users,

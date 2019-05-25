@@ -31,9 +31,9 @@ class Farming extends React.Component {
       defaultActiveKey = ['1'];
     } else if (location === 'main-editor') {
       defaultActiveKey = ['2'];
-    } else if (location === 'ulog-knowledge-bank') {
+    } else if (location === 'farmr-knowledge-bank') {
       defaultActiveKey = ['3'];
-    } else if (location === 'ulog-fanlove') {
+    } else if (location === 'farmr-fanlove') {
       defaultActiveKey = ['4'];
     } else if (location === 'surpassinggoogle') {
       defaultActiveKey = ['5'];
@@ -60,9 +60,9 @@ class Farming extends React.Component {
         this.setState({ activeKey : ['1']});
       } else if (location === 'main-editor') {
         this.setState({ activeKey : ['2']});
-      } else if (location === 'ulog-knowledge-bank') {
+      } else if (location === 'farmr-knowledge-bank') {
         this.setState({ activeKey : ['3']});
-      } else if (location === 'ulog-fanlove') {
+      } else if (location === 'farmr-fanlove') {
         this.setState({ activeKey : ['4']});
       } else if (location === 'surpassinggoogle') {
         this.setState({ activeKey : ['5']});
@@ -112,10 +112,10 @@ class Farming extends React.Component {
     const knowledgeBankMenu = (
       <Menu>
         <Menu.Item key="0">
-          <Link to={'/ulog-diy'}>#farmr-diy (Fresh DIY per day)</Link>
+          <Link to={'/farmr-diy'}>#farmr-diy (Fresh DIY per day)</Link>
         </Menu.Item>
         <Menu.Item key="1">
-          <Link to={'/ulog-howto'}>#farmr-howto</Link>
+          <Link to={'/farmr-howto'}>#farmr-howto</Link>
         </Menu.Item>
       </Menu>
     );
@@ -123,13 +123,13 @@ class Farming extends React.Component {
     const fanLoveMenu = (
       <Menu>
         <Menu.Item key="0">
-          <Link to={'/ulog-ned'}>#farmr-ned (Emulate, Learn, Gratitude, Celebrate etc @ned)</Link>
+          <Link to={'/farmr-ned'}>#farmr-ned (Emulate, Learn, Gratitude, Celebrate etc @ned)</Link>
         </Menu.Item>
         <Menu.Item key="1">
-          <Link to={'/ulog-surpassinggoogle'}>#farmr-surpassinggoogle (Emulate, Learn, Gratitude, Celebrate etc @surpassinggoogle)</Link>
+          <Link to={'/farmr-surpassinggoogle'}>#farmr-surpassinggoogle (Emulate, Learn, Gratitude, Celebrate etc @surpassinggoogle)</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to={'/ulog-quotes'}>#farmr-quotes</Link>
+          <Link to={'/farmr-quotes'}>#farmr-quotes</Link>
         </Menu.Item>
       </Menu>
     );
@@ -166,9 +166,9 @@ class Farming extends React.Component {
       defaultActiveKey = ['1'];
     } else if (location === 'main-editor') {
       defaultActiveKey = ['2'];
-    } else if (location === 'ulog-knowledge-bank') {
+    } else if (location === 'farmr-knowledge-bank') {
       defaultActiveKey = ['3'];
-    } else if (location === 'ulog-fanlove') {
+    } else if (location === 'farmr-fanlove') {
       defaultActiveKey = ['4'];
     } else if (location === 'surpassinggoogle') {
       defaultActiveKey = ['5'];
@@ -216,7 +216,7 @@ class Farming extends React.Component {
               bodyStyle={customCardStyle}>
               <h3 style={{color: 'purple'}}>Write A Farmr?</h3>
               <p>
-                Writing a ulog is easier with the right editor. Simply expand the tab below to choose the appropriate editor.<br/>
+                Writing a farmr is easier with the right editor. Simply expand the tab below to choose the appropriate editor.<br/>
                 Farming is for "everyone", both private and public figures!<br/>
               </p>
             </Card>
@@ -230,12 +230,12 @@ class Farming extends React.Component {
                 key="2"
                 style={customPanelStyle}>
                 <p>
-                  You can write an <b>entire ulog</b> today, with the aim of <b>recounting your entire day</b> and all the activities in it. The <b>U</b> in <b>U</b>log stands for "You".<br/>
+                  You can write an <b>entire farmr</b> today, with the aim of <b>recounting your entire day</b> and all the activities in it. The <b>U</b> in <b>U</b>log stands for "You".<br/>
                   <i>Farming is for both public & private figures.</i><br/>
-                  <b>A ulog</b> is a kind of content that is <b>freshly-created by "You"</b>, containing only experiences, events, feelings, moments, knowledge etc <b>drawn from a particular day.</b><br/>
-                  <b>A ulog written today</b>, should not have existed anywhere online, yesterday; as <i>"each day and 'you' in it, carries its own freshness.</i><br/>
+                  <b>A farmr</b> is a kind of content that is <b>freshly-created by "You"</b>, containing only experiences, events, feelings, moments, knowledge etc <b>drawn from a particular day.</b><br/>
+                  <b>A farmr written today</b>, should not have existed anywhere online, yesterday; as <i>"each day and 'you' in it, carries its own freshness.</i><br/>
                   Our aim while farming is to <b>"mine the human into its awesomest version"</b>, while managing to <i>reshape the entire internet</i>. Thus, while farming, we aim to <b>gift the internet with our "freshly-made" content</b>, at least once a day, <b>instead of resourcing from the internet.</b><br/>
-                  You can write an entire ulog right now. To do so, simply select our <b>"main ulog editor"</b> below.<br/><br/>
+                  You can write an entire farmr right now. To do so, simply select our <b>"main farmr editor"</b> below.<br/><br/>
                 </p>
                 <Button>
                   <Link to="/main-editor">Main Farmr Editor</Link>
@@ -248,7 +248,7 @@ class Farming extends React.Component {
               bodyStyle={customCardStyle}>
               <h3 style={{color: 'purple'}}>Do You Want To Farmr Under A Farmr-Subtag?</h3>
               <p>
-                Farming under a ulogsubtag allows you to contribute ulogs to specific niches (per day). This further simplifies "the art of farming", while maintaining the power and essence of farming.<br/>
+                Farming under a farmrubtag allows you to contribute farmr to specific niches (per day). This further simplifies "the art of farming", while maintaining the power and essence of farming.<br/>
                 Simply expand any of the tabs below, to select an appropriate specialized editor.<br/>
               </p>
             </Card>
@@ -354,7 +354,7 @@ class Farming extends React.Component {
               key="10">
               <h3 style={{color: 'purple'}}>Write A Post?</h3>
               <p>
-                On Farmr.club "your content" is queen. Whether it is a blog, ulog, or vlog, we want you to create fresh content daily. If you want to "write a post" (post to Steem) like you normally would, simply go to our general purpose editor below.
+                On Farmr.club "your content" is queen. Whether it is a blog or vlog, we want you to create fresh content daily. If you want to "write a post" (post to Steem) like you normally would, simply go to our general purpose editor below.
               </p>
             </Card>
 
@@ -368,7 +368,7 @@ class Farming extends React.Component {
                 style={customPanelStyle}>
                 <p>
                   <b>On farmr.club, your freshly-made content is queen.</b> We want to incite you create content on a daily basis as that in itself is rewarding. Anytime you invest in creating "your own content" you have managed to "mine the human" some more. This is world adjusting!<br/>
-                  <b>Farmr.club allows you to explore and enjoy the entire steem ecosystem.</b> Thus, whether is it is a blog, ulog or vlog, we welcome your contributions and will look forward to celebrating <b>'the you'</b> in it; <b>we as your "true fans".</b><br/>
+                  <b>Farmr.club allows you to explore and enjoy the entire steem ecosystem.</b> Thus, whether is it is a blog, farmr or vlog, we welcome your contributions and will look forward to celebrating <b>'the you'</b> in it; <b>we as your "true fans".</b><br/>
                   You can post to steem like you normally would (<b>e.g blogs etc</b>), using the <b>"General-Purpose" editor below.</b><br/><br/>
                 </p>
                 <Button>

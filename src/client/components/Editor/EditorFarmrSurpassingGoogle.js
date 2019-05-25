@@ -83,7 +83,7 @@ class EditorFarmrSurpassingGoogle extends React.Component {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
       title: 'FARMR (SurpassingGoogle): ',
-      topics: ['ulog', 'ulog-surpassinggoogle'],
+      topics: ['farmr', 'farmr-surpassinggoogle'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -146,10 +146,10 @@ class EditorFarmrSurpassingGoogle extends React.Component {
   }
 
   checkTopics = intl => (rule, value, callback) => {
-    if (value[0] !== 'ulog') {
+    if (value[0] !== 'farmr') {
       callback(
         intl.formatMessage({
-          id: 'ulog_not_topic',
+          id: 'farmr_not_topic',
           defaultMessage: '#farmr must be the first tag for posts.',
         })
       )

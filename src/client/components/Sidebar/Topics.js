@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import Topic from '../Button/Topic';
 import Loading from '../Icon/Loading';
-import ulogTopics from '../../helpers/ulogTopics';
+import farmrTopics from '../../helpers/farmrTopics';
 import './Topics.less';
 
 class Topics extends React.Component {
@@ -43,7 +43,7 @@ class Topics extends React.Component {
     const { topics, favorite, maxItems, maxFarmrTopics, loading } = this.props;
 
     const displayedTopics = this.state.showMore ? topics : topics.slice(0, maxItems);
-    const displayedFarmrTopics = this.state.showMoreFarmrTopics ? ulogTopics : ulogTopics.slice(0, maxFarmrTopics);
+    const displayedFarmrTopics = this.state.showMoreFarmrTopics ? farmrTopics : farmrTopics.slice(0, maxFarmrTopics);
 
     return (
       <div className="Topics">
@@ -63,12 +63,12 @@ class Topics extends React.Component {
             ))}
           </ul>
         )}
-        {!loading && ulogTopics.length > maxFarmrTopics && !this.state.showMoreFarmrTopics ? (
+        {!loading && farmrTopics.length > maxFarmrTopics && !this.state.showMoreFarmrTopics ? (
           <a role="button" tabIndex={0} onClick={() => this.changeMoreFarmrTopicsVisibility(true)}>
             <FormattedMessage id="show_more" defaultMessage="View more" />
           </a>
         ) : null}
-        {!loading && ulogTopics.length > maxFarmrTopics && this.state.showMoreFarmrTopics ? (
+        {!loading && farmrTopics.length > maxFarmrTopics && this.state.showMoreFarmrTopics ? (
           <a role="button" tabIndex={0} onClick={() => this.changeMoreFarmrTopicsVisibility(false)}>
             <FormattedMessage id="show_less" defaultMessage="View less" />
           </a>

@@ -54,11 +54,11 @@ export default class UserFarmrs extends React.Component {
   componentDidMount() {
     const { feed } = this.props;
     const username = this.props.match.params.name;
-    const content = getFeedFromState('ulog', username, feed);
+    const content = getFeedFromState('farmr', username, feed);
 
     if (_.isEmpty(content)) {
       this.props.getFeedContent({
-        sortBy: 'ulog',
+        sortBy: 'farmr',
         category: this.props.match.params.name,
         limit: this.props.limit,
       });
@@ -68,14 +68,14 @@ export default class UserFarmrs extends React.Component {
   componentWillReceiveProps(nextProps) {
     const { feed } = nextProps;
     const username = nextProps.match.params.name;
-    const content = getFeedFromState('ulog', username, feed);
+    const content = getFeedFromState('farmr', username, feed);
 
     if (_.isEmpty(content) && nextProps.match.url !== this.props.match.url) {
       if (window) {
         window.scrollTo(0, 0);
       }
       this.props.getFeedContent({
-        sortBy: 'ulog',
+        sortBy: 'farmr',
         category: nextProps.match.params.name,
         limit: nextProps.limit,
       });
@@ -87,13 +87,13 @@ export default class UserFarmrs extends React.Component {
     const { authenticated, authenticatedUser, feed, limit } = this.props;
     const username = this.props.match.params.name;
     const isOwnProfile = authenticated && username === authenticatedUser.name;
-    const content = getFeedFromState('ulog', username, feed);
-    const isFetching = getFeedLoadingFromState('ulog', username, feed);
-    const fetched = getFeedFetchedFromState('ulog', username, feed);
-    const hasMore = getFeedHasMoreFromState('ulog', username, feed);
+    const content = getFeedFromState('farmr', username, feed);
+    const isFetching = getFeedLoadingFromState('farmr', username, feed);
+    const fetched = getFeedFetchedFromState('farmr', username, feed);
+    const hasMore = getFeedHasMoreFromState('farmr', username, feed);
     const loadMoreContentAction = () =>
       this.props.getMoreFeedContent({
-        sortBy: 'ulog',
+        sortBy: 'farmr',
         category: username,
         limit,
       });

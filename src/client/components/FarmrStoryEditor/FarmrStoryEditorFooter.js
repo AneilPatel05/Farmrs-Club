@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import { Icon, Select } from 'antd';
 import ReactMarkdown from 'react-markdown';
 import Action from '../Button/Action';
-import { ulogStoriesTags } from '../../helpers/constants';
+import { farmrStoriesTags } from '../../helpers/constants';
 
 const Option = Select.Option;
 
@@ -69,7 +69,7 @@ const FarmrStoryEditorFooter = ({
       style={{ flex: "1 0", margin: "5px" }}
       onChange={handleCategoryChange}
     >
-      {_.map(ulogStoriesTags, category => (
+      {_.map(farmrStoriesTags, category => (
         <Option value={category} key={category}>#{category}</Option>
       ))}
     </Select>

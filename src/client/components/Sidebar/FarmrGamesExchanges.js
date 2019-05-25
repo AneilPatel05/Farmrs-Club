@@ -81,8 +81,8 @@ class FarmrGamesExchanges extends React.Component {
       users: [],
       loading: true,
       allUsers: [],
-      ulogGames: [],
-      ulogExchanges: [],
+      farmrGames: [],
+      farmrExchanges: [],
     };
 
     this.getFarmrGamesAndExchanges = this.getFarmrGamesAndExchanges.bind(this);
@@ -97,7 +97,7 @@ class FarmrGamesExchanges extends React.Component {
   }
 
   getFarmrGamesAndExchanges() {
-    this.setState({ ulogGames: [], ulogExchanges: [] });
+    this.setState({ farmrGames: [], farmrExchanges: [] });
 
     steemAPI
       .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 100]])
@@ -148,7 +148,7 @@ class FarmrGamesExchanges extends React.Component {
 
                   // filter posts that do not contain #farmr-games or #farmr-exchanges tags
                   const tags = JSON.parse(post.json_metadata).tags;
-                  if (tags.indexOf("ulog-games") < 0 && tags.indexOf("ulog-exchanges") < 0) return;
+                  if (tags.indexOf("farmr-games") < 0 && tags.indexOf("farmr-exchanges") < 0) return;
 
                   // create story object from post
                   const story = {
@@ -158,15 +158,15 @@ class FarmrGamesExchanges extends React.Component {
                   }
 
                   // push story to appropriate array
-                  if (tags.indexOf("ulog-games") >= 0) {
-                    let { ulogGames } = this.state;
-                    ulogGames.push(story);
-                    this.setState({ ulogGames });
+                  if (tags.indexOf("farmr-games") >= 0) {
+                    let { farmrGames } = this.state;
+                    farmrGames.push(story);
+                    this.setState({ farmrGames });
 
-                  } else if (tags.indexOf("ulog-exchanges") >= 0) {
-                    let { ulogExchanges } = this.state;
-                    ulogExchanges.push(story);
-                    this.setState({ ulogExchanges });
+                  } else if (tags.indexOf("farmr-exchanges") >= 0) {
+                    let { farmrExchanges } = this.state;
+                    farmrExchanges.push(story);
+                    this.setState({ farmrExchanges });
                   }
 
                 })
@@ -194,7 +194,7 @@ class FarmrGamesExchanges extends React.Component {
   }
 
   render() {
-    const { loading, ulogGames, ulogExchanges, farmrsTvVideos } = this.state;
+    const { loading, farmrGames, farmrExchanges, farmrsTvVideos } = this.state;
     const { authenticated } = this.props;
 
     if (loading) {
@@ -213,7 +213,7 @@ class FarmrGamesExchanges extends React.Component {
                 <FormattedMessage id="farmr_games" defaultMessage="Farmr.club-Games" />
               </h4>
               <div
-                id="ulogsGameContainer"
+                id="farmrGameContainer"
                 className="SidebarContentBlock__content"
                 style={{
                   textAlign: 'center',
@@ -223,8 +223,8 @@ class FarmrGamesExchanges extends React.Component {
                   paddingLeft: 25,
                 }}
               >
-                {ulogGames.length === 0 && <div>No Farmr.club games to display.</div>}
-                {ulogGames.map(story =>
+                {farmrGames.length === 0 && <div>No Farmr.club games to display.</div>}
+                {farmrGames.map(story =>
                   <FarmrGamesExchangesUser
                     key={story.permlink}
                     story={{ author: story.author, permlink: story.permlink }}
@@ -236,7 +236,7 @@ class FarmrGamesExchanges extends React.Component {
                 <FormattedMessage id="farmr_games" defaultMessage="Farmr.clubTV" />
               </h4>
               <div
-                id="ulogsVideoContainer"
+                id="farmrVideoContainer"
                 className="SidebarContentBlock__content"
                 style={{
                   textAlign: 'center',
@@ -255,7 +255,7 @@ class FarmrGamesExchanges extends React.Component {
               <FormattedMessage id="farmr_exchanges" defaultMessage="Farmr.club-Exchanges" />
             </h4>
             <div
-              id="ulogsExchangesContainer"
+              id="farmrExchangesContainer"
               className="SidebarContentBlock__content"
               style={{
                 textAlign: 'center',
@@ -265,8 +265,8 @@ class FarmrGamesExchanges extends React.Component {
                 paddingLeft: 25,
               }}
             >
-              {ulogExchanges.length === 0 && <div>No Farmr.club exchanges to display.</div>}
-              {ulogExchanges.map(story =>
+              {farmrExchanges.length === 0 && <div>No Farmr.club exchanges to display.</div>}
+              {farmrExchanges.map(story =>
                 <FarmrGamesExchangesUser
                   key={story.permlink}
                   story={{ author: story.author, permlink: story.permlink }}

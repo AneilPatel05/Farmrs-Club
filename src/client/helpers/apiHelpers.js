@@ -21,7 +21,7 @@ export function getDiscussionsFromAPI(sortBy, query, steemAPI) {
     case 'comments':
     case 'promoted':
       return steemAPI.sendAsync(`get_discussions_by_${sortBy}`, [query]);
-    case 'ulog':
+    case 'farmr':
       return steemAPI.sendAsync(`get_discussions_by_blog`, [query]).then(blog => {
         // return only posts with #farmr as first tag
         // TODO: This way the infinite scroll does not work. This is a temporary solution!
@@ -32,7 +32,7 @@ export function getDiscussionsFromAPI(sortBy, query, steemAPI) {
         // The hasMore check could then refer to that instead of the number of #farmr posts.
         return blog.filter(post => {
           const meta = jsonParse(post.json_metadata);
-          return meta.tags.indexOf('ulog') === 0;
+          return meta.tags.indexOf('farmr') === 0;
         });
       });
     default:
@@ -42,11 +42,11 @@ export function getDiscussionsFromAPI(sortBy, query, steemAPI) {
 
 /**
  * gets trending tags (replacement of getState(\tags))
- * @param  {String} [start='ulog'] first tag to return
+ * @param  {String} [start='farmr'] first tag to return
  * @param  {Number} [limit=250]   number of tags to return (250 is max)
  * @return {[type]}                array of trending tags (json)
  */
-export const getTrendingTags = (start = 'ulog', limit = 250) =>
+export const getTrendingTags = (start = 'farmr', limit = 250) =>
   SteemAPI.sendAsync('call', ['condenser_api', 'get_trending_tags', [start, limit]]);
 
 export const getAccount = username =>

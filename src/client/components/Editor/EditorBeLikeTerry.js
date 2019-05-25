@@ -84,7 +84,7 @@ class EditorBeLikeTerry extends React.Component {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
       title: 'FARMR: ',
-      topics: ['ulog', 'surpassinggoogle'],
+      topics: ['farmr', 'surpassinggoogle'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { injectIntl, FormattedNumber, FormattedMessage } from 'react-intl';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import topics from '../helpers/ulogTopics';
+import topics from '../helpers/farmrTopics';
 import { getTrendingTags } from '../helpers/apiHelpers';
 import Loading from '../components/Icon/Loading';
 import './FarmrTags.less'
@@ -143,10 +143,10 @@ export default class FarmrTags extends React.Component {
       });
 
       return (
-        <div className="ulogTags row">
+        <div className="farmrTags row">
           <div className="column">
             <br/>
-            <h3 className="ulogheader">Trending Farmr Subtags and Communities</h3>
+            <h3 className="farmrheader">Trending Farmr Subtags and Communities</h3>
             <table>
               <thead>
                 <tr>{cols}</tr>

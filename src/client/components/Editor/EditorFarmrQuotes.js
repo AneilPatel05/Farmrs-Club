@@ -83,7 +83,7 @@ class EditorFarmrQuotes extends React.Component {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
       title: 'FARMR (QUOTES): ',
-      topics: ['ulog', 'ulog-quotes'],
+      topics: ['farmr', 'farmr-quotes'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -146,10 +146,10 @@ class EditorFarmrQuotes extends React.Component {
   }
 
   checkTopics = intl => (rule, value, callback) => {
-    if (value[0] !== 'ulog') {
+    if (value[0] !== 'farmr') {
       callback(
         intl.formatMessage({
-          id: 'ulog_not_topic',
+          id: 'farmr_not_topic',
           defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
@@ -258,7 +258,7 @@ class EditorFarmrQuotes extends React.Component {
           <Collapse>
             <Panel header="Tips To Prowess" key="1">
               <ul style={{ 'listStyleType' : 'circle', marginLeft : '20px' }}>
-                <li>Be yourself and as expressive as possible. The world and generations yet unborn will come here to dig from your ulog-experience.</li>
+                <li>Be yourself and as expressive as possible. The world and generations yet unborn will come here to dig from your farmr-experience.</li>
                 <li>Tell us the stories & histories behind your #farmr-quotes.</li>
                 <li>May your #farmr-quotes be fresh, born out of your experience, moments, that-moment etc (per day).</li>
                 <li>Recall that FARMR are spanless! Thus, your #farmr-quotes can cover life; can be funny; can be playful etc</li>

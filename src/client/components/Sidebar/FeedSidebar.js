@@ -51,9 +51,9 @@ class FeedSidebar extends React.Component {
     const displayFarmrCaption =
       tag &&
       tag.match(
-        /^(ulog-quotes|ulog-howto|ulog-diy|ulog-surpassinggoogle|teardrops|untalented|ulog-ned|ulography|ulog-gratefulvibes|ulog-resolutions|ulog-memes|ulog-blocktrades|ulog-showerthoughts|ulog-snookmademedoit|ulog-utopian|ulog-thejohalfiles|ulogifs|ulog-surfyogi|ulog-bobbylee|ulog-stellabelle|ulog-sweetsssj|ulog-dimimp|ulog-teamsteem|ulog-kusknee|ulog-papapepper|ulog-steemjet)$/,
+        /^(farmr-quotes|farmr-howto|farmr-diy|farmr-surpassinggoogle|teardrops|untalented|farmr-ned|photography|farmr-gratefulvibes|farmr-resolutions|farmr-memes|farmr-blocktrades|farmr-showerthoughts|farmr-snookmademedoit|farmr-utopian|farmr-thejohalfiles|gifs|farmr-surfyogi|farmr-bobbylee|farmr-stellabelle|farmr-sweetsssj|farmr-dimimp|farmr-teamsteem|farmr-kusknee|farmr-papapepper|farmr-steemjet)$/,
       );
-    const isStartsWithFarmr = tag && tag.startsWith('ulog-');
+    const isStartsWithFarmr = tag && tag.startsWith('farmr-');
     return (
       <div>
         {!_.isEmpty(currentCrypto) && <CryptoTrendingCharts cryptos={[currentTag]} />}

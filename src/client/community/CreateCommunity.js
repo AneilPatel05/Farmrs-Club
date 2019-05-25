@@ -66,11 +66,11 @@ class CreateCommunity extends React.Component {
       return;
     }
 
-    // prefix the community name with 'ulog-'
-    const ulogSubTag = 'ulog-' + value;
+    // prefix the community name with 'farmr-'
+    const farmrSubTag = 'farmr-' + value;
 
     // if subtag is less than min length
-    if (ulogSubTag.length < CreateCommunity.minAccountLength) {
+    if (farmrSubTag.length < CreateCommunity.minAccountLength) {
       callback([
         new Error(
           intl.formatMessage(
@@ -79,7 +79,7 @@ class CreateCommunity extends React.Component {
               defaultMessage: 'Farmr subtag {subtag} is too short.',
             },
             {
-              subtag: ulogSubTag,
+              subtag: farmrSubTag,
             },
           ),
         ),
@@ -88,7 +88,7 @@ class CreateCommunity extends React.Component {
     }
 
     // if subtag is more than max length
-    if (ulogSubTag.length > CreateCommunity.maxAccountLength) {
+    if (farmrSubTag.length > CreateCommunity.maxAccountLength) {
       callback([
         new Error(
           intl.formatMessage(
@@ -97,7 +97,7 @@ class CreateCommunity extends React.Component {
               defaultMessage: 'Farmr subtag {subtag} is too long.',
             },
             {
-              subtag: ulogSubTag,
+              subtag: farmrSubTag,
             },
           ),
         ),
@@ -106,7 +106,7 @@ class CreateCommunity extends React.Component {
     }
 
     // check if subtag already exists by using get_discussions API
-    steemAPI.sendAsync('get_discussions_by_created', [{ tag: ulogSubTag, limit: 1 }]).then(result => {
+    steemAPI.sendAsync('get_discussions_by_created', [{ tag: farmrSubTag, limit: 1 }]).then(result => {
       // if no posts already exists, return without error
       if (result.length === 0) {
         callback();
@@ -119,7 +119,7 @@ class CreateCommunity extends React.Component {
                 defaultMessage: "Farmr community {subtag} already exists. Please try another one.",
               },
               {
-                subtag: ulogSubTag,
+                subtag: farmrSubTag,
               },
             ),
           ),
@@ -135,9 +135,9 @@ class CreateCommunity extends React.Component {
     const { form } = this.props;
     const postBody = "";
     const community = form.getFieldValue('community');
-    const ulogSubTag = "ulog-" + community;
-    const postTitle = `A New Farmr Community - ${ulogSubTag} - Has Been Created!`;
-    const tags = [ulogSubTag];
+    const farmrSubTag = "farmr-" + community;
+    const postTitle = `A New Farmr Community - ${farmrSubTag} - Has Been Created!`;
+    const tags = [farmrSubTag];
     const data = {
       body: postBody,
       title: postTitle,
@@ -149,13 +149,13 @@ class CreateCommunity extends React.Component {
     };
 
     const metaData = {
-      community: 'ulogs',
-      app: `ulogs/${version}`,
+      community: 'farmr',
+      app: `farmr/${version}`,
       format: 'markdown',
       tags,
     };
 
-    data.parentPermlink = ulogSubTag;
+    data.parentPermlink = farmrSubTag;
     data.permlink = _.kebabCase(postTitle);
     data.jsonMetadata = metaData;
 
@@ -174,9 +174,9 @@ class CreateCommunity extends React.Component {
       // If no error, continue to submit community creation (create a post)
       if (!err) {
         const community = values.community;
-        const ulogSubTag = "ulog-" + community;
+        const farmrSubTag = "farmr-" + community;
 
-        if (_.isEmpty(ulogSubTag)) {
+        if (_.isEmpty(farmrSubTag)) {
           this.props.notify(
             this.props.intl.formatMessage({
               id: 'community_error_empty_name',

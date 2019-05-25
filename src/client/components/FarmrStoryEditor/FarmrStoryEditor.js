@@ -106,8 +106,8 @@ class FarmrStoryEditor extends React.Component {
     };
 
     const metaData = {
-      community: 'ulogs',
-      app: `ulogs/${version}`,
+      community: 'farmr',
+      app: `farmr/${version}`,
       format: 'markdown',
     };
 
@@ -115,16 +115,16 @@ class FarmrStoryEditor extends React.Component {
       metaData.image = images;
     }
 
-    // set 'ulog' as default tag, and selected category as second
-    const ulogTag = 'ulog';
+    // set 'farmr' as default tag, and selected category as second
+    const farmrTag = 'farmr';
     const tag = this.state.currentCategory;
-    const tags = [ulogTag];
+    const tags = [farmrTag];
     if (tag) {
       tags.push(tag)
     }
     metaData.tags = tags;
 
-    data.parentPermlink = _.isEmpty(tag) ? ulogTag : tag;
+    data.parentPermlink = _.isEmpty(tag) ? farmrTag : tag;
     data.permlink = _.kebabCase(postTitle);
     data.jsonMetadata = metaData;
 

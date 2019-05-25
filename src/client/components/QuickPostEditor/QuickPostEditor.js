@@ -77,7 +77,7 @@ class QuickPostEditor extends React.Component {
 
   getQuickPostData = () => {
     const currentPaths = this.props.location.pathname.split('/');
-    const ulogTag = 'ulog';
+    const farmrTag = 'farmr';
     const tag = currentPaths[2];
     const tags = [];
     const images = _.map(this.state.currentImages, image => image.src);
@@ -101,8 +101,8 @@ class QuickPostEditor extends React.Component {
     };
 
     const metaData = {
-      community: 'ulogs',
-      app: `ulogs/${version}`,
+      community: 'farmr',
+      app: `farmr/${version}`,
       format: 'markdown',
     };
 
@@ -110,23 +110,23 @@ class QuickPostEditor extends React.Component {
       metaData.image = images;
     }
 
-    // if url location is not under a tag, set 'ulog' as default tag
+    // if url location is not under a tag, set 'farmr' as default tag
     if (_.isEmpty(tag)) {
-      tags.push(ulogTag);
+      tags.push(farmrTag);
 
-    // if a ulog subtag, set ulog as first tag, then the ulog-subtag next
-    } else if (tag && tag.indexOf('ulog-') >= 0) {
-      tags.push(ulogTag);
+    // if a farmr subtag, set farmr as first tag, then the farmr-subtag next
+    } else if (tag && tag.indexOf('farmr-') >= 0) {
+      tags.push(farmrTag);
       tags.push(tag);
 
-    // if not a ulog subtag, set it as is
+    // if not a farmr subtag, set it as is
     } else {
       tags.push(tag);
     }
 
     metaData.tags = tags;
 
-    data.parentPermlink = _.isEmpty(tag) ? ulogTag : tag;
+    data.parentPermlink = _.isEmpty(tag) ? farmrTag : tag;
     data.permlink = _.kebabCase(postTitle);
     data.jsonMetadata = metaData;
 
