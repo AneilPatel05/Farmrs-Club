@@ -1334,7 +1334,7 @@ class FarmrCaption extends React.Component {
       </span>
     );
 
-    const uloGifs = (
+    const Gifs = (
       <span>
         <div style={{ color: 'purple' }}>
           <b>
@@ -1837,7 +1837,7 @@ class FarmrCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Farmr + Stellabelle): My Attempt To Get Her To Do Her First UloGIF. [TAGS-ORDER:{' '}
+                  (Farmr + Stellabelle): My Attempt To Get Her To Do Her First GIF. [TAGS-ORDER:{' '}
                   <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
@@ -1846,7 +1846,7 @@ class FarmrCaption extends React.Component {
             <li>
               <font size="2">
                 <b>
-                  (Farmr + Stellabelle): I Created Some UloGIFs That I Am Sure She Will Like.
+                  (Farmr + Stellabelle): I Created Some Gifs That I Am Sure She Will Like.
                   [TAGS-ORDER: <a href="https://farmr.club/created/farmr">#farmr</a>,{' '}
                   <a href="https://farmr.club/created/farmr-stellabelle">#farmr-stellabelle</a> etc.]
                 </b>
@@ -3046,7 +3046,7 @@ class FarmrCaption extends React.Component {
     } else if (category === 'farmr-thejohalfiles') {
       caption = farmrThejohalfiles;
     } else if (category === 'gifs') {
-      caption = uloGifs;
+      caption = Gifs;
     } else if (category === 'farmr-surfyogi') {
       caption = farmrSurfyogi;
     } else if (category === 'farmr-bobbylee') {

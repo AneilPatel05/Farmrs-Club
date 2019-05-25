@@ -1,10 +1,10 @@
 {
-  "name": "ulog",
+  "name": "farmrs-club",
   "scripts": {},
   "env": {
     "DEBUG": {
       "description": "Debug namespaces for https://github.com/visionmedia/debug.",
-      "value": "ulog:server",
+      "value": "farmr:server",
       "required": false
     }
   },

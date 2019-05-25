@@ -1,15 +1,10 @@
-# ulogs.org
-
-"True Celebrity-Hood" once and for all, "for everyone".
-Become a ulogger on #ulog. Vote "steemgigs" witness.
-
-Your Boy Terry. Your True Fan.
+# farmrs-club
 
 ## Quick Setup
 
 ```bash
-git clone https://github.com/surpassinggoogle/UlogsV2.git
-cd UlogsV2
+git clone https://github.com/nirvanaitsolutions/Farmrs-Club.git
+cd Farmrs-Club
 
 yarn
 yarn dev
@@ -18,8 +13,8 @@ yarn dev
 ## Production build
 
 ```bash
-git clone https://github.com/surpassinggoogle/UlogsV2.git
-cd UlogsV2
+git clone https://github.com/nirvanaitsolutions/Farmrs-Club.git
+cd Farmrs-Club
 
 yarn
 yarn build
