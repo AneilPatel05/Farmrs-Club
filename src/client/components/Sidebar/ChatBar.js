@@ -55,7 +55,7 @@ class ChatBar extends React.Component {
 
   getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 1000]])
+      .sendAsync('call', ['follow_api', 'get_following', ['swapsteem', '', 'blog', 1000]])
       .then(result => {
         const users = _.shuffle(result)
           // .slice(0, 5)
