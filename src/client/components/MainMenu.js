@@ -36,40 +36,40 @@ class MainMenu extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FormattedMessage id="uloggerstv" defaultMessage="UloggersTV" />
+                  <FormattedMessage id="farmr-club-tv" defaultMessage="Farmr.ClubTV" />
                 </a>
               </li>
-              <li role="presentation" className="MainMenu__item">
-                <a
-                  href="https://www.youtube.com/channel/UCnIJlzMZzfrcE0bXabLpXKw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FormattedMessage id="teardropstv" defaultMessage="TeardropsTV" />
-                </a>
-              </li>
-              <li role="presentation" className="MainMenu__item">
-                <a
-                  href="https://www.youtube.com/channel/UCq6ylwOaSG9VDYwZkMr3jMw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FormattedMessage id="untalentedtv" defaultMessage="UntalentedTV" />
-                </a>
-              </li>
+             {/* <li role="presentation" className="MainMenu__item">
+                             <a
+                               href="https://www.youtube.com/channel/UCnIJlzMZzfrcE0bXabLpXKw"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                             >
+                               <FormattedMessage id="teardropstv" defaultMessage="TeardropsTV" />
+                             </a>
+                           </li>
+                           <li role="presentation" className="MainMenu__item">
+                             <a
+                               href="https://www.youtube.com/channel/UCq6ylwOaSG9VDYwZkMr3jMw"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                             >
+                               <FormattedMessage id="untalentedtv" defaultMessage="UntalentedTV" />
+                             </a>
+                           </li>
+                           <li
+                             role="presentation"
+                             className="MainMenu__item"
+                             onClick={this.handleClick}
+                             data-href="/@farmr/farmr-club-communities"
+                           >
+                             <FormattedMessage id="communities" defaultMessage="Communities" />
+                           </li> */}
               <li
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-communities"
-              >
-                <FormattedMessage id="communities" defaultMessage="Communities" />
-              </li>
-              <li
-                role="presentation"
-                className="MainMenu__item"
-                onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-support-us"
+                data-href="/@farmr/farmr-club-support-us"
               >
                 <FormattedMessage id="supportus" defaultMessage="Support us" />
               </li>
@@ -77,7 +77,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-contact-us"
+                data-href="/@farmr/farmr-club-contact-us"
               >
                 <FormattedMessage id="contactus" defaultMessage="Contact us" />
               </li>
@@ -85,7 +85,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-faq-s-and-answers"
+                data-href="/@farmr/farmr-club-faq-s-and-answers"
               >
                 <FormattedMessage id="faq" defaultMessage="FAQ" />
               </li>
@@ -93,7 +93,7 @@ class MainMenu extends React.Component {
                 role="presentation"
                 className="MainMenu__item"
                 onClick={this.handleClick}
-                data-href="/@ulogs/ulogs-org-privacy-policy"
+                data-href="/@farmr/farmr-club-privacy-policy"
               >
                 <FormattedMessage id="privacy" defaultMessage="Privacy Policy" />
               </li>

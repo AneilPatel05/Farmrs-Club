@@ -22,7 +22,7 @@ export const GET_MORE_REPLIES = createAsyncActionType('@user/GET_MORE_REPLIES');
 
 export const GET_BOOKMARKS = createAsyncActionType('@bookmarks/GET_BOOKMARKS');
 
-export const getFeedContent = ({ sortBy = 'created', category ='ulog', limit = 20 }) => (
+export const getFeedContent = ({ sortBy = 'created', category ='farmr', limit = 20 }) => (
   dispatch,
   getState,
   { steemAPI },
@@ -32,12 +32,12 @@ export const getFeedContent = ({ sortBy = 'created', category ='ulog', limit = 2
     payload: getDiscussionsFromAPI(sortBy, { tag: category, limit }, steemAPI),
     meta: {
       sortBy,
-      category: category || 'ulog',
+      category: category || 'farmr',
       limit,
     },
   });
 
-export const getMoreFeedContent = ({ sortBy, category = 'ulog', limit = 20 }) => (
+export const getMoreFeedContent = ({ sortBy, category = 'farmr', limit = 20 }) => (
   dispatch,
   getState,
   { steemAPI },
@@ -68,7 +68,7 @@ export const getMoreFeedContent = ({ sortBy, category = 'ulog', limit = 20 }) =>
     ).then(postsData => postsData.slice(1)),
     meta: {
       sortBy,
-      category: category || 'ulog',
+      category: category || 'farmr',
       limit,
     },
   });
@@ -188,7 +188,7 @@ export const getBookmarks = () => (dispatch, getState, { steemAPI }) => {
     payload: getBookmarksData(bookmarks, steemAPI),
     meta: {
       sortBy: 'bookmarks',
-      category: 'ulog',
+      category: 'farmr',
       once: true,
     },
   });

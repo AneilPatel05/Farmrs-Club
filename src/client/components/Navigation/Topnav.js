@@ -172,7 +172,7 @@ class Topnav extends React.Component {
       >
         <Menu selectedKeys={[]} className="Topnav__menu-container__menu" mode="horizontal">
           <Menu.Item key="editor"  className="Topnav__item--badge">
-            <Link to={'/ulogging'} className="Topnav__link Topnav__link--action">
+            <Link to={'/farming'} className="Topnav__link Topnav__link--action">
                 <i className="iconfont icon-write" />
             </Link>
           </Menu.Item>
@@ -252,11 +252,11 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="settings">
                     <FormattedMessage id="settings" defaultMessage="Settings" />
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-witnesses">
-                    <FormattedMessage id="ulog-witnesses" defaultMessage="Ulog-Witnesses"/>
+                  <PopoverMenuItem key="farmr-witnesses">
+                    <FormattedMessage id="farmr-witnesses" defaultMessage="Farmr-Witnesses"/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-subtags">
-                    <FormattedMessage id="ulog-subtags" defaultMessage="Ulog-Subtags"/>
+                  <PopoverMenuItem key="farmr-subtags">
+                    <FormattedMessage id="farmr-subtags" defaultMessage="Farmr-Subtags"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="custom-profile">
                     <FormattedMessage id="custom_profile" defaultMessage="Custom Profile"/>
@@ -270,8 +270,8 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="get-certified">
                     <FormattedMessage id="get_certified" defaultMessage='Get "Certified"'/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="ulog-faucet" fullScreenHidden>
-                    <FormattedMessage id="ulog_faucet" defaultMessage="Ulog-Faucet"/>
+                  <PopoverMenuItem key="farmr-faucet" fullScreenHidden>
+                    <FormattedMessage id="farmr_faucet" defaultMessage="Farmr-Faucet"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="merchandise" fullScreenHidden>
                     <FormattedMessage id="merchandise" defaultMessage="Merchandise"/>
@@ -282,8 +282,8 @@ class Topnav extends React.Component {
                   <PopoverMenuItem key="teardrop-smt" fullScreenHidden>
                     <FormattedMessage id="teardrop_smt" defaultMessage="Teardrop SMT"/>
                   </PopoverMenuItem>
-                  <PopoverMenuItem key="about-ulogs">
-                    <FormattedMessage id="about-ulogs" defaultMessage="About Ulogs.org"/>
+                  <PopoverMenuItem key="about-farmr">
+                    <FormattedMessage id="about-farmr" defaultMessage="About Farmr.club"/>
                   </PopoverMenuItem>
                   <PopoverMenuItem key="logout">
                     <FormattedMessage id="logout" defaultMessage="Logout" />
@@ -380,7 +380,7 @@ class Topnav extends React.Component {
         <div className="topnav-layout">
           <div className={classNames('left', { 'Topnav__mobile-hidden': searchBarActive })}>
             <Link className="Topnav__brand" to="/">
-              <img src="https://cdn.steemitimages.com/DQmWJWYybMeYiMkxdfJaYPKeMAKMp6MbCuTC9UGMd9E33yK/logo.png" alt="Ulog" className="Topnav__logo" />
+              <img src="https://cdn.steemitimages.com/DQmWJWYybMeYiMkxdfJaYPKeMAKMp6MbCuTC9UGMd9E33yK/logo.png" alt="Farmr" className="Topnav__logo" />
             </Link>
             <span className="Topnav__version"> alpha</span>
           </div>

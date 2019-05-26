@@ -17,14 +17,14 @@ import {
   getUsedLocale,
   getTranslations,
   getUseBeta,
-  getUloggersFollowingList,
-  getIsFetchingUloggersFollowingList,
+  getFarmrsFollowingList,
+  getIsFetchingFarmrsFollowingList,
   getNightmode,
 } from './reducers';
 import { login, logout, busyLogin } from './auth/authActions';
 import {
   getFollowing,
-  getUloggersFollowing,
+  getFarmrsFollowing,
   getNotifications,
 } from './user/userActions';
 import {
@@ -53,15 +53,15 @@ import AnnouncementBanner from './components/AnnouncementBanner'
     usedLocale: getUsedLocale(state),
     translations: getTranslations(state),
     locale: getLocale(state),
-    uloggersFollowingList: getUloggersFollowingList(state),
-    isFetchingUloggersFollowingList: getIsFetchingUloggersFollowingList(state),
+    farmrsFollowingList: getFarmrsFollowingList(state),
+    isFetchingFarmrsFollowingList: getIsFetchingFarmrsFollowingList(state),
     nightmode: getNightmode(state),
   }),
   {
     login,
     logout,
     getFollowing,
-    getUloggersFollowing,
+    getFarmrsFollowing,
     getNotifications,
     getRate,
     getRewardFund,
@@ -83,7 +83,7 @@ export default class Wrapper extends React.PureComponent {
     login: PropTypes.func,
     logout: PropTypes.func,
     getFollowing: PropTypes.func,
-    getUloggersFollowing: PropTypes.func,
+    getFarmrsFollowing: PropTypes.func,
     getRewardFund: PropTypes.func,
     getRebloggedList: PropTypes.func,
     getRate: PropTypes.func,
@@ -101,7 +101,7 @@ export default class Wrapper extends React.PureComponent {
     login: () => {},
     logout: () => {},
     getFollowing: () => {},
-    getUloggersFollowing: () => {},
+    getFarmrsFollowing: () => {},
     getRewardFund: () => {},
     getRebloggedList: () => {},
     getRate: () => {},
@@ -126,8 +126,8 @@ export default class Wrapper extends React.PureComponent {
 
     const useBeta = getUseBeta(state);
 
-    if (useBeta && appUrl === 'https://ulogs.org') {
-      res.redirect(`https://staging.ulogs.org${req.originalUrl}`);
+    if (useBeta && appUrl === 'https://farmr.club') {
+      res.redirect(`https://staging.farmr.club${req.originalUrl}`);
       return;
     }
 
@@ -151,7 +151,7 @@ export default class Wrapper extends React.PureComponent {
   componentDidMount() {
     this.props.login().then(() => {
       this.props.getFollowing();
-      this.props.getUloggersFollowing();
+      this.props.getFarmrsFollowing();
       this.props.getNotifications();
       this.props.busyLogin();
     });
@@ -234,17 +234,17 @@ export default class Wrapper extends React.PureComponent {
       case 'my-profile':
         this.props.history.push(`/@${this.props.username}`);
         break;
-      case 'ulog-witnesses':
-        this.props.history.push('/vote-ulog-witnesses');
+      case 'farmr-witnesses':
+        this.props.history.push('/vote-farmr-witnesses');
         break;
-      case 'about-ulogs':
-        this.props.history.push('/@ulogs/ulogs-org-faq-s-and-answers');
+      case 'about-farmr':
+        this.props.history.push('/@farmr/farmr-club-faq-s-and-answers');
         break;
-      case 'ulog-subtags':
-        this.props.history.push('/ulog-subtags');
+      case 'farmr-subtags':
+        this.props.history.push('/farmr-subtags');
         break;
       case 'custom-profile':
-      case 'ulog-faucet':
+      case 'farmr-faucet':
       case 'get-certified':
       case 'merchandise':
       case 'exchange':

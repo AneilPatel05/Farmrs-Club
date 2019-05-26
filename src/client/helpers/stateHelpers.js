@@ -1,4 +1,4 @@
-export const getFeedFromState = (sortBy, category = 'ulog', state) => {
+export const getFeedFromState = (sortBy, category = 'farmr', state) => {
   switch (sortBy) {
     case 'feed':
     case 'hot':
@@ -6,7 +6,7 @@ export const getFeedFromState = (sortBy, category = 'ulog', state) => {
     case 'trending':
     case 'comments':
     case 'blog':
-    case 'ulog':
+    case 'farmr':
     case 'bookmarks':
     case 'replies':
     case 'promoted':
@@ -16,7 +16,7 @@ export const getFeedFromState = (sortBy, category = 'ulog', state) => {
   }
 };
 
-export const getFeedLoadingFromState = (sortBy, category = 'ulog', feedState) => {
+export const getFeedLoadingFromState = (sortBy, category = 'farmr', feedState) => {
   switch (sortBy) {
     case 'feed':
     case 'hot':
@@ -24,7 +24,7 @@ export const getFeedLoadingFromState = (sortBy, category = 'ulog', feedState) =>
     case 'trending':
     case 'comments':
     case 'blog':
-    case 'ulog':
+    case 'farmr':
     case 'bookmarks':
     case 'replies':
     case 'promoted':
@@ -34,7 +34,7 @@ export const getFeedLoadingFromState = (sortBy, category = 'ulog', feedState) =>
   }
 };
 
-export const getFeedFetchedFromState = (sortBy, category = 'ulog', feedState) => {
+export const getFeedFetchedFromState = (sortBy, category = 'farmr', feedState) => {
   switch (sortBy) {
     case 'feed':
     case 'hot':
@@ -42,7 +42,7 @@ export const getFeedFetchedFromState = (sortBy, category = 'ulog', feedState) =>
     case 'trending':
     case 'comments':
     case 'blog':
-    case 'ulog':
+    case 'farmr':
     case 'bookmarks':
     case 'replies':
     case 'promoted':
@@ -52,7 +52,7 @@ export const getFeedFetchedFromState = (sortBy, category = 'ulog', feedState) =>
   }
 };
 
-export const getFeedHasMoreFromState = (sortBy, listName = 'ulog', feedState) => {
+export const getFeedHasMoreFromState = (sortBy, listName = 'farmr', feedState) => {
   switch (sortBy) {
     case 'feed':
     case 'hot':
@@ -61,7 +61,7 @@ export const getFeedHasMoreFromState = (sortBy, listName = 'ulog', feedState) =>
     case 'trending':
     case 'comments':
     case 'blog':
-    case 'ulog':
+    case 'farmr':
     case 'bookmarks':
     case 'replies':
     case 'promoted':
@@ -71,7 +71,7 @@ export const getFeedHasMoreFromState = (sortBy, listName = 'ulog', feedState) =>
   }
 };
 
-export const getFeedFailedFromState = (sortBy, listName = 'ulog', feedState) => {
+export const getFeedFailedFromState = (sortBy, listName = 'farmr', feedState) => {
   switch (sortBy) {
     case 'feed':
     case 'hot':
@@ -80,7 +80,7 @@ export const getFeedFailedFromState = (sortBy, listName = 'ulog', feedState) => 
     case 'trending':
     case 'comments':
     case 'blog':
-    case 'ulog':
+    case 'farmr':
     case 'bookmarks':
     case 'replies':
     case 'promoted':

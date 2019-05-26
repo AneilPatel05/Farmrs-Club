@@ -11,7 +11,7 @@ import {
   getIsFetchingFollowingList,
 } from '../reducers';
 import LeftSidebar from '../app/Sidebar/LeftSidebar';
-import DiscoverUloggers from './DiscoverUloggers';
+import DiscoverFarmrs from './DiscoverFarmrs';
 import Affix from '../components/Utils/Affix';
 import './Discover.less';
 
@@ -50,7 +50,7 @@ class Discover extends React.Component {
         <Helmet>
           <title>
             {intl.formatMessage({ id: 'discover_more_people', defaultMessage: 'discover_more_people' })}{' '}
-            - Busy
+            - Farmr
           </title>
         </Helmet>
         <div className="feed-layout container">
@@ -70,7 +70,7 @@ class Discover extends React.Component {
               />
             </div>
             <div className="Discover__content">
-              <DiscoverUloggers
+              <DiscoverFarmrs
                 authenticatedUser={authenticatedUser}
                 followingList={followingList}
                 isFetchingFollowingList={isFetchingFollowingList}

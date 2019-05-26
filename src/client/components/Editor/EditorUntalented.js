@@ -216,7 +216,7 @@ class EditorUntalented extends React.Component {
               <p>
               UN(dis)TALENTED (#untalented): We don't want any level of talent or potential talent to go amiss without celebrating it. We seek to reward even "attempts at out-of-the-boxness". If we remove bum, smart or average, "we are genius".
 
-              #untalented is a home (an important aspect of ulogs.org) where "flaws are allowed". When you write under #untalented, "relegate reservations". We will sift even the nonsense to find sense therein.
+              #untalented is a home (an important aspect of farmr.club) where "flaws are allowed". When you write under #untalented, "relegate reservations". We will sift even the nonsense to find sense therein.
               Not too confident? Confident? Too confident? Write under #untalented
               </p>
             </Panel>
@@ -225,7 +225,7 @@ class EditorUntalented extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -305,7 +305,7 @@ class EditorUntalented extends React.Component {
           )}
         </Form.Item>
 <div>
-Ulogs.org allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "Un(dis)Talented:" from Title above and kindly remove the default "#untalented" from among the tags in the Hashtags box.
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "Un(dis)Talented:" from Title above and kindly remove the default "#untalented" from among the tags in the Hashtags box.
 Alternatively, click on the editor icon at the topmost right (above) and select "Write a post".
 Please help us as we try to reserve #untalented, only for UN(dis)TALENTED-related posts.
 

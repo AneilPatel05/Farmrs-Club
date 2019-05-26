@@ -11,7 +11,7 @@ import {
   getRebloggedList,
   getPendingReblogs,
   getFollowingList,
-  getUloggersFollowingList,
+  getFarmrsFollowingList,
   getPendingFollows,
   getIsEditorSaving,
   getVotingPower,
@@ -38,7 +38,7 @@ const mapStateToProps = (state, { id }) => {
     isLiked: userVote.percent > 0,
     isReported: userVote.percent < 0,
     userFollowed: getFollowingList(state).includes(post.author),
-    isCertifiedUlogger: getUloggersFollowingList(state).includes(post.author),
+    isCertifiedFarmr: getFarmrsFollowingList(state).includes(post.author),
   };
 
   const pendingVote = getPendingLikes(state)[post.id];

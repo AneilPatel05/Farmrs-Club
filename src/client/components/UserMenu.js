@@ -64,12 +64,12 @@ class UserMenu extends React.Component {
                 <FormattedMessage id="discussions" defaultMessage="Discussions" />
               </li>
               <li
-                className={this.getItemClasses('ulogs')}
+                className={this.getItemClasses('farmr')}
                 onClick={this.handleClick}
                 role="presentation"
-                data-key="ulogs"
+                data-key="farmr"
               >
-                <FormattedMessage id="myulogs" defaultMessage="My Ulogs" />
+                <FormattedMessage id="myfarmr" defaultMessage="My Farmrs" />
               </li>
               <li
                 className={this.getItemClasses('comments')}

@@ -30,11 +30,11 @@ import Editor from '../../components/Editor/Editor';
 import EditorMain from '../../components/Editor/EditorMain';
 import EditorTeardrop from '../../components/Editor/EditorTeardrop';
 import EditorUntalented from '../../components/Editor/EditorUntalented';
-import EditorUlogNed from '../../components/Editor/EditorUlogNed';
-import EditorUlogDIY from '../../components/Editor/EditorUlogDIY';
-import EditorUlogQuotes from '../../components/Editor/EditorUlogQuotes';
-import EditorUlogHowto from '../../components/Editor/EditorUlogHowto';
-import EditorUlogSurpassingGoogle from '../../components/Editor/EditorUlogSurpassingGoogle';
+import EditorFarmrNed from '../../components/Editor/EditorFarmrNed';
+import EditorFarmrDIY from '../../components/Editor/EditorFarmrDIY';
+import EditorFarmrQuotes from '../../components/Editor/EditorFarmrQuotes';
+import EditorFarmrHowto from '../../components/Editor/EditorFarmrHowto';
+import EditorFarmrSurpassingGoogle from '../../components/Editor/EditorFarmrSurpassingGoogle';
 import EditorBeLikeTerry from '../../components/Editor/EditorBeLikeTerry';
 import Affix from '../../components/Utils/Affix';
 import steemAPI from '../../steemAPI';
@@ -100,10 +100,10 @@ class Write extends React.Component {
       initialUpdatedDate: Date.now(),
       isUpdating: false,
       showModalDelete: false,
-      certifiedUloggers: [],
+      certifiedFarmrs: [],
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
   }
 
   componentDidMount() {
@@ -144,7 +144,7 @@ class Write extends React.Component {
     }
 
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
@@ -178,7 +178,7 @@ class Write extends React.Component {
     }
 
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
@@ -234,11 +234,11 @@ class Write extends React.Component {
     return data;
   };
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['condenser_api', 'get_following', ['uloggers', '', 'blog', 100]])
+      .sendAsync('call', ['condenser_api', 'get_following', ['farmrs', '', 'blog', 100]])
       .then(result => {
-        const certifiedUloggers = _.sortBy(result, 'following')
+        const certifiedFarmrs = _.sortBy(result, 'following')
           .map(user => {
             let name = _.get(user, 0);
             if (_.isEmpty(name)) {
@@ -246,7 +246,7 @@ class Write extends React.Component {
             }
             return name;
           });
-        this.setState({ certifiedUloggers });
+        this.setState({ certifiedFarmrs });
       });
   }
 
@@ -274,11 +274,11 @@ class Write extends React.Component {
    */
   handleExtraMonetization = () => {
     const { user } =  this.props
-    
-    if (this.state.certifiedUloggers.indexOf(user.name) >= 0) {
+
+    if (this.state.certifiedFarmrs.indexOf(user.name) >= 0) {
       message.success('Coming soon!', 3);
     } else {
-      message.success("This feature is only available to 'certified uloggers'. Click here to get certified!!", 3);
+      message.success("This feature is only available to 'certified farmrs'. Click here to get certified!!", 3);
     }
   }
 
@@ -404,9 +404,9 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-ned"
+                path="/farmr-ned"
                 render={() => (
-                  <EditorUlogNed
+                  <EditorFarmrNed
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -425,9 +425,9 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-diy"
+                path="/farmr-diy"
                 render={() => (
-                  <EditorUlogDIY
+                  <EditorFarmrDIY
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -446,9 +446,9 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-howto"
+                path="/farmr-howto"
                 render={() => (
-                  <EditorUlogHowto
+                  <EditorFarmrHowto
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -467,9 +467,9 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-quotes"
+                path="/farmr-quotes"
                 render={() => (
-                  <EditorUlogQuotes
+                  <EditorFarmrQuotes
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}
@@ -488,9 +488,9 @@ class Write extends React.Component {
                 )}
               />
               <Route
-                path="/ulog-surpassinggoogle"
+                path="/farmr-surpassinggoogle"
                 render={() => (
-                  <EditorUlogSurpassingGoogle
+                  <EditorFarmrSurpassingGoogle
                     ref={this.setForm}
                     saving={saving}
                     title={initialTitle}

@@ -12,7 +12,7 @@ const initialState = {
   trending: {},
   comments: {},
   blog: {},
-  ulog: {},
+  farmr: {},
   bookmarks: {},
   replies: {},
   promoted: {},

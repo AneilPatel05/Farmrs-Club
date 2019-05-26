@@ -36,26 +36,26 @@ class ChatBar extends React.Component {
       allUsers: [],
     };
 
-    this.getCertifiedUloggers = this.getCertifiedUloggers.bind(this);
+    this.getCertifiedFarmrs = this.getCertifiedFarmrs.bind(this);
     this.handleSearchForInput = this.handleSearchForInput.bind(this);
     this.handleUserAccountClick = this.handleUserAccountClick.bind(this);
   }
 
   componentDidMount() {
     if (!this.props.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
   componentWillReceiveProps(nextProps) {
     if (!nextProps.isFetchingFollowingList) {
-      this.getCertifiedUloggers();
+      this.getCertifiedFarmrs();
     }
   }
 
-  getCertifiedUloggers() {
+  getCertifiedFarmrs() {
     steemAPI
-      .sendAsync('call', ['follow_api', 'get_following', ['uloggers', '', 'blog', 1000]])
+      .sendAsync('call', ['follow_api', 'get_following', ['swapsteem', '', 'blog', 1000]])
       .then(result => {
         const users = _.shuffle(result)
           // .slice(0, 5)
@@ -160,8 +160,8 @@ class ChatBar extends React.Component {
               }}
               onChange={this.handleSearchForInput}
               placeholder={intl.formatMessage({
-                id: 'search_in_uloggers',
-                defaultMessage: 'Search in uloggers',
+                id: 'search_in_farmr',
+                defaultMessage: 'Search in Farmr.club',
               })}
               autoCapitalize="off"
               autoCorrect="off"

@@ -1,0 +1,287 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
+import { Modal, Collapse } from 'antd';
+import { FormattedMessage, injectIntl } from 'react-intl';
+import { connect } from 'react-redux';
+import ReactMarkdown from 'react-markdown';
+import _ from 'lodash';
+import FarmrGamesExchangesUser from './FarmrGamesExchangesUser';
+import FarmrTVThumbnailView from './FarmrTVThumbnailView';
+import Loading from '../../components/Icon/Loading';
+import steemAPI from '../../steemAPI';
+import './InterestingPeople.less';
+import './SidebarContentBlock.less';
+import { getIsAuthenticated } from '../../reducers';
+
+const easeInOutQuad = (t, b, c, d) => {
+  let updatedT = t;
+  updatedT /= d / 2;
+  if (updatedT < 1) return c / 2 * updatedT * updatedT + b;
+  updatedT -= 1;
+  return -c / 2 * (updatedT * (updatedT - 2) - 1) + b;
+};
+
+const handleUserAccountClick = (event, alertText) => {
+  event.preventDefault();
+  Modal.info({
+    content: (
+      <div>
+        <p>
+          <ReactMarkdown source={alertText} />
+        </p>
+      </div>
+    ),
+    onOk() {},
+  });
+};
+
+const scrollToRight = (to, duration, id) => {
+  const start = document.getElementById(id).scrollLeft;
+  const change = to - start;
+  let currentTime = 0;
+  const increment = 20;
+  const animateScroll = () => {
+    currentTime += increment;
+    const val = easeInOutQuad(currentTime, start, change, duration);
+    document.getElementById(id).scrollLeft = val;
+    if (currentTime < duration) {
+      setTimeout(animateScroll, increment);
+    }
+  };
+  animateScroll();
+};
+
+const moveRightDiv = id => {
+  const start = document.getElementById(id).scrollLeft;
+  scrollToRight(start + 100, 200, id);
+};
+
+const moveLeftDiv = id => {
+  const start = document.getElementById(id).scrollLeft;
+  scrollToRight(start - 100, 200, id);
+};
+@withRouter
+class FarmrGamesExchanges extends React.Component {
+  static propTypes = {
+    isFetchingFollowingList: PropTypes.bool.isRequired,
+    authenticated: PropTypes.bool.isRequired,
+  };
+
+  static defaultProps = {
+    authenticatedUser: {
+      name: '',
+    },
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      users: [],
+      loading: true,
+      allUsers: [],
+      farmrGames: [],
+      farmrExchanges: [],
+    };
+
+    this.getFarmrGamesAndExchanges = this.getFarmrGamesAndExchanges.bind(this);
+    this.getFarmrsTVVideaos = this.getFarmrsTVVideaos.bind(this);
+  }
+
+  componentDidMount() {
+    if (!this.props.isFetchingFollowingList) {
+      this.getFarmrGamesAndExchanges();
+      this.getFarmrsTVVideaos();
+    }
+  }
+
+  getFarmrGamesAndExchanges() {
+    this.setState({ farmrGames: [], farmrExchanges: [] });
+
+    steemAPI
+      .sendAsync('call', ['follow_api', 'get_following', ['farmrs', '', 'blog', 100]])
+      .then(result => {
+
+        // get certified farmr names
+        const certifiedFarmrNames = _.sortBy(result, 'following')
+          .map(user => {
+            let name = _.get(user, 0);
+
+            if (_.isEmpty(name)) {
+              name = _.get(user, 'following');
+            }
+            return name;
+          });
+
+        // if there are certified farmrs
+        if (certifiedFarmrNames.length > 0) {
+          // get the latest posts from each certified farmr
+          certifiedFarmrNames.forEach(userName => {
+            var query = {
+              tag: userName, // Filter the results by a specific post author
+              limit: 5, // Limit the number of posts returned
+            };
+            this.setState({
+              loading: true,
+            });
+
+            // call STEEM API to get the latest posts from certified farmr
+            steemAPI
+              .sendAsync('call', ['condenser_api', 'get_discussions_by_blog', [query]])
+              .then(result  => {
+                const posts = Array.isArray(result) ? result : [];
+                this.setState({
+                  loading: false,
+                });
+
+                posts.forEach(post => {
+                  // filter-out posts from non-certified users
+                  if(certifiedFarmrNames.indexOf(post.author) < 0) return;
+
+                  // filter posts that have been created more than 7 days ago
+                  const today = new Date();
+                  const sevenDaysAgo = new Date();
+                  sevenDaysAgo.setDate(today.getDate() - 7);
+                  const created = new Date(post.created);
+                  if(created < sevenDaysAgo) return;
+
+                  // filter posts that do not contain #farmr-games or #farmr-exchanges tags
+                  const tags = JSON.parse(post.json_metadata).tags;
+                  if (tags.indexOf("farmr-games") < 0 && tags.indexOf("farmr-exchanges") < 0) return;
+
+                  // create story object from post
+                  const story = {
+                    author: post.author,
+                    permlink: post.permlink,
+                    created: post.created
+                  }
+
+                  // push story to appropriate array
+                  if (tags.indexOf("farmr-games") >= 0) {
+                    let { farmrGames } = this.state;
+                    farmrGames.push(story);
+                    this.setState({ farmrGames });
+
+                  } else if (tags.indexOf("farmr-exchanges") >= 0) {
+                    let { farmrExchanges } = this.state;
+                    farmrExchanges.push(story);
+                    this.setState({ farmrExchanges });
+                  }
+
+                })
+
+              });
+
+          });
+
+        }
+      });
+  }
+
+  async getFarmrsTVVideaos() {
+    const apiRequset = await fetch(
+      'https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCzI3Rjamg7zSe_o0BwSeIQQ&maxResults=25&key=AIzaSyAr0UshcXLKk9e2IKMiNq7KzbzUa0jWVh0',
+      {
+        url: '',
+        method: 'GET',
+      },
+    );
+    const apiResponse = await apiRequset.json();
+    this.setState({
+      farmrsTvVideos: apiResponse,
+    });
+  }
+
+  render() {
+    const { loading, farmrGames, farmrExchanges, farmrsTvVideos } = this.state;
+    const { authenticated } = this.props;
+
+    if (loading) {
+      return <Loading />;
+    }
+
+    return (
+      <Collapse accordion defaultActiveKey={['1']}>
+        <Collapse.Panel
+          header="More"
+          key="1"
+        >
+          <React.Fragment>
+            <div>
+              <h4 className="SidebarContentBlock__title">
+                <FormattedMessage id="farmr_games" defaultMessage="Farmr.club-Games" />
+              </h4>
+              <div
+                id="farmrGameContainer"
+                className="SidebarContentBlock__content"
+                style={{
+                  textAlign: 'center',
+                  overflowX: 'auto',
+                  width: '260px',
+                  display: 'flex',
+                  paddingLeft: 25,
+                }}
+              >
+                {farmrGames.length === 0 && <div>No Farmr.club games to display.</div>}
+                {farmrGames.map(story =>
+                  <FarmrGamesExchangesUser
+                    key={story.permlink}
+                    story={{ author: story.author, permlink: story.permlink }}
+                    authenticated={authenticated}
+                  />
+                )}
+              </div>
+              <h4 className="SidebarContentBlock__title">
+                <FormattedMessage id="farmr_games" defaultMessage="Farmr.clubTV" />
+              </h4>
+              <div
+                id="farmrVideoContainer"
+                className="SidebarContentBlock__content"
+                style={{
+                  textAlign: 'center',
+                  overflowX: 'auto',
+                  width: '260px',
+                  display: 'flex',
+                }}
+              >
+                {farmrsTvVideos &&
+                  farmrsTvVideos.items.map(video => (
+                    <FarmrTVThumbnailView key={video.id.videoId} video={video} />
+                  ))}
+              </div>
+            </div>
+            <h4 className="SidebarContentBlock__title">
+              <FormattedMessage id="farmr_exchanges" defaultMessage="Farmr.club-Exchanges" />
+            </h4>
+            <div
+              id="farmrExchangesContainer"
+              className="SidebarContentBlock__content"
+              style={{
+                textAlign: 'center',
+                overflowX: 'auto',
+                width: '260px',
+                display: 'flex',
+                paddingLeft: 25,
+              }}
+            >
+              {farmrExchanges.length === 0 && <div>No Farmr.club exchanges to display.</div>}
+              {farmrExchanges.map(story =>
+                <FarmrGamesExchangesUser
+                  key={story.permlink}
+                  story={{ author: story.author, permlink: story.permlink }}
+                  authenticated={authenticated}
+                />
+              )}
+            </div>
+          </React.Fragment>
+        </Collapse.Panel>
+      </Collapse>
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  authenticated: getIsAuthenticated(state),
+});
+export default connect(mapStateToProps)(injectIntl(FarmrGamesExchanges));

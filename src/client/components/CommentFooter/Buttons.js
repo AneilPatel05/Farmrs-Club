@@ -26,7 +26,7 @@ class Buttons extends React.Component {
     editable: PropTypes.bool,
     editing: PropTypes.bool,
     replying: PropTypes.bool,
-    isCertifiedUlogger: PropTypes.bool,
+    isCertifiedFarmr: PropTypes.bool,
     pendingVotes: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.number,
@@ -43,7 +43,7 @@ class Buttons extends React.Component {
     editable: false,
     editing: false,
     replying: false,
-    isCertifiedUlogger: false,
+    isCertifiedFarmr: false,
     pendingVotes: [],
     onLikeClick: () => {},
     onDislikeClick: () => {},
@@ -280,11 +280,11 @@ class Buttons extends React.Component {
             </a>
           </span>
         )}
-        {(this.props.isCertifiedUlogger) && (
+        {(this.props.isCertifiedFarmr) && (
           <DelegateButton post={comment} />
         )}
         <div style={{ flex: '1 0 auto' }} />
-        {this.props.isCertifiedUlogger &&
+        {this.props.isCertifiedFarmr &&
           <Button
             size={'small'}
             style={{ marginLeft: 8, fontSize: 12, alignSelf: 'center' }}

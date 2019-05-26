@@ -72,17 +72,17 @@ export const getFollowing = username => (dispatch, getState) => {
   });
 };
 
-export const GET_ULOGGERS_FOLLOWING = '@user/GET_ULOGGERS_FOLLOWING';
-export const GET_ULOGGERS_FOLLOWING_START = '@user/GET_ULOGGERS_FOLLOWING_START';
-export const GET_ULOGGERS_FOLLOWING_SUCCESS = '@user/GET_ULOGGERS_FOLLOWING_SUCCESS';
-export const GET_ULOGGERS_FOLLOWING_ERROR = '@user/GET_ULOGGERS_FOLLOWING_ERROR';
+export const GET_FARMRS_FOLLOWING = '@user/GET_FARMRS_FOLLOWING';
+export const GET_FARMRS_FOLLOWING_START = '@user/GET_FARMRS_FOLLOWING_START';
+export const GET_FARMRS_FOLLOWING_SUCCESS = '@user/GET_FARMRS_FOLLOWING_SUCCESS';
+export const GET_FARMRS_FOLLOWING_ERROR = '@user/GET_FARMRS_FOLLOWING_ERROR';
 
-export const getUloggersFollowing = () => (dispatch, getState) => {
+export const getFarmrsFollowing = () => (dispatch, getState) => {
   return dispatch({
-    type: GET_ULOGGERS_FOLLOWING,
-    meta: 'uloggers',
+    type: GET_FARMRS_FOLLOWING,
+    meta: 'farmrs',
     payload: {
-      promise: getAllFollowing('uloggers').catch(() => dispatch({ type: GET_ULOGGERS_FOLLOWING_ERROR })),
+      promise: getAllFollowing('farmrs').catch(() => dispatch({ type: GET_FARMRS_FOLLOWING_ERROR })),
     },
   });
 };

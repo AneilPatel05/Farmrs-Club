@@ -45,10 +45,10 @@ class FavoriteMentor extends React.Component {
           <div className="innerWrapper">
             <h3>15 Mins Session With Your Favorite Mentor</h3>
             <p>
-              On Ulogs.org, we will explore a &#39;variety of rewards&#39;. We are building our
-              entire ecosystem around a &#39;grey-list of certified uloggers&#39; (true
+              On Farmr.club, we will explore a &#39;variety of rewards&#39;. We are building our
+              entire ecosystem around a &#39;grey-list of certified farmrs&#39; (true
               celebrities). This is an actual community of brothers, where each &#39;certified
-              ulogger&#39; is also a true fan.
+              farmr&#39; is also a true fan.
             </p>
             <p>
               Many times, we rigamarole for years seeking that &#39;ever-missing piece of the

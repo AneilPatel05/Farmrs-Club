@@ -22,7 +22,7 @@ import Post from '../client/post/Post';
 import Page from '../client/feed/Page';
 import Discover from '../client/discover/Discover';
 import Search from '../client/search/Search';
-import Ulogging from '../client/ulogging/Ulogging';
+import Farming from '../client/farming/Farming';
 import Notifications from '../client/notifications/Notifications';
 import Error404 from '../client/statics/Error404';
 import ExitPage from '../client/statics/ExitPage';
@@ -141,8 +141,8 @@ const routes = [
         component: Search,
       },
       {
-        path: '/ulogging',
-        component: Ulogging,
+        path: '/farming',
+        component: Farming,
       },
       {
         path: '/exit',

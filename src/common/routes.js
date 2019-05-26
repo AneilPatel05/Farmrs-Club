@@ -16,7 +16,7 @@ import ProfileSettings from '../client/settings/ProfileSettings';
 import Invite from '../client/invite/Invite';
 import User from '../client/user/User';
 import UserProfile from '../client/user/UserProfile';
-import UserUlogs from '../client/user/UserUlogs';
+import UserFarmrs from '../client/user/UserFarmrs';
 import UserComments from '../client/user/UserComments';
 import UserFollowers from '../client/user/UserFollowers';
 import UserFollowing from '../client/user/UserFollowing';
@@ -27,14 +27,14 @@ import Post from '../client/post/Post';
 import Page from '../client/feed/Page';
 import Discover from '../client/discover/Discover';
 import Search from '../client/search/Search';
-import Ulogging from '../client/ulogging/Ulogging';
+import Farming from '../client/farming/Farming';
 import Grow from '../client/grow/Grow';
 import CreateCommunity from '../client/community/CreateCommunity';
 import Notifications from '../client/notifications/Notifications';
 import Error404 from '../client/statics/Error404';
 import ExitPage from '../client/statics/ExitPage';
 import Witnesses from '../client/witnesses/Witnesses';
-import UlogTags from '../client/tags/UlogTags';
+import FarmrTags from '../client/tags/FarmrTags';
 
 const routes = [
   {
@@ -46,9 +46,9 @@ const routes = [
         component: Bookmarks,
       },
       {
-        path: '/ulog-subtags',
+        path: '/farmr-subtags',
         exact: true,
-        component: UlogTags,
+        component: FarmrTags,
       },
       {
         path: '/drafts',
@@ -72,7 +72,7 @@ const routes = [
       },
       {
         path:
-          '/(editor|main-editor|teardrops|untalented|fanlove|ulog-ned|ulog-surpassinggoogle|ulog-diy|ulog-howto|ulog-quotes)',
+          '/(editor|main-editor|teardrops|untalented|fanlove|farmr-ned|farmr-surpassinggoogle|farmr-diy|farmr-howto|farmr-quotes)',
         exact: true,
         component: Editor,
       },
@@ -97,7 +97,7 @@ const routes = [
         component: Notifications,
       },
       {
-        path: '/@:name/(ulogs|comments|followers|followed|reblogs|feed|transfers|activity)?',
+        path: '/@:name/(farmr|comments|followers|followed|reblogs|feed|transfers|activity)?',
         component: User,
         exact: true,
         routes: [
@@ -107,9 +107,9 @@ const routes = [
             component: UserProfile,
           },
           {
-            path: '/@:name/ulogs',
+            path: '/@:name/farmr',
             exact: true,
-            component: UserUlogs,
+            component: UserFarmrs,
           },
           {
             path: '/@:name/comments',
@@ -149,7 +149,7 @@ const routes = [
         component: Discover,
       },
       {
-        path: '/vote-ulog-witnesses',
+        path: '/vote-farmr-witnesses',
         exact: true,
         component: Witnesses,
       },
@@ -163,8 +163,8 @@ const routes = [
         component: Search,
       },
       {
-        path: '/(ulogging|ulog-knowledge-bank|ulog-fanlove|surpassinggoogle)',
-        component: Ulogging,
+        path: '/(farming|farmr-knowledge-bank|farmr-fanlove|surpassinggoogle)',
+        component: Farming,
       },
       {
         path: '/grow',

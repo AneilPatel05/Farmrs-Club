@@ -45,21 +45,21 @@ class ExtraClout extends React.Component {
             <h3>How About Extra Clout On Steem Or Outside Steem</h3>
             <p>
               You are a celebrity and we are your fan. As we continue to grow our network of
-              &#39;certified uloggers&#39;, we may find some who have social influence whether on
+              &#39;certified farmrs&#39;, we may find some who have social influence whether on
               steem or outside steem. Extra clout goes a long way in creating awareness for your
-              projects, dreams or you. Clout can take different forms too e.g a certified ulogger
+              projects, dreams or you. Clout can take different forms too e.g a certified farmr
               with some 1.7 million YouTube subscribers may be willing to give your product a
               shoutout on one of his viral videos etc.
             </p>
             <p>
-              Check out our list to find out what our &#39;certified uloggers&#39; have in stock for
+              Check out our list to find out what our &#39;certified farmrs&#39; have in stock for
               you.
             </p>
           </div>
         </div>
         <div className="container">
           <div className="center" style={{ marginTop: '50px' }}>
-            <h3>Certified uloggers</h3>
+            <h3>Certified farmrs</h3>
             <div className="broproCards">
               <Brocard
                 name="surpassinggoogle"

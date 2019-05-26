@@ -16,7 +16,7 @@ import {
   getRebloggedList,
   getPendingReblogs,
   getFollowingList,
-  getUloggersFollowingList,
+  getFarmrsFollowingList,
   getPendingFollows,
   getIsEditorSaving,
   getVotingPower,
@@ -46,7 +46,7 @@ import DMCARemovedMessage from '../components/Story/DMCARemovedMessage';
     reblogList: getRebloggedList(state),
     pendingReblogs: getPendingReblogs(state),
     followingList: getFollowingList(state),
-    uloggersFollowingList: getUloggersFollowingList(state),
+    farmrsFollowingList: getFarmrsFollowingList(state),
     pendingFollows: getPendingFollows(state),
     saving: getIsEditorSaving(state),
     sliderMode: getVotingPower(state),
@@ -75,7 +75,7 @@ class PostContent extends React.Component {
     reblogList: PropTypes.arrayOf(PropTypes.number),
     pendingReblogs: PropTypes.arrayOf(PropTypes.number),
     followingList: PropTypes.arrayOf(PropTypes.string),
-    uloggersFollowingList: PropTypes.arrayOf(PropTypes.string),
+    farmrsFollowingList: PropTypes.arrayOf(PropTypes.string),
     pendingFollows: PropTypes.arrayOf(PropTypes.string),
     pendingBookmarks: PropTypes.arrayOf(PropTypes.number).isRequired,
     saving: PropTypes.bool.isRequired,
@@ -100,7 +100,7 @@ class PostContent extends React.Component {
     reblogList: [],
     pendingReblogs: [],
     followingList: [],
-    uloggersFollowingList: [],
+    farmrsFollowingList: [],
     pendingFollows: [],
     bookmarks: {},
     sliderMode: 'auto',
@@ -172,7 +172,7 @@ class PostContent extends React.Component {
       reblogList,
       pendingReblogs,
       followingList,
-      uloggersFollowingList,
+      farmrsFollowingList,
       pendingFollows,
       bookmarks,
       pendingBookmarks,
@@ -187,7 +187,7 @@ class PostContent extends React.Component {
     if (isBannedPost(content)) return <DMCARemovedMessage className="center" />;
 
     const postMetaData = jsonParse(content.json_metadata);
-    const busyHost = appUrl || 'https://ulogs.org';
+    const busyHost = appUrl || 'https://farmr.club';
     let canonicalHost = busyHost;
 
     if (postMetaData && _.indexOf(postMetaData.app, 'steemit') === 0) {
@@ -203,7 +203,7 @@ class PostContent extends React.Component {
       isLiked: userVote.percent > 0,
       isReported: userVote.percent < 0,
       userFollowed: followingList.includes(content.author),
-      isCertifiedUlogger: uloggersFollowingList.includes(content.author),
+      isCertifiedFarmr: farmrsFollowingList.includes(content.author),
     };
 
     const pendingLike =
@@ -225,7 +225,7 @@ class PostContent extends React.Component {
     const canonicalUrl = `${canonicalHost}${dropCategory(content.url)}`;
     const url = `${busyHost}${dropCategory(content.url)}`;
     const ampUrl = `${url}/amp`;
-    const metaTitle = `${title} - Ulogs`;
+    const metaTitle = `${title} - Farmrs`;
 
     return (
       <div>
@@ -239,11 +239,11 @@ class PostContent extends React.Component {
           <meta property="og:url" content={url} />
           <meta property="og:image" content={image} />
           <meta property="og:description" content={desc} />
-          <meta property="og:site_name" content="ulogs" />
+          <meta property="og:site_name" content="farmr" />
           <meta property="article:tag" content={category} />
           <meta property="article:published_time" content={created} />
           <meta property="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
-          <meta property="twitter:site" content={'@ulogs'} />
+          <meta property="twitter:site" content={'@farmr'} />
           <meta property="twitter:title" content={metaTitle} />
           <meta property="twitter:description" content={desc} />
           <meta property="twitter:image" content={image} />

@@ -12,7 +12,7 @@ import Action from '../Button/Action';
 import requiresLogin from '../../auth/requiresLogin';
 import withEditor from './withEditor';
 import EditorInput from './EditorInput';
-import UlogDropdown from './UlogDropdown';
+import FarmrDropdown from './FarmrDropdown';
 import { remarkable } from '../Story/Body';
 import BodyContainer from '../../containers/Story/BodyContainer';
 import './Editor.less';
@@ -83,8 +83,8 @@ class EditorMain extends React.Component {
   componentDidMount() {
     this.setValues(this.props);
     this.props.form.setFieldsValue({
-      title: 'ULOG: ',
-      topics: ['ulog'],
+      title: 'FARMR: ',
+      topics: ['farmr'],
     });
 
     // eslint-disable-next-line react/no-find-dom-node
@@ -147,11 +147,11 @@ class EditorMain extends React.Component {
   }
 
   checkTopics = intl => (rule, value, callback) => {
-    if (value[0] !== 'ulog') {
+    if (value[0] !== 'farmr') {
       callback(
         intl.formatMessage({
-          id: 'ulog_not_topic',
-          defaultMessage: '#ulog must be the first tag for posts.',
+          id: 'farmr_not_topic',
+          defaultMessage: '#farmr must be the first tag for posts.',
         })
       )
     }
@@ -160,7 +160,7 @@ class EditorMain extends React.Component {
       callback(
         intl.formatMessage({
           id: 'topics_error_count',
-          defaultMessage: 'You must add 1 to 4 topics with #ulog as the first.',
+          defaultMessage: 'You must add 1 to 4 topics with #farmr as the first.',
         }),
       );
     }
@@ -222,27 +222,27 @@ class EditorMain extends React.Component {
       <div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header="The art of ULOGGING" key="1">
+            <Panel header="The art of FARMING" key="1">
               <p>
-              The art of ULOGGING is a conscious effort to "mine the human" into its "awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
-              Together ULOGGING, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
+              The art of FARMING is a conscious effort to "mine the human" into its "awesomest version", while reshaping the entire INTERNET and creating legends, icons, great men and women, brothers and "True Celebrities". <br/>
+              Together FARMING, we will remove "all barriers to entry" for content-creation, content-curation and steem-promotion, "making steeming as difficult as 1, 2, 3". <br/>
               We will own our very cookies; we will re-tap into our shine and recover lost shine. We will fly. <br/>
               ("True Celebrity-hood" for "everyone" once and for all!) <br/>
               In the world of crypto-kitties, pokemonGO, superman, Blacky the rich cat etc we will bear forth "True Celebrities" (the awesomest version of human). Beautiful Disruption!!! (positive world adjustment). <br/>
               In due time, we will celebrate breakthrough with the @teardrops Smart Media Token; "@surpassinggoogle". <br/>
-              "There is now light inside the tunnel". Your Ultimate "True Fan" (your boy terry). Happy ULOGGING!!! <br/>
+              "There is now light inside the tunnel". Your Ultimate "True Fan" (your boy terry). Happy FARMING!!! <br/>
               </p>
             </Panel>
           </Collapse>
         </div>
         <div className="hashtags">
-          <UlogDropdown />
+          <FarmrDropdown />
         </div>
         <div>
           <Collapse defaultActiveKey={['1']}>
-            <Panel header="(This is the main ULOGS.org editor!)" key="1">
-              ULOGS: Each day and "YOU" in it carries its own "freshness". So, not a day aren't we capable of reshaping the entire internet and touching the world with "a piece of freshness".
-              A ULOG can contain all formats of media, whether sound, pictures, art, videos, text or a combination of all as long as it is freshly-made (by YOU). You can be a public or private figure. Regardless, "you are a celebrity and we are your fans".
+            <Panel header="(This is the main FARMR.org editor!)" key="1">
+              FARMR: Each day and "YOU" in it carries its own "freshness". So, not a day aren't we capable of reshaping the entire internet and touching the world with "a piece of freshness".
+              A FARMR can contain all formats of media, whether sound, pictures, art, videos, text or a combination of all as long as it is freshly-made (by YOU). You can be a public or private figure. Regardless, "you are a celebrity and we are your fans".
             </Panel>
           </Collapse>
 
@@ -250,7 +250,7 @@ class EditorMain extends React.Component {
       <Form className="Editor" layout="vertical" onSubmit={this.handleSubmit}>
         <Helmet>
           <title>
-            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Ulog
+            {intl.formatMessage({ id: 'write_post', defaultMessage: 'Write post' })} - Farmr
           </title>
         </Helmet>
         <Form.Item
@@ -287,7 +287,7 @@ class EditorMain extends React.Component {
               className="Editor__title"
               placeholder={intl.formatMessage({
                 id: 'title_placeholder',
-                defaultMessage: 'ULOG: ',
+                defaultMessage: 'FARMR: ',
               })}
             />,
           )}
@@ -330,8 +330,8 @@ class EditorMain extends React.Component {
           )}
         </Form.Item>
 <div>
-Ulogs.org allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "ULOG:" from Title above and kindly remove the default "#ulog" from among the tags in the Hashtags box.
-Please help us as we try to reserve #ulog, only for ULOGs. (If your post is a ULOG, you will not have cheetah-worries etc)
+Farmr.club allows you to enjoy the entire steem ecosystem. So, incase you change your mind and want to do a steemit post like normal, that's easy!!! Simply remove the default "FARMR:" from Title above and kindly remove the default "#farmr" from among the tags in the Hashtags box.
+Please help us as we try to reserve #farmr, only for FARMRs. (If your post is a FARMR, you will not have cheetah-worries etc)
 Want to "mine the human" some more, you can also try one of our specialized editors above!!!
 </div>
         <Form.Item>

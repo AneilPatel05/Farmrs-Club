@@ -9,12 +9,12 @@ import {
 } from '../../reducers';
 import { getCryptoDetails } from '../../helpers/cryptosHelper';
 import { updateRecommendations } from '../../user/userActions';
-import OverseeingUloggers from './OverseeingUloggers';
+import OverseeingFarmrs from './OverseeingFarmrs';
 import CryptoTrendingCharts from './CryptoTrendingCharts';
 import ChatBar from '../../components/Sidebar/ChatBar';
-import UlogGamesExchanges from '../../components/Sidebar/UlogGamesExchanges';
-import UlogCaption from '../../feed/UlogCaption';
-import UlogGenericCaption from '../../feed/UlogGenericCaption';
+import FarmrGamesExchanges from '../../components/Sidebar/FarmrGamesExchanges';
+import FarmrCaption from '../../feed/FarmrCaption';
+import FarmrGenericCaption from '../../feed/FarmrGenericCaption';
 
 @connect(
   state => ({
@@ -48,20 +48,20 @@ class FeedSidebar extends React.Component {
     const currentTag = _.get(this.props, 'match.params.tag', '');
     const currentCrypto = getCryptoDetails(currentTag);
     const { tag } = match.params;
-    const displayUlogCaption =
+    const displayFarmrCaption =
       tag &&
       tag.match(
-        /^(ulog-quotes|ulog-howto|ulog-diy|ulog-surpassinggoogle|teardrops|untalented|ulog-ned|ulography|ulog-gratefulvibes|ulog-resolutions|ulog-memes|ulog-blocktrades|ulog-showerthoughts|ulog-snookmademedoit|ulog-utopian|ulog-thejohalfiles|ulogifs|ulog-surfyogi|ulog-bobbylee|ulog-stellabelle|ulog-sweetsssj|ulog-dimimp|ulog-teamsteem|ulog-kusknee|ulog-papapepper|ulog-steemjet)$/,
+        /^(farmr-quotes|farmr-howto|farmr-diy|farmr-surpassinggoogle|teardrops|untalented|farmr-ned|photography|farmr-gratefulvibes|farmr-resolutions|farmr-memes|farmr-blocktrades|farmr-showerthoughts|farmr-snookmademedoit|farmr-utopian|farmr-thejohalfiles|gifs|farmr-surfyogi|farmr-bobbylee|farmr-stellabelle|farmr-sweetsssj|farmr-dimimp|farmr-teamsteem|farmr-kusknee|farmr-papapepper|farmr-steemjet)$/,
       );
-    const isStartsWithUlog = tag && tag.startsWith('ulog-');
+    const isStartsWithFarmr = tag && tag.startsWith('farmr-');
     return (
       <div>
         {!_.isEmpty(currentCrypto) && <CryptoTrendingCharts cryptos={[currentTag]} />}
         <React.Fragment>
-          {displayUlogCaption && <UlogCaption category={tag} />}
-          {(!displayUlogCaption && isStartsWithUlog) && <UlogGenericCaption category={tag} />}
-          <OverseeingUloggers authenticatedUser={authenticatedUser} />
-          <UlogGamesExchanges isFetchingFollowingList={false} />
+          {displayFarmrCaption && <FarmrCaption category={tag} />}
+          {(!displayFarmrCaption && isStartsWithFarmr) && <FarmrGenericCaption category={tag} />}
+          <OverseeingFarmrs authenticatedUser={authenticatedUser} />
+          <FarmrGamesExchanges isFetchingFollowingList={false} />
           <ChatBar isFetchingFollowingList={false} authenticated={authenticated} />
         </React.Fragment>
       </div>

@@ -23,7 +23,7 @@ export default class CommentFooter extends React.Component {
     editable: PropTypes.bool,
     editing: PropTypes.bool,
     replying: PropTypes.bool,
-    isCertifiedUlogger: PropTypes.bool,
+    isCertifiedFarmr: PropTypes.bool,
     pendingVotes: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.number,
@@ -43,7 +43,7 @@ export default class CommentFooter extends React.Component {
     editable: false,
     editing: false,
     replying: false,
-    isCertifiedUlogger: false,
+    isCertifiedFarmr: false,
     pendingVotes: [],
     onLikeClick: () => {},
     onDislikeClick: () => {},
@@ -116,7 +116,7 @@ export default class CommentFooter extends React.Component {
       editable,
       editing,
       replying,
-      isCertifiedUlogger,
+      isCertifiedFarmr,
       pendingVotes,
     } = this.props;
     const { sliderVisible } = this.state;
@@ -132,7 +132,7 @@ export default class CommentFooter extends React.Component {
           editable={editable}
           editing={editing}
           replying={replying}
-          isCertifiedUlogger={isCertifiedUlogger}
+          isCertifiedFarmr={isCertifiedFarmr}
           user={user}
           comment={comment}
           pendingVotes={pendingVotes}

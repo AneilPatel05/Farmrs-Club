@@ -217,7 +217,7 @@ export default class Settings extends React.Component {
       languageOptions.push(
         <Select.Option disabled key="auto" value="auto">
           <FormattedMessage id="select_language" defaultMessage="Select your language" />
-        </Select.Option>,
+        </Select.Option>
       );
     }
 
@@ -232,7 +232,7 @@ export default class Settings extends React.Component {
     return (
       <div className="shifted">
         <Helmet>
-          <title>{intl.formatMessage({ id: 'settings', defaultMessage: 'Settings' })} - Ulogs</title>
+          <title>{intl.formatMessage({ id: 'settings', defaultMessage: 'Settings' })} - Farmrs</title>
         </Helmet>
         <div className="settings-layout container">
           <Affix className="leftContainer" stickPosition={77}>
@@ -295,7 +295,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="language_info"
-                      defaultMessage="What language do you want to use on Ulogs?"
+                      defaultMessage="What language do you want to use on Farmr.club?"
                     />
                   </p>
                   <Select
@@ -359,7 +359,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="rewrite_links_details"
-                      defaultMessage="You can enable this option to replace Steemit.com links with Ulogs.org links."
+                      defaultMessage="You can enable this option to replace Steemit.com links with Farmr.club links."
                     />
                   </p>
                   <div className="Settings__section__checkbox">

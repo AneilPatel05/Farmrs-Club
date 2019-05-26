@@ -19,7 +19,7 @@ const InterestingPeople = ({ users, onRefresh }) => (
           }}
         >
           <i className="iconfont icon-group SidebarContentBlock__icon" />{' '}
-          <FormattedMessage id="interesting_people" defaultMessage="Interesting Uloggers" />
+          <FormattedMessage id="interesting_people" defaultMessage="Interesting Farmrs" />
           <button onClick={onRefresh} className="InterestingPeople__button-refresh">
             <i
               className="iconfont icon-refresh"
@@ -39,7 +39,7 @@ const InterestingPeople = ({ users, onRefresh }) => (
         {users && users.map(user => <User key={user.name} user={user} />)}
         <h4 className="InterestingPeople__more">
           <Link to={'/discover'}>
-            <FormattedMessage id="discover_more_people" defaultMessage="Discover More Uloggers" />
+            <FormattedMessage id="discover_more_people" defaultMessage="Discover More Farmrs" />
           </Link>
         </h4>
       </div>

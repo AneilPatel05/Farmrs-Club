@@ -55,7 +55,7 @@ class LoginModal extends React.Component {
         <div className="LoginModal__body">
           <i className="iconfont icon-busy LoginModal__icon" />
           <span className="LoginModal__login-title">
-            <FormattedMessage id="login_to_busy" defaultMessage="Login to Busy" />
+            <FormattedMessage id="login_to_farmr" defaultMessage="Login to Farmr" />
           </span>
           <span className="LoginModal__login-description">
             <FormattedMessage

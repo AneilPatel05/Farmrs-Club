@@ -15,7 +15,7 @@ import formatter from '../../helpers/steemitFormatter';
 import { MAXIMUM_UPLOAD_SIZE_HUMAN } from '../../helpers/image';
 import { sortComments } from '../../helpers/sortHelpers';
 import ReputationTag from '../../components/ReputationTag';
-import CertifiedUlogger from '../../components/CertifiedUlogger';
+import CertifiedFarmr from '../../components/CertifiedFarmr';
 import CommentForm from './CommentForm';
 import EmbeddedCommentForm from './EmbeddedCommentForm';
 import Avatar from '../Avatar';
@@ -38,7 +38,7 @@ class Comment extends React.Component {
     sliderMode: PropTypes.oneOf(['on', 'off', 'auto']),
     rootPostAuthor: PropTypes.string,
     commentsChildren: PropTypes.shape(),
-    uloggersFollowingList: PropTypes.arrayOf(PropTypes.string),
+    farmrsFollowingList: PropTypes.arrayOf(PropTypes.string),
     pendingVotes: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.number,
@@ -58,7 +58,7 @@ class Comment extends React.Component {
     rewriteLinks: false,
     rootPostAuthor: undefined,
     commentsChildren: undefined,
-    uloggersFollowingList: [],
+    farmrsFollowingList: [],
     pendingVotes: [],
     depth: 0,
     notify: () => {},
@@ -219,7 +219,7 @@ class Comment extends React.Component {
       sort,
       rootPostAuthor,
       commentsChildren,
-      uloggersFollowingList,
+      farmrsFollowingList,
       pendingVotes,
       depth,
       sliderMode,
@@ -234,7 +234,7 @@ class Comment extends React.Component {
     const editable = comment.author === user.name;
     const commentAuthorReputation = formatter.reputation(comment.author_reputation);
     const showCommentContent = commentAuthorReputation >= 0 || showHiddenComment;
-    const isCertifiedUlogger = uloggersFollowingList.includes(comment.author);
+    const isCertifiedFarmr = farmrsFollowingList.includes(comment.author);
 
 
     let content = null;
@@ -293,8 +293,8 @@ class Comment extends React.Component {
                 <Tag color="#4f545c">OP</Tag>
               </BTooltip>
             )}
-            {isCertifiedUlogger &&
-              <CertifiedUlogger />
+            {isCertifiedFarmr &&
+              <CertifiedFarmr />
             }
           </Link>
           <span className="Comment__date">
@@ -332,7 +332,7 @@ class Comment extends React.Component {
             onDislikeClick={this.props.onDislikeClick}
             onReplyClick={this.handleReplyClick}
             onEditClick={this.handleEditClick}
-            isCertifiedUlogger={isCertifiedUlogger}
+            isCertifiedFarmr={isCertifiedFarmr}
           />
           {this.state.replyOpen &&
             user.name && (
@@ -368,7 +368,7 @@ class Comment extends React.Component {
                   pendingVotes={pendingVotes}
                   rootPostAuthor={rootPostAuthor}
                   commentsChildren={commentsChildren}
-                  uloggersFollowingList={uloggersFollowingList}
+                  farmrsFollowingList={farmrsFollowingList}
                   notify={this.props.notify}
                   rewardFund={rewardFund}
                   sliderMode={sliderMode}

@@ -66,20 +66,20 @@ class CreateCommunity extends React.Component {
       return;
     }
 
-    // prefix the community name with 'ulog-'
-    const ulogSubTag = 'ulog-' + value;
+    // prefix the community name with 'farmr-'
+    const farmrSubTag = 'farmr-' + value;
 
     // if subtag is less than min length
-    if (ulogSubTag.length < CreateCommunity.minAccountLength) {
+    if (farmrSubTag.length < CreateCommunity.minAccountLength) {
       callback([
         new Error(
           intl.formatMessage(
             {
               id: 'subtag_too_short',
-              defaultMessage: 'Ulog subtag {subtag} is too short.',
+              defaultMessage: 'Farmr subtag {subtag} is too short.',
             },
             {
-              subtag: ulogSubTag,
+              subtag: farmrSubTag,
             },
           ),
         ),
@@ -88,16 +88,16 @@ class CreateCommunity extends React.Component {
     }
 
     // if subtag is more than max length
-    if (ulogSubTag.length > CreateCommunity.maxAccountLength) {
+    if (farmrSubTag.length > CreateCommunity.maxAccountLength) {
       callback([
         new Error(
           intl.formatMessage(
             {
               id: 'subtag_too_long',
-              defaultMessage: 'Ulog subtag {subtag} is too long.',
+              defaultMessage: 'Farmr subtag {subtag} is too long.',
             },
             {
-              subtag: ulogSubTag,
+              subtag: farmrSubTag,
             },
           ),
         ),
@@ -106,7 +106,7 @@ class CreateCommunity extends React.Component {
     }
 
     // check if subtag already exists by using get_discussions API
-    steemAPI.sendAsync('get_discussions_by_created', [{ tag: ulogSubTag, limit: 1 }]).then(result => {
+    steemAPI.sendAsync('get_discussions_by_created', [{ tag: farmrSubTag, limit: 1 }]).then(result => {
       // if no posts already exists, return without error
       if (result.length === 0) {
         callback();
@@ -116,10 +116,10 @@ class CreateCommunity extends React.Component {
             intl.formatMessage(
               {
                 id: 'community_error_found_tag',
-                defaultMessage: "Ulog community {subtag} already exists. Please try another one.",
+                defaultMessage: "Farmr community {subtag} already exists. Please try another one.",
               },
               {
-                subtag: ulogSubTag,
+                subtag: farmrSubTag,
               },
             ),
           ),
@@ -135,9 +135,9 @@ class CreateCommunity extends React.Component {
     const { form } = this.props;
     const postBody = "";
     const community = form.getFieldValue('community');
-    const ulogSubTag = "ulog-" + community;
-    const postTitle = `A New Ulog Community - ${ulogSubTag} - Has Been Created!`;
-    const tags = [ulogSubTag];
+    const farmrSubTag = "farmr-" + community;
+    const postTitle = `A New Farmr Community - ${farmrSubTag} - Has Been Created!`;
+    const tags = [farmrSubTag];
     const data = {
       body: postBody,
       title: postTitle,
@@ -149,13 +149,13 @@ class CreateCommunity extends React.Component {
     };
 
     const metaData = {
-      community: 'ulogs',
-      app: `ulogs/${version}`,
+      community: 'farmr',
+      app: `farmr/${version}`,
       format: 'markdown',
       tags,
     };
 
-    data.parentPermlink = ulogSubTag;
+    data.parentPermlink = farmrSubTag;
     data.permlink = _.kebabCase(postTitle);
     data.jsonMetadata = metaData;
 
@@ -174,9 +174,9 @@ class CreateCommunity extends React.Component {
       // If no error, continue to submit community creation (create a post)
       if (!err) {
         const community = values.community;
-        const ulogSubTag = "ulog-" + community;
-    
-        if (_.isEmpty(ulogSubTag)) {
+        const farmrSubTag = "farmr-" + community;
+
+        if (_.isEmpty(farmrSubTag)) {
           this.props.notify(
             this.props.intl.formatMessage({
               id: 'community_error_empty_name',
@@ -196,7 +196,7 @@ class CreateCommunity extends React.Component {
     const { intl, postCreationLoading } = this.props;
     const { getFieldDecorator } = this.props.form;
 
-    // Style for the 'About' description 
+    // Style for the 'About' description
     const customPanelStyle = {
       marginBottom: 5,
       overflow: 'hidden',
@@ -212,7 +212,7 @@ class CreateCommunity extends React.Component {
       <div className="shifted">
         <div className="container">
           <div className="center" style={{ marginBottom: '50px' }}>
-            <h2 style={{ color: 'purple', textAlign: 'center' }}>Create A Ulog-Community</h2>
+            <h2 style={{ color: 'purple', textAlign: 'center' }}>Create A Farmr-Community</h2>
             <Collapse defaultActiveKey={['1']}>
               <Collapse.Panel header="About Communities" key="1" style={customPanelStyle}>
                 <ReactMarkdown source={community.aboutCommunities} />
@@ -223,9 +223,9 @@ class CreateCommunity extends React.Component {
               <Collapse.Panel showArrow={false} key="1" disabled>
                 <List itemLayout="vertical" size="large">
                   <List.Item
-                    key="Create A Ulog-Community"
+                    key="Create A Farmr-Community"
                   >
-                    <h3>Create A Ulog-Community</h3>
+                    <h3>Create A Farmr-Community</h3>
                     <div style={customCardStyle}>
                       <ReactMarkdown source={community.createCommunity} />
                     </div>
